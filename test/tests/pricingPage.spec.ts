@@ -12,7 +12,7 @@ test.describe("Product Pricing", () => {
         let elePurchaseCell = await page.locator("//div[contains(@class,'Purchase-cell')]").filter({ has: elePurchaseTitle });
         let elePurchasePrice = await elePurchaseCell.locator("//div[@class='Purchase-price']");
         let purchasePrice = await elePurchasePrice.textContent();
-        purchasePrice = purchasePrice.replace(/[a-zA-Z,$]/g, '').trim();
+        purchasePrice = purchasePrice.replace(/[^0-9]/g, '').trim();
         expect(purchasePrice).toBe("1299");
 
 
