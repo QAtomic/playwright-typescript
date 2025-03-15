@@ -48,8 +48,8 @@ test.describe("Form Submissions", () => {
             await page.fill('input#Textbox-4', user.phone);
             await page.fill('textarea#Textarea-1', user.comment);
 
-
-            await page.screenshot({ path: './test/screenshots/contact-us-page/screenshot.png' });
+            let screenshotPath = "./test/screenshots/contact-us-page/" + user.testCaseName + ".png";
+            await page.screenshot({ path: screenshotPath });
         });
     });
 
