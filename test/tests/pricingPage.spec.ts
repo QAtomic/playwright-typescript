@@ -1,21 +1,17 @@
 import { test, expect } from '@playwright/test';
+import { PricingPage } from '../pages/pricingPage';
 
 
 test.describe("Product Pricing", () => {
+    let pricingPage: PricingPage;
+
     test.beforeEach( async ({ page }) => {
-        await page.goto('https://www.telerik.com/purchase.aspx');
+        pricingPage = new PricingPage(page);
+        await pricingPage.open();
     });
 
     test("Featured Pricing", async ({ page }) => {
-        let eleDevCraftComplete = await page.getByRole('heading', { name: 'DevCraft Complete' });
-        let elePurchaseTitle = await page.locator("//div[@class='Purchase-title']").filter({ has: eleDevCraftComplete });
-        let elePurchaseCell = await page.locator("//div[contains(@class,'Purchase-cell')]").filter({ has: elePurchaseTitle });
-        let elePurchasePrice = await elePurchaseCell.locator("//div[@class='Purchase-price']");
-        let purchasePrice = await elePurchasePrice.textContent();
-        purchasePrice = purchasePrice.replace(/[^0-9]/g, '').trim();
-        expect(purchasePrice).toBe("1299");
-
-
+        await pricingPage.verifyProductPrice("DevCraft Complete", "1299");
     });
 
 });

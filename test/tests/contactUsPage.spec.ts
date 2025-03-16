@@ -1,9 +1,13 @@
 import { test, expect } from '@playwright/test';
+import { ContactUsPage } from '../pages/contactUsPage';
 
  
 test.describe("Form Submissions", () => {
+    let contactUsPage: ContactUsPage;
+
     test.beforeEach(async ({ page }) => {
-        await page.goto('https://www.telerik.com/contact');    
+        contactUsPage = new ContactUsPage(page);
+        await contactUsPage.open();
     }); 
 
     let users = [
@@ -37,19 +41,7 @@ test.describe("Form Submissions", () => {
 
     users.forEach(user => {
         test(user.testCaseName, async ({ page }) => {
-            await page.selectOption('select#Dropdown-1', { value : user.help});
-            await page.locator('[name=DropdownListFieldController]').selectOption( { value: user.interest });
-            await page.fill('input#Textbox-1', user.firstName); 
-            await page.fill('input#Textbox-2', user.lastName); 
-            await page.fill('input#Email-1', user.email); 
-            await page.fill('input#Textbox-3', user.company); 
-            await page.selectOption('select#Country-1', { value : user.country });
-            await page.selectOption('select#State-1', { value: user.state });
-            await page.fill('input#Textbox-4', user.phone);
-            await page.fill('textarea#Textarea-1', user.comment);
-
-            let screenshotPath = "./test/screenshots/contact-us-page/" + user.testCaseName + ".png";
-            await page.screenshot({ path: screenshotPath });
+            await contactUsPage.fillGetInTouchForm(user);
         });
     });
 

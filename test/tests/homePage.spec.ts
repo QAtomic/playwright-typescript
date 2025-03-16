@@ -1,33 +1,41 @@
 import { test, expect } from '@playwright/test';
+import { HomePage } from '../pages/homePage';
+import { PricingPage } from '../pages/pricingPage';
+import { ContactUsPage } from '../pages/contactUsPage';
+import { SearchPage } from '../pages/searchPage';
 
 test.describe("Home Page Links", () => {
+    let homePage: HomePage;
+    let contactUsPage: ContactUsPage;
+    let pricingPage: PricingPage;
+    let searchPage: SearchPage;
+
+
     test.beforeEach(async ({ page }) => {
-        await page.goto('https://www.telerik.com/');    
+        homePage = new HomePage(page);
+        contactUsPage = new ContactUsPage(page);
+        pricingPage = new PricingPage(page);
+        searchPage = new SearchPage(page);
+        await homePage.open();
     }); 
 
 
     test("Contact Us Link", async ({ page }) => {
-        await page.click("//a[@title='Contact Us']");
+        await homePage.clickContactUsLink();
 
-        let contactUsPageTitle = await page.title();
-
-        expect(contactUsPageTitle).toBe("Contact the Telerik Team | Progress Telerik");
+        await contactUsPage.verifyPageTitle();
     });
 
     test("Pricing Link", async ({ page }) => {
-        await page.click("//a[text()='Pricing']");
+        await homePage.clickPricingLink();
 
-        let pricingPageTitle = await page.title();
-
-        expect(pricingPageTitle).toBe("Purchase Telerik Software Development Tools");
+        await pricingPage.verifyPageTitle();
     });
 
     test("Search Link", async ({ page }) => {
-        await page.click("//a[@title='Search']");
+        await homePage.clickSearchLink();
 
-        let searchPageTitle = await page.title();
-
-        expect(searchPageTitle).toBe("Search Results");
+        await searchPage.verifyPageTitle();
     });
 
 });
