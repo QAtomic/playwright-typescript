@@ -12,7 +12,7 @@ export class ContactUsPage {
         this.inputCompanyName = page.locator('input#Textbox-3');
         this.selectCountry = page.locator('select#Country-1');
         this.selectState = page.locator('select#State-1');
-        this.selectPhone = page.locator('input#Textbox-4');
+        this.inputPhone = page.locator('input#Textbox-4');
         this.inputComments = page.locator('textarea#Textarea-1');
     }
     
@@ -34,7 +34,7 @@ export class ContactUsPage {
         await this.inputCompanyName.fill(user.company); 
         await this.selectCountry.selectOption( { value : user.country } );
         await this.selectState.selectOption( { value: user.state } );
-        await this.selectPhone.fill(user.phone);
+        await this.inputPhone.fill(user.phone);
         await this.inputComments.fill(user.comment);
 
         let screenshotPath = "./test/screenshots/contact-us-page/" + user.testCaseName + ".png";
