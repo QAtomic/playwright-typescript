@@ -18,13 +18,23 @@
       [
         "html",
         {
-          "outputFolder": "./test/reports/htmlReport.html"
+          "outputFolder": "./test/reports/htmlReport"
         }
       ],
       [
         "json",
         {
           "outputFile": "./test/reports/jsonReport.json"
+        }
+      ],
+      [
+        "line",
+        null
+      ],
+      [
+        "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
+        {
+          "resultsDir": "./test/reports/allureReport"
         }
       ]
     ],
@@ -54,7 +64,7 @@
     "shard": null,
     "updateSnapshots": "missing",
     "updateSourceMethod": "patch",
-    "version": "1.51.0",
+    "version": "1.51.1",
     "workers": 6,
     "webServer": null
   },
@@ -88,13 +98,19 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1972,
+                      "duration": 2574,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-17T16:15:20.747Z",
-                      "attachments": []
+                      "startTime": "2025-03-17T21:30:32.383Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\tests-contactUsPage-Form-Submissions-Form-Steve-chromium\\test-finished-1.png"
+                        }
+                      ]
                     }
                   ],
                   "status": "expected"
@@ -121,13 +137,19 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 2010,
+                      "duration": 2494,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-17T16:15:20.743Z",
-                      "attachments": []
+                      "startTime": "2025-03-17T21:30:32.363Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\tests-contactUsPage-Form-Submissions-Form-Mike-chromium\\test-finished-1.png"
+                        }
+                      ]
                     }
                   ],
                   "status": "expected"
@@ -171,13 +193,19 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1955,
+                      "duration": 2937,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-17T16:15:20.851Z",
-                      "attachments": []
+                      "startTime": "2025-03-17T21:30:32.371Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\tests-homePage-Home-Page-Links-Contact-Us-Link-chromium\\test-finished-1.png"
+                        }
+                      ]
                     }
                   ],
                   "status": "expected"
@@ -204,13 +232,19 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1924,
+                      "duration": 2149,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-17T16:15:20.805Z",
-                      "attachments": []
+                      "startTime": "2025-03-17T21:30:32.422Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\tests-homePage-Home-Page-Links-Pricing-Link-chromium\\test-finished-1.png"
+                        }
+                      ]
                     }
                   ],
                   "status": "expected"
@@ -237,13 +271,19 @@
                       "workerIndex": 4,
                       "parallelIndex": 4,
                       "status": "passed",
-                      "duration": 1791,
+                      "duration": 2527,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-17T16:15:20.842Z",
-                      "attachments": []
+                      "startTime": "2025-03-17T21:30:32.394Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\tests-homePage-Home-Page-Links-Search-Link-chromium\\test-finished-1.png"
+                        }
+                      ]
                     }
                   ],
                   "status": "expected"
@@ -287,13 +327,19 @@
                       "workerIndex": 5,
                       "parallelIndex": 5,
                       "status": "passed",
-                      "duration": 1183,
+                      "duration": 1221,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-17T16:15:20.818Z",
-                      "attachments": []
+                      "startTime": "2025-03-17T21:30:32.463Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\tests-pricingPage-Product-Pricing-Featured-Pricing-chromium\\test-finished-1.png"
+                        }
+                      ]
                     }
                   ],
                   "status": "expected"
@@ -337,13 +383,19 @@
                       "workerIndex": 5,
                       "parallelIndex": 5,
                       "status": "passed",
-                      "duration": 2501,
+                      "duration": 2803,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-17T16:15:22.348Z",
-                      "attachments": []
+                      "startTime": "2025-03-17T21:30:34.123Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\tests-searchPage-Search-Search-DevCraft-chromium\\test-finished-1.png"
+                        }
+                      ]
                     }
                   ],
                   "status": "expected"
@@ -384,15 +436,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 11,
+                      "duration": 5,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-17T16:15:22.925Z",
+                      "startTime": "2025-03-17T21:30:34.866Z",
                       "attachments": []
                     }
                   ],
@@ -420,12 +472,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 6,
+                      "duration": 5,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-17T16:15:22.934Z",
+                      "startTime": "2025-03-17T21:30:34.907Z",
                       "attachments": []
                     }
                   ],
@@ -450,10 +502,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 4,
-                      "parallelIndex": 4,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "failed",
-                      "duration": 11,
+                      "duration": 18,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m12\u001b[39m\nReceived: \u001b[31m13\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m12\u001b[39m\nReceived: \u001b[31m13\u001b[39m\n    at C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\tests\\sumFunction.spec.ts:10:41",
@@ -484,7 +536,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-17T16:15:22.987Z",
+                      "startTime": "2025-03-17T21:30:34.932Z",
                       "attachments": [
                         {
                           "name": "_prompt-0",
@@ -514,8 +566,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-03-17T16:15:19.303Z",
-    "duration": 5709.482,
+    "startTime": "2025-03-17T21:30:31.004Z",
+    "duration": 6017.707,
     "expected": 9,
     "skipped": 0,
     "unexpected": 1,
