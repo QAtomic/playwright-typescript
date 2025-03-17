@@ -22,8 +22,11 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 'html',
-  outputDir: './test/reports',
+  reporter: [
+    ['html', {outputFolder : './test/reports/htmlReport.html'}],
+    ['json', {outputFile: './test/reports/jsonReport.json'}]
+  ],
+ // outputDir: './test/reports',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */

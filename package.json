@@ -8,8 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "npx playwright test",
-    "testReport": "npx playwright show-report"
+    "test": "npx playwright test"
   },
   "dependencies": {
     "next": "15.2.2",
