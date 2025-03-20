@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 6
+      "actualWorkers": 2
     },
     "preserveOutput": "always",
     "reporter": [
@@ -49,7 +49,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 6
+          "actualWorkers": 2
         },
         "id": "chromium",
         "name": "chromium",
@@ -63,27 +63,27 @@
     ],
     "shard": null,
     "updateSnapshots": "missing",
-    "updateSourceMethod": "patch",
+    "updateSourceMethod": "3way",
     "version": "1.51.1",
     "workers": 6,
     "webServer": null
   },
   "suites": [
     {
-      "title": "tests\\contactUsPage.spec.ts",
-      "file": "tests/contactUsPage.spec.ts",
+      "title": "api\\tests\\getUsers.spec.ts",
+      "file": "api/tests/getUsers.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
-          "title": "Form Submissions",
-          "file": "tests/contactUsPage.spec.ts",
-          "line": 6,
-          "column": 6,
+          "title": "API : Get Users",
+          "file": "api/tests/getUsers.spec.ts",
+          "line": 3,
+          "column": 15,
           "specs": [
             {
-              "title": "Form Steve",
+              "title": "Get User Two",
               "ok": true,
               "tags": [],
               "tests": [
@@ -95,20 +95,20 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 10,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2574,
+                      "duration": 251,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-17T21:30:32.383Z",
+                      "startTime": "2025-03-20T00:45:52.703Z",
                       "attachments": [
                         {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\tests-contactUsPage-Form-Submissions-Form-Steve-chromium\\test-finished-1.png"
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\api-tests-getUsers-API-Get-Users-Get-User-Two-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -116,13 +116,13 @@
                   "status": "expected"
                 }
               ],
-              "id": "6a740fdf4af979f5594a-a7dc1f0a8d2a5d0b5b5a",
-              "file": "tests/contactUsPage.spec.ts",
-              "line": 17,
-              "column": 9
+              "id": "789ba6b1b4092636007e-d29440245950227a2fc5",
+              "file": "api/tests/getUsers.spec.ts",
+              "line": 6,
+              "column": 5
             },
             {
-              "title": "Form Mike",
+              "title": "User Not Found",
               "ok": true,
               "tags": [],
               "tests": [
@@ -134,20 +134,20 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 11,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 2494,
+                      "duration": 401,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-17T21:30:32.363Z",
+                      "startTime": "2025-03-20T00:45:52.691Z",
                       "attachments": [
                         {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\tests-contactUsPage-Form-Submissions-Form-Mike-chromium\\test-finished-1.png"
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\api-tests-getUsers-API-Get-Users-User-Not-Found-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -155,409 +155,10 @@
                   "status": "expected"
                 }
               ],
-              "id": "6a740fdf4af979f5594a-ceb27852625cd343aff0",
-              "file": "tests/contactUsPage.spec.ts",
-              "line": 17,
-              "column": 9
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "tests\\homePage.spec.ts",
-      "file": "tests/homePage.spec.ts",
-      "column": 0,
-      "line": 0,
-      "specs": [],
-      "suites": [
-        {
-          "title": "Home Page Links",
-          "file": "tests/homePage.spec.ts",
-          "line": 7,
-          "column": 6,
-          "specs": [
-            {
-              "title": "Contact Us Link",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
-                      "status": "passed",
-                      "duration": 2937,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-17T21:30:32.371Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\tests-homePage-Home-Page-Links-Contact-Us-Link-chromium\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "1ecd38ec96a5d191ab08-804b318e93b02e516ac9",
-              "file": "tests/homePage.spec.ts",
-              "line": 23,
-              "column": 5
-            },
-            {
-              "title": "Pricing Link",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
-                      "status": "passed",
-                      "duration": 2149,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-17T21:30:32.422Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\tests-homePage-Home-Page-Links-Pricing-Link-chromium\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "1ecd38ec96a5d191ab08-041183f057bd187baeaf",
-              "file": "tests/homePage.spec.ts",
-              "line": 29,
-              "column": 5
-            },
-            {
-              "title": "Search Link",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 4,
-                      "parallelIndex": 4,
-                      "status": "passed",
-                      "duration": 2527,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-17T21:30:32.394Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\tests-homePage-Home-Page-Links-Search-Link-chromium\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "1ecd38ec96a5d191ab08-a7d1e1c014b3a4a716ea",
-              "file": "tests/homePage.spec.ts",
-              "line": 35,
-              "column": 5
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "tests\\pricingPage.spec.ts",
-      "file": "tests/pricingPage.spec.ts",
-      "column": 0,
-      "line": 0,
-      "specs": [],
-      "suites": [
-        {
-          "title": "Product Pricing",
-          "file": "tests/pricingPage.spec.ts",
-          "line": 5,
-          "column": 6,
-          "specs": [
-            {
-              "title": "Featured Pricing",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 5,
-                      "parallelIndex": 5,
-                      "status": "passed",
-                      "duration": 1221,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-17T21:30:32.463Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\tests-pricingPage-Product-Pricing-Featured-Pricing-chromium\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "bd63f5ba527f5fce0439-87d69f976d7c18b38eb3",
-              "file": "tests/pricingPage.spec.ts",
-              "line": 13,
-              "column": 5
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "tests\\searchPage.spec.ts",
-      "file": "tests/searchPage.spec.ts",
-      "column": 0,
-      "line": 0,
-      "specs": [],
-      "suites": [
-        {
-          "title": "Search",
-          "file": "tests/searchPage.spec.ts",
-          "line": 4,
-          "column": 6,
-          "specs": [
-            {
-              "title": "Search DevCraft",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 5,
-                      "parallelIndex": 5,
-                      "status": "passed",
-                      "duration": 2803,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-17T21:30:34.123Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\tests-searchPage-Search-Search-DevCraft-chromium\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "b7bd142790334c69d58f-afb2e7efe770e54894ea",
-              "file": "tests/searchPage.spec.ts",
+              "id": "789ba6b1b4092636007e-f461665035a180e4b2e2",
+              "file": "api/tests/getUsers.spec.ts",
               "line": 12,
               "column": 5
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "tests\\sumFunction.spec.ts",
-      "file": "tests/sumFunction.spec.ts",
-      "column": 0,
-      "line": 0,
-      "specs": [],
-      "suites": [
-        {
-          "title": "Test Sum Function",
-          "file": "tests/sumFunction.spec.ts",
-          "line": 5,
-          "column": 6,
-          "specs": [
-            {
-              "title": "Two Plus Three",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
-                      "status": "passed",
-                      "duration": 5,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-17T21:30:34.866Z",
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "44cfd34d33dafdce530f-fbcc62fcdaf520f43d14",
-              "file": "tests/sumFunction.spec.ts",
-              "line": 9,
-              "column": 9
-            },
-            {
-              "title": "Four Plus Five",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
-                      "status": "passed",
-                      "duration": 5,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-17T21:30:34.907Z",
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "44cfd34d33dafdce530f-82f6117efb65e3bbf1e0",
-              "file": "tests/sumFunction.spec.ts",
-              "line": 9,
-              "column": 9
-            },
-            {
-              "title": "Six Plus Seven (Forced Error)",
-              "ok": false,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
-                      "status": "failed",
-                      "duration": 18,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m12\u001b[39m\nReceived: \u001b[31m13\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m12\u001b[39m\nReceived: \u001b[31m13\u001b[39m\n    at C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\tests\\sumFunction.spec.ts:10:41",
-                        "matcherResult": {
-                          "actual": 13,
-                          "expected": 12,
-                          "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m12\u001b[39m\nReceived: \u001b[31m13\u001b[39m",
-                          "name": "toBe",
-                          "pass": false
-                        },
-                        "location": {
-                          "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\tests\\sumFunction.spec.ts",
-                          "column": 41,
-                          "line": 10
-                        },
-                        "snippet": "\u001b[0m \u001b[90m  8 |\u001b[39m     maths\u001b[33m.\u001b[39mforEach(math \u001b[33m=>\u001b[39m {\n \u001b[90m  9 |\u001b[39m         test(math\u001b[33m.\u001b[39mtestName\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 |\u001b[39m             expect(sum(math\u001b[33m.\u001b[39ma\u001b[33m,\u001b[39m math\u001b[33m.\u001b[39mb))\u001b[33m.\u001b[39mtoBe(math\u001b[33m.\u001b[39mresult)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 11 |\u001b[39m         })\u001b[33m;\u001b[39m\n \u001b[90m 12 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 13 |\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\tests\\sumFunction.spec.ts",
-                            "column": 41,
-                            "line": 10
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m12\u001b[39m\nReceived: \u001b[31m13\u001b[39m\n\n\u001b[0m \u001b[90m  8 |\u001b[39m     maths\u001b[33m.\u001b[39mforEach(math \u001b[33m=>\u001b[39m {\n \u001b[90m  9 |\u001b[39m         test(math\u001b[33m.\u001b[39mtestName\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 |\u001b[39m             expect(sum(math\u001b[33m.\u001b[39ma\u001b[33m,\u001b[39m math\u001b[33m.\u001b[39mb))\u001b[33m.\u001b[39mtoBe(math\u001b[33m.\u001b[39mresult)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 11 |\u001b[39m         })\u001b[33m;\u001b[39m\n \u001b[90m 12 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 13 |\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\tests\\sumFunction.spec.ts:10:41\u001b[22m"
-                        }
-                      ],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-17T21:30:34.932Z",
-                      "attachments": [
-                        {
-                          "name": "_prompt-0",
-                          "contentType": "text/markdown",
-                          "body": "IyBJbnN0cnVjdGlvbnMKCi0gRm9sbG93aW5nIFBsYXl3cmlnaHQgdGVzdCBmYWlsZWQuCi0gRXhwbGFpbiB3aHksIGJlIGNvbmNpc2UsIHJlc3BlY3QgUGxheXdyaWdodCBiZXN0IHByYWN0aWNlcy4KLSBQcm92aWRlIGEgc25pcHBldCBvZiBjb2RlIHdpdGggdGhlIGZpeCwgaWYgcG9zc2libGUuCgojIFRlc3QgaW5mbwoKLSBOYW1lOiBUZXN0IFN1bSBGdW5jdGlvbiA+PiBTaXggUGx1cyBTZXZlbiAoRm9yY2VkIEVycm9yKQotIExvY2F0aW9uOiBDOlxVc2Vyc1xEcmV3XERvY3VtZW50c1xWU2NvZGUtd29ya3NwYWNlXHBsYXl3cmlnaHQtaW5mcmFzdHJ1Y3R1cmVcdGVzdFx0ZXN0c1xzdW1GdW5jdGlvbi5zcGVjLnRzOjk6OQoKIyBFcnJvciBkZXRhaWxzCgpgYGAKRXJyb3I6IGV4cGVjdChyZWNlaXZlZCkudG9CZShleHBlY3RlZCkgLy8gT2JqZWN0LmlzIGVxdWFsaXR5CgpFeHBlY3RlZDogMTIKUmVjZWl2ZWQ6IDEzCiAgICBhdCBDOlxVc2Vyc1xEcmV3XERvY3VtZW50c1xWU2NvZGUtd29ya3NwYWNlXHBsYXl3cmlnaHQtaW5mcmFzdHJ1Y3R1cmVcdGVzdFx0ZXN0c1xzdW1GdW5jdGlvbi5zcGVjLnRzOjEwOjQxCmBgYAoKIyBUZXN0IHNvdXJjZQoKYGBgdHMKICAgMSB8IGltcG9ydCB7IHRlc3QsIGV4cGVjdCB9IGZyb20gJ0BwbGF5d3JpZ2h0L3Rlc3QnOwogICAyIHwgaW1wb3J0IHsgc3VtIH0gZnJvbSAiLi4vLi4vc3JjL2Z1bmN0aW9ucy9zdW0uanMiOwogICAzIHwgaW1wb3J0IHsgbWF0aERhdGEgfSBmcm9tICIuLi9kYXRhL21hdGhEYXRhLmpzIjsKICAgNCB8CiAgIDUgfCB0ZXN0LmRlc2NyaWJlKCJUZXN0IFN1bSBGdW5jdGlvbiIsICgpID0+IHsKICAgNiB8ICAgICBsZXQgbWF0aHMgPSBtYXRoRGF0YTsKICAgNyB8ICAgICAKICAgOCB8ICAgICBtYXRocy5mb3JFYWNoKG1hdGggPT4gewogICA5IHwgICAgICAgICB0ZXN0KG1hdGgudGVzdE5hbWUsICgpID0+IHsKPiAxMCB8ICAgICAgICAgICAgIGV4cGVjdChzdW0obWF0aC5hLCBtYXRoLmIpKS50b0JlKG1hdGgucmVzdWx0KTsKICAgICB8ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBeIEVycm9yOiBleHBlY3QocmVjZWl2ZWQpLnRvQmUoZXhwZWN0ZWQpIC8vIE9iamVjdC5pcyBlcXVhbGl0eQogIDExIHwgICAgICAgICB9KTsKICAxMiB8ICAgICB9KTsKICAxMyB8CiAgMTQgfAogIDE1IHwKICAxNiB8CiAgMTcgfCB9KTsKYGBg"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\tests\\sumFunction.spec.ts",
-                        "column": 41,
-                        "line": 10
-                      }
-                    }
-                  ],
-                  "status": "unexpected"
-                }
-              ],
-              "id": "44cfd34d33dafdce530f-21ce5f602699afad23d9",
-              "file": "tests/sumFunction.spec.ts",
-              "line": 9,
-              "column": 9
             }
           ]
         }
@@ -566,11 +167,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-03-17T21:30:31.004Z",
-    "duration": 6017.707,
-    "expected": 9,
+    "startTime": "2025-03-20T00:45:49.577Z",
+    "duration": 3655.226000000024,
+    "expected": 2,
     "skipped": 0,
-    "unexpected": 1,
+    "unexpected": 0,
     "flaky": 0
   }
 }

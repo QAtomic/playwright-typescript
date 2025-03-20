@@ -1,0 +1,43 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: Test Sum Function >> Six Plus Seven (Forced Error)
+- Location: C:\Users\Drew\Documents\VScode-workspace\playwright-infrastructure\test\ui\tests\sumFunction.spec.ts:9:9
+
+# Error details
+
+```
+Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 12
+Received: 13
+    at C:\Users\Drew\Documents\VScode-workspace\playwright-infrastructure\test\ui\tests\sumFunction.spec.ts:10:41
+```
+
+# Test source
+
+```ts
+   1 | import { test, expect } from '@playwright/test';
+   2 | import { sum } from "../../../src/functions/sum.js";
+   3 | import { mathData } from "../data/mathData.js";
+   4 |
+   5 | test.describe("Test Sum Function", () => {
+   6 |     let maths = mathData;
+   7 |     
+   8 |     maths.forEach(math => {
+   9 |         test(math.testName, () => {
+> 10 |             expect(sum(math.a, math.b)).toBe(math.result);
+     |                                         ^ Error: expect(received).toBe(expected) // Object.is equality
+  11 |         });
+  12 |     });
+  13 |
+  14 |
+  15 |
+  16 |
+  17 | });
+```
