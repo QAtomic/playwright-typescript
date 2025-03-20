@@ -1,6 +1,12 @@
-import { Page } from '@playwright/test';
+import { Page, Locator } from '@playwright/test';
 
 export class HomePage {
+    page: Page;
+    url: string;
+    linkContactUs: Locator;
+    linkPricing: Locator;
+    linkSearch: Locator;
+
     constructor(page: Page) {
         this.page = page;
         this.url = "https://www.telerik.com/";

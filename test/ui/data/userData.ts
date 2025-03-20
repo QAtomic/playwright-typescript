@@ -1,3 +1,17 @@
+export type TUser = {
+    testCaseName: string;
+    help: string;
+    interest: string;
+    firstName: string;
+    lastName: string;
+    email: string;
+    company: string;
+    country: string;
+    state: string;
+    phone: string;
+    comment: string;
+}
+
 export const userData = [
     {
         testCaseName : "Form Steve",

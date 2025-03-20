@@ -1,7 +1,12 @@
-import { Page, expect } from '@playwright/test';
+import { Page, expect, Locator } from '@playwright/test';
 import { sleep } from "../utils/sleep.js";
 
 export class SearchPage {
+    page: Page;
+    url: string;
+    inputSearch: Locator;
+    linkFirstResult: Locator;
+
     constructor(page: Page) {
         this.page = page;
         this.url = "https://www.telerik.com/search";

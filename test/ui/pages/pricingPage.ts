@@ -2,6 +2,8 @@ import { Page, expect } from '@playwright/test';
 
 
 export class PricingPage {
+    page: Page;
+    url: string;
 
     constructor(page: Page) {
         this.page = page;
