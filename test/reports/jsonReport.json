@@ -98,12 +98,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 462,
+                      "duration": 439,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-20T19:09:17.003Z",
+                      "startTime": "2025-03-20T20:29:41.673Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -137,12 +137,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 459,
+                      "duration": 490,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-20T19:09:16.975Z",
+                      "startTime": "2025-03-20T20:29:41.609Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -193,12 +193,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 238,
+                      "duration": 305,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-20T19:09:17.031Z",
+                      "startTime": "2025-03-20T20:29:41.643Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -232,12 +232,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 407,
+                      "duration": 463,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-20T19:09:17.029Z",
+                      "startTime": "2025-03-20T20:29:41.671Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -271,12 +271,12 @@
                       "workerIndex": 4,
                       "parallelIndex": 4,
                       "status": "passed",
-                      "duration": 399,
+                      "duration": 408,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-20T19:09:17.057Z",
+                      "startTime": "2025-03-20T20:29:41.727Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -310,12 +310,12 @@
                       "workerIndex": 5,
                       "parallelIndex": 5,
                       "status": "passed",
-                      "duration": 400,
+                      "duration": 447,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-20T19:09:17.070Z",
+                      "startTime": "2025-03-20T20:29:41.695Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -349,12 +349,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 231,
+                      "duration": 280,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-20T19:09:17.330Z",
+                      "startTime": "2025-03-20T20:29:42.052Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -385,15 +385,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 231,
+                      "duration": 240,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-20T19:09:17.517Z",
+                      "startTime": "2025-03-20T20:29:42.215Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -444,12 +444,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 6,
+                      "duration": 7,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-20T19:09:17.552Z",
+                      "startTime": "2025-03-20T20:29:42.260Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -480,15 +480,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 4,
-                      "parallelIndex": 4,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "passed",
                       "duration": 7,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-20T19:09:17.588Z",
+                      "startTime": "2025-03-20T20:29:42.275Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -519,10 +519,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
                       "status": "failed",
-                      "duration": 12,
+                      "duration": 10,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m12\u001b[39m\nReceived: \u001b[31m13\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m12\u001b[39m\nReceived: \u001b[31m13\u001b[39m\n    at C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\functional\\tests\\sumFunction.spec.ts:10:47",
@@ -553,7 +553,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-20T19:09:17.592Z",
+                      "startTime": "2025-03-20T20:29:42.297Z",
                       "attachments": [
                         {
                           "name": "_prompt-0",
@@ -586,15 +586,15 @@
       ]
     },
     {
-      "title": "ui\\tests\\contactUsPage.spec.ts",
-      "file": "ui/tests/contactUsPage.spec.ts",
+      "title": "ui\\tests\\contactUsPageTests.spec.ts",
+      "file": "ui/tests/contactUsPageTests.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
           "title": "Form Submissions",
-          "file": "ui/tests/contactUsPage.spec.ts",
+          "file": "ui/tests/contactUsPageTests.spec.ts",
           "line": 6,
           "column": 6,
           "specs": [
@@ -614,22 +614,22 @@
                       "workerIndex": 5,
                       "parallelIndex": 5,
                       "status": "passed",
-                      "duration": 14367,
+                      "duration": 16436,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-20T19:09:17.609Z",
+                      "startTime": "2025-03-20T20:29:42.314Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-contactUsPage-Form-Submissions-Form-Steve-chromium\\test-finished-1.png"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-contactUsPageTests-Form-Submissions-Form-Steve-chromium\\test-finished-1.png"
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-contactUsPage-Form-Submissions-Form-Steve-chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-contactUsPageTests-Form-Submissions-Form-Steve-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -637,8 +637,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "b921576947ce3b67981e-46a982bda36366926ee9",
-              "file": "ui/tests/contactUsPage.spec.ts",
+              "id": "9eda3442cf749e990d6e-541b73998dbd4ee3b7b6",
+              "file": "ui/tests/contactUsPageTests.spec.ts",
               "line": 17,
               "column": 9
             },
@@ -658,22 +658,22 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 15052,
+                      "duration": 15799,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-20T19:09:17.634Z",
+                      "startTime": "2025-03-20T20:29:42.346Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-contactUsPage-Form-Submissions-Form-Mike-chromium\\test-finished-1.png"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-contactUsPageTests-Form-Submissions-Form-Mike-chromium\\test-finished-1.png"
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-contactUsPage-Form-Submissions-Form-Mike-chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-contactUsPageTests-Form-Submissions-Form-Mike-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -681,8 +681,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "b921576947ce3b67981e-796fe9894fbc5cecf209",
-              "file": "ui/tests/contactUsPage.spec.ts",
+              "id": "9eda3442cf749e990d6e-2eb1d93014b74662e235",
+              "file": "ui/tests/contactUsPageTests.spec.ts",
               "line": 17,
               "column": 9
             }
@@ -691,15 +691,15 @@
       ]
     },
     {
-      "title": "ui\\tests\\homePage.spec.ts",
-      "file": "ui/tests/homePage.spec.ts",
+      "title": "ui\\tests\\homePageTests.spec.ts",
+      "file": "ui/tests/homePageTests.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
           "title": "Home Page Links",
-          "file": "ui/tests/homePage.spec.ts",
+          "file": "ui/tests/homePageTests.spec.ts",
           "line": 7,
           "column": 6,
           "specs": [
@@ -716,25 +716,25 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 12766,
+                      "duration": 14312,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-20T19:09:17.670Z",
+                      "startTime": "2025-03-20T20:29:42.393Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-homePage-Home-Page-Links-Contact-Us-Link-chromium\\test-finished-1.png"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-homePageTests-Home-Page-Links-Contact-Us-Link-chromium\\test-finished-1.png"
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-homePage-Home-Page-Links-Contact-Us-Link-chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-homePageTests-Home-Page-Links-Contact-Us-Link-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -742,8 +742,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "e0b9eca19c71896ca399-bde797259f80d9b2d26f",
-              "file": "ui/tests/homePage.spec.ts",
+              "id": "efb17b8588b2871c10ad-d7259188b7221fe307ab",
+              "file": "ui/tests/homePageTests.spec.ts",
               "line": 23,
               "column": 5
             },
@@ -760,25 +760,25 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 6,
                       "parallelIndex": 4,
                       "status": "passed",
-                      "duration": 12527,
+                      "duration": 12154,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-20T19:09:17.691Z",
+                      "startTime": "2025-03-20T20:29:43.990Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-homePage-Home-Page-Links-Pricing-Link-chromium\\test-finished-1.png"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-homePageTests-Home-Page-Links-Pricing-Link-chromium\\test-finished-1.png"
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-homePage-Home-Page-Links-Pricing-Link-chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-homePageTests-Home-Page-Links-Pricing-Link-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -786,8 +786,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "e0b9eca19c71896ca399-782a10899066c38c4bf2",
-              "file": "ui/tests/homePage.spec.ts",
+              "id": "efb17b8588b2871c10ad-24878b2e69e595ace2c1",
+              "file": "ui/tests/homePageTests.spec.ts",
               "line": 29,
               "column": 5
             },
@@ -804,25 +804,25 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 6,
-                      "parallelIndex": 0,
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 12452,
+                      "duration": 15153,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-20T19:09:19.368Z",
+                      "startTime": "2025-03-20T20:29:42.469Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-homePage-Home-Page-Links-Search-Link-chromium\\test-finished-1.png"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-homePageTests-Home-Page-Links-Search-Link-chromium\\test-finished-1.png"
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-homePage-Home-Page-Links-Search-Link-chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-homePageTests-Home-Page-Links-Search-Link-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -830,8 +830,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "e0b9eca19c71896ca399-426a3f7e16e243360846",
-              "file": "ui/tests/homePage.spec.ts",
+              "id": "efb17b8588b2871c10ad-9a42b4889319d5dd4a08",
+              "file": "ui/tests/homePageTests.spec.ts",
               "line": 35,
               "column": 5
             }
@@ -840,15 +840,15 @@
       ]
     },
     {
-      "title": "ui\\tests\\pricingPage.spec.ts",
-      "file": "ui/tests/pricingPage.spec.ts",
+      "title": "ui\\tests\\pricingPageTests.spec.ts",
+      "file": "ui/tests/pricingPageTests.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
           "title": "Product Pricing",
-          "file": "ui/tests/pricingPage.spec.ts",
+          "file": "ui/tests/pricingPageTests.spec.ts",
           "line": 5,
           "column": 6,
           "specs": [
@@ -865,25 +865,25 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 10150,
+                      "duration": 10608,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-20T19:09:17.806Z",
+                      "startTime": "2025-03-20T20:29:42.557Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-pricingPage-Product-Pricing-Featured-Pricing-chromium\\test-finished-1.png"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-pricingPageTests-Product-Pricing-Featured-Pricing-chromium\\test-finished-1.png"
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-pricingPage-Product-Pricing-Featured-Pricing-chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-pricingPageTests-Product-Pricing-Featured-Pricing-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -891,8 +891,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "350a1b58ba1876f3bbdb-939e7f458de3b7c51a21",
-              "file": "ui/tests/pricingPage.spec.ts",
+              "id": "45ec4eab0ad639fc24c4-acf0dfaea86c0ae26e30",
+              "file": "ui/tests/pricingPageTests.spec.ts",
               "line": 13,
               "column": 5
             }
@@ -901,15 +901,15 @@
       ]
     },
     {
-      "title": "ui\\tests\\searchPage.spec.ts",
-      "file": "ui/tests/searchPage.spec.ts",
+      "title": "ui\\tests\\searchPageTests.spec.ts",
+      "file": "ui/tests/searchPageTests.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
           "title": "Search",
-          "file": "ui/tests/searchPage.spec.ts",
+          "file": "ui/tests/searchPageTests.spec.ts",
           "line": 4,
           "column": 6,
           "specs": [
@@ -926,25 +926,25 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4413,
+                      "duration": 4608,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-20T19:09:28.470Z",
+                      "startTime": "2025-03-20T20:29:53.825Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-searchPage-Search-Search-DevCraft-chromium\\test-finished-1.png"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-searchPageTests-Search-Search-DevCraft-chromium\\test-finished-1.png"
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-searchPage-Search-Search-DevCraft-chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-searchPageTests-Search-Search-DevCraft-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -952,8 +952,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "8f79efc2723a8639d3c4-648415a2e741a9cb2476",
-              "file": "ui/tests/searchPage.spec.ts",
+              "id": "23e325aee696e2bb37b0-10ec667214366bf23fd8",
+              "file": "ui/tests/searchPageTests.spec.ts",
               "line": 12,
               "column": 5
             }
@@ -964,8 +964,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-03-20T19:09:13.715Z",
-    "duration": 19872.204000000143,
+    "startTime": "2025-03-20T20:29:38.243Z",
+    "duration": 21393.68400000001,
     "expected": 17,
     "skipped": 0,
     "unexpected": 1,
