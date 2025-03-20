@@ -39,11 +39,46 @@ test.describe.parallel("API : Users", () => {
 
         const responseBody = JSON.parse(await response.text());
 
-        console.log(responseBody);
+        //console.log(responseBody);
 
         expect(responseBody.name).toBe("Mike");
         expect(responseBody.job).toBe("QA Engineer");
         expect(responseBody.id).toBeTruthy();
         expect(responseBody.createdAt).toBeTruthy();
+    });
+
+    test("Update User Name", async ({ request }) => {
+        const response = await request.put(`${baseURL}/api/users/3`, {
+            data: {
+                name: "Ralph"     
+            }
+        });
+
+        expect(response.status()).toBe(200);
+
+        const responseBody = JSON.parse(await response.text());
+
+        //console.log(responseBody);
+
+        expect(responseBody.name).toBe("Ralph");
+        expect(responseBody.updatedAt).toBeTruthy();
+    });
+
+
+    test("Update User Job", async ({ request }) => {
+        const response = await request.put(`${baseURL}/api/users/3`, {
+            data: {
+                job: "QA Automation Engineer"      
+            }
+        });
+
+        expect(response.status()).toBe(200);
+
+        const responseBody = JSON.parse(await response.text());
+
+        //console.log(responseBody);
+
+        expect(responseBody.job).toBe("QA Automation Engineer");
+        expect(responseBody.updatedAt).toBeTruthy();
     });
 });
