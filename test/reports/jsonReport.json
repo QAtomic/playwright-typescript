@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 5
+      "actualWorkers": 1
     },
     "preserveOutput": "always",
     "reporter": [
@@ -49,7 +49,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 5
+          "actualWorkers": 1
         },
         "id": "chromium",
         "name": "chromium",
@@ -83,7 +83,7 @@
           "column": 15,
           "specs": [
             {
-              "title": "Get User Two",
+              "title": "Delete User",
               "ok": true,
               "tags": [],
               "tests": [
@@ -95,20 +95,20 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 9,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 265,
+                      "duration": 439,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-20T01:53:50.396Z",
+                      "startTime": "2025-03-20T01:59:09.595Z",
                       "attachments": [
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\api-tests-users-API-Users-Get-User-Two-chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\api-tests-users-API-Users-Delete-User-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -116,177 +116,9 @@
                   "status": "expected"
                 }
               ],
-              "id": "3def830b4e9a106941f3-f66e1cc426545ccaf912",
+              "id": "3def830b4e9a106941f3-cd17d60044b7c26ac17d",
               "file": "api/tests/users.spec.ts",
-              "line": 6,
-              "column": 5
-            },
-            {
-              "title": "User Not Found",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 10,
-                      "parallelIndex": 1,
-                      "status": "passed",
-                      "duration": 428,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-20T01:53:50.413Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\api-tests-users-API-Users-User-Not-Found-chromium\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "3def830b4e9a106941f3-ce40689ee02e09124d2b",
-              "file": "api/tests/users.spec.ts",
-              "line": 23,
-              "column": 5
-            },
-            {
-              "title": "Create User",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 11,
-                      "parallelIndex": 2,
-                      "status": "passed",
-                      "duration": 395,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "{\n  name: \u001b[32m'Mike'\u001b[39m,\n  job: \u001b[32m'QA Engineer'\u001b[39m,\n  id: \u001b[32m'507'\u001b[39m,\n  createdAt: \u001b[32m'2025-03-20T01:53:47.579Z'\u001b[39m\n}\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-20T01:53:50.448Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\api-tests-users-API-Users-Create-User-chromium\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "3def830b4e9a106941f3-5bb4f272fd5376dc8da3",
-              "file": "api/tests/users.spec.ts",
-              "line": 30,
-              "column": 5
-            },
-            {
-              "title": "Update User Name",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 12,
-                      "parallelIndex": 3,
-                      "status": "passed",
-                      "duration": 409,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "{ name: \u001b[32m'Ralph'\u001b[39m, updatedAt: \u001b[32m'2025-03-20T01:53:47.574Z'\u001b[39m }\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-20T01:53:50.417Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\api-tests-users-API-Users-Update-User-Name-chromium\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "3def830b4e9a106941f3-7042d7c372def3755cff",
-              "file": "api/tests/users.spec.ts",
-              "line": 50,
-              "column": 5
-            },
-            {
-              "title": "Update User Job",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 13,
-                      "parallelIndex": 4,
-                      "status": "passed",
-                      "duration": 410,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "{\n  job: \u001b[32m'QA Automation Engineer'\u001b[39m,\n  updatedAt: \u001b[32m'2025-03-20T01:53:47.576Z'\u001b[39m\n}\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-20T01:53:50.416Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\api-tests-users-API-Users-Update-User-Job-chromium\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "3def830b4e9a106941f3-d0782af65a3d7b0d77a8",
-              "file": "api/tests/users.spec.ts",
-              "line": 68,
+              "line": 86,
               "column": 5
             }
           ]
@@ -296,9 +128,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-03-20T01:53:46.783Z",
-    "duration": 4234.47100000002,
-    "expected": 5,
+    "startTime": "2025-03-20T01:59:06.743Z",
+    "duration": 3455.505000000001,
+    "expected": 1,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

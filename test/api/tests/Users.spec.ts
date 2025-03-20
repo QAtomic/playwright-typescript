@@ -81,4 +81,12 @@ test.describe.parallel("API : Users", () => {
         expect(responseBody.job).toBe("QA Automation Engineer");
         expect(responseBody.updatedAt).toBeTruthy();
     });
+
+
+    test("Delete User", async ({ request }) => {
+        const response = await request.delete(`${baseURL}/api/users/5`);
+
+        expect(response.status()).toBe(204);
+    });
+
 });
