@@ -1,5 +1,5 @@
 import { Page, expect, Locator } from '@playwright/test';
-import { sleep } from "../utils/sleep.js";
+import { sleep } from "../../utils/sleep";
 
 export class SearchPage {
     page: Page;
