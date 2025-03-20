@@ -1,4 +1,4 @@
-export const mathData = [
+export const sumData = [
     {
         testName : "Two Plus Three",
         a : 2,
