@@ -95,15 +95,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 10,
+                      "workerIndex": 22,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 251,
+                      "duration": 286,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-20T00:45:52.703Z",
+                      "startTime": "2025-03-20T01:03:19.054Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -134,15 +134,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 11,
+                      "workerIndex": 23,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 401,
+                      "duration": 389,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-20T00:45:52.691Z",
+                      "startTime": "2025-03-20T01:03:19.052Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -157,7 +157,7 @@
               ],
               "id": "789ba6b1b4092636007e-f461665035a180e4b2e2",
               "file": "api/tests/getUsers.spec.ts",
-              "line": 12,
+              "line": 24,
               "column": 5
             }
           ]
@@ -167,8 +167,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-03-20T00:45:49.577Z",
-    "duration": 3655.226000000024,
+    "startTime": "2025-03-20T01:03:16.178Z",
+    "duration": 3366.0240000002086,
     "expected": 2,
     "skipped": 0,
     "unexpected": 0,
