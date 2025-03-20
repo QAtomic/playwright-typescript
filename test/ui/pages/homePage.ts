@@ -1,4 +1,5 @@
 import { Page, Locator } from '@playwright/test';
+import { closeCookiePopup } from '../utils/closeCookiePopup';
 
 export class HomePage {
     page: Page;
@@ -17,6 +18,7 @@ export class HomePage {
 
     async open(){
         await this.page.goto(this.url);
+        await closeCookiePopup(this.page);
     }
 
     async clickContactUsLink() {

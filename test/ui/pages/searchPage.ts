@@ -1,5 +1,6 @@
 import { Page, expect, Locator } from '@playwright/test';
 import { sleep } from "../../utils/sleep";
+import { closeCookiePopup } from '../utils/closeCookiePopup';
 
 export class SearchPage {
     page: Page;
@@ -16,6 +17,7 @@ export class SearchPage {
     
     async open() {
         await this.page.goto(this.url);
+        await closeCookiePopup(this.page);
     }
 
     async verifyPageTitle() {

@@ -1,5 +1,6 @@
 import { Page, expect, Locator } from '@playwright/test';
 import { TUser } from '../data/userData';
+import { closeCookiePopup } from '../utils/closeCookiePopup';
 
 export class ContactUsPage {
     page: Page;
@@ -32,6 +33,7 @@ export class ContactUsPage {
     
     async open() {
         await this.page.goto(this.url);
+        await closeCookiePopup(this.page);
     }
 
     async verifyPageTitle() {
