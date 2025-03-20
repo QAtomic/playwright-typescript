@@ -25,7 +25,7 @@ export class PricingPage {
         let elePurchaseTitle = await this.page.locator("//div[@class='Purchase-title']").filter({ has: eleDevCraftComplete });
         let elePurchaseCell = await this.page.locator("//div[contains(@class,'Purchase-cell')]").filter({ has: elePurchaseTitle });
         let elePurchasePrice = await elePurchaseCell.locator("//div[@class='Purchase-price']");
-        let purchasePrice = (await elePurchasePrice.textContent()).replace(/[^0-9]/g, '').trim();
+        let purchasePrice = (await elePurchasePrice.textContent())!.replace(/[^0-9]/g, '').trim();
         expect(purchasePrice).toBe(price);
     }
 
