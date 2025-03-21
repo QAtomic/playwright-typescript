@@ -1,10 +1,11 @@
-import { test } from '@playwright/test';
+import { expect, test } from '@playwright/test';
 import { HomePage } from '../pages/homePage';
 import { PricingPage } from '../pages/pricingPage';
 import { ContactUsPage } from '../pages/contactUsPage';
 import { SearchPage } from '../pages/searchPage';
 
-test.describe("Home Page Links", () => {
+
+test.describe("Home Page Tests", () => {
     let homePage: HomePage;
     let contactUsPage: ContactUsPage;
     let pricingPage: PricingPage;
@@ -19,20 +20,25 @@ test.describe("Home Page Links", () => {
         await homePage.open();
     }); 
 
+    test("Broken Link Checker", async () => {
+        test.setTimeout(120000);
+        await homePage.checkForBrokenLinks();
+    });
 
-    test("Contact Us Link", async ({ page }) => {
+
+    test("Contact Us Link", async () => {
         await homePage.clickContactUsLink();
 
         await contactUsPage.verifyPageTitle();
     });
 
-    test("Pricing Link", async ({ page }) => {
+    test("Pricing Link", async () => {
         await homePage.clickPricingLink();
 
         await pricingPage.verifyPageTitle();
     });
 
-    test("Search Link", async ({ page }) => {
+    test("Search Link", async () => {
         await homePage.clickSearchLink();
 
         await searchPage.verifyPageTitle();

@@ -1,6 +1,7 @@
 import { Page, expect, Locator } from '@playwright/test';
 import { TUser } from '../data/userData';
 import { closeCookiePopup } from '../utils/closeCookiePopup';
+import { brokenLinkChecker } from '../utils/brokenLinkChecker';
 
 export class ContactUsPage {
     page: Page;
@@ -39,6 +40,10 @@ export class ContactUsPage {
     async verifyPageTitle() {
         let pricingPageTitle = await this.page.title();
         expect(pricingPageTitle).toBe("Contact the Telerik Team | Progress Telerik");
+    }
+
+    async checkForBrokenLinks() {
+        await brokenLinkChecker(this.page);
     }
 
     async fillGetInTouchForm(user: TUser) {

@@ -2,7 +2,7 @@ import { test } from '@playwright/test';
 import { PricingPage } from '../pages/pricingPage';
 
 
-test.describe("Product Pricing", () => {
+test.describe("Pricing Page Tests", () => {
     let pricingPage: PricingPage;
 
     test.beforeEach( async ({ page }) => {
@@ -10,7 +10,12 @@ test.describe("Product Pricing", () => {
         await pricingPage.open();
     });
 
-    test("Featured Pricing", async ({ page }) => {
+    test("Broken Link Checker", async () => {
+        test.setTimeout(120000);
+        await pricingPage.checkForBrokenLinks();
+    })
+
+    test("Featured Pricing", async () => {
         await pricingPage.verifyProductPrice("DevCraft Complete", "1299");
     });
 

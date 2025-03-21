@@ -3,7 +3,7 @@ import { ContactUsPage } from '../pages/contactUsPage';
 import { userData } from '../data/userData.js';
 
  
-test.describe("Form Submissions", () => {
+test.describe("Contact Us Page Tests", () => {
     let contactUsPage: ContactUsPage;
 
     test.beforeEach(async ({ page }) => {
@@ -11,6 +11,7 @@ test.describe("Form Submissions", () => {
         await contactUsPage.open();
     }); 
 
+    
     let users = userData;
     
     users.forEach(user => {

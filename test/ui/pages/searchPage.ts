@@ -1,6 +1,7 @@
 import { Page, expect, Locator } from '@playwright/test';
 import { sleep } from "../../utils/sleep";
 import { closeCookiePopup } from '../utils/closeCookiePopup';
+import { brokenLinkChecker } from '../utils/brokenLinkChecker';
 
 export class SearchPage {
     page: Page;
@@ -18,6 +19,10 @@ export class SearchPage {
     async open() {
         await this.page.goto(this.url);
         await closeCookiePopup(this.page);
+    }
+
+    async checkForBrokenLinks() {
+        await brokenLinkChecker(this.page);
     }
 
     async verifyPageTitle() {

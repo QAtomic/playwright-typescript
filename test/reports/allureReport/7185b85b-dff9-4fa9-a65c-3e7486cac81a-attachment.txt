@@ -1,0 +1,247 @@
+Cookie Popup Displayed
+Link: #skip-to-content
+Link: /
+Link: /devcraft
+Link: /kendo-ui
+Link: /kendo-jquery-ui
+Link: /kendo-angular-ui
+Link: /kendo-react-ui
+Link: /kendo-vue-ui
+Link: /blazor-ui
+Link: /aspnet-core-ui
+Link: /aspnet-mvc
+Link: /products/aspnet-ajax.aspx
+Link: /maui-ui
+Link: /document-processing-libraries
+Link: /maui-ui
+Link: /winui
+Link: /products/winforms.aspx
+Link: /products/wpf/overview.aspx
+Link: /products/reporting.aspx
+Link: /report-server
+Link: /teststudio
+Link: /teststudio-dev
+Link: /products/mocking.aspx
+Link: https://www.progress.com/sitefinity-cms
+Link: /themebuilder
+Link: /design-system
+Link: /page-templates-and-ui-blocks
+Link: /fiddler
+Link: /fiddler/fiddler-everywhere
+Link: /fiddler/fiddler-classic
+Link: /fiddler/fiddler-everywhere-reporter
+Link: /fiddlercore
+Link: https://converter.telerik.com
+Link: /teststudio/testing-framework
+Link: /all-products
+Link: /support/demos
+Link: /services
+Link: /blogs
+Link: /support
+Link: /purchase.aspx
+Link: /search
+Link: https://store.progress.com/shopping-cart
+Link: /account/
+Link: /account/your-licenses
+Link: /account/downloads
+Link: /account/support-center
+Link: /forums/profile/mine
+Link: /account/payment-methods
+Link: /account/profile
+Link: null
+Link: /account/
+Link: /contact
+Link: /download
+Link: /search
+Link: /try/devcraft-ultimate
+Link: /blazor-ui
+Link: /aspnet-core-ui
+Link: /aspnet-mvc
+Link: /products/aspnet-ajax.aspx
+Link: /kendo-jquery-ui
+Link: /kendo-angular-ui
+Link: /kendo-vue-ui
+Link: /kendo-react-ui
+Link: /devcraft
+Link: /try/devcraft-ultimate
+Link: /maui-ui
+Link: /winui
+Link: /products/winforms.aspx
+Link: /products/wpf/overview.aspx
+Link: /devcraft
+Link: /try/devcraft-ultimate
+Link: /maui-ui
+Link: /devcraft
+Link: /try/devcraft-ultimate
+Link: /products/reporting.aspx
+Link: /report-server
+Link: /devcraft
+Link: /try/devcraft-ultimate
+Link: /teststudio
+Link: /teststudio-dev
+Link: /products/mocking.aspx
+Link: /fiddler/fiddler-everywhere
+Link: /devcraft
+Link: /try/devcraft-ultimate
+Link: /themebuilder
+Link: /design-system
+Link: /page-templates-and-ui-blocks
+Link: /devcraft
+Link: /kendo-ui
+Link: /kendo-ui/grid
+Link: /dotnet/grid
+Link: https://www.telerik.com/design-system/designer-developer-collaboration-survey-2024/
+Link: /support/whats-new
+Link: https://www.telerik.com/design-system/designer-developer-collaboration-survey-2024/
+Link: /support/whats-new
+Link: #slide-1
+Link: #slide-2
+Link: /standardization
+Link: javascript:void(0);
+Link: javascript:void(0);
+Link: javascript:void(0);
+Link: javascript:void(0);
+Link: javascript:void(0);
+Link: /all-products
+Link: /purchase.aspx
+Link: https://www.g2.com/products/progress-telerik/reviews?utm_source=rewards-badge
+Link: https://www.g2.com/reports/momentum-grid-report-for-component-libraries-winter-2025?secure%5Bgated_consumer%5D=adb568cd-c0a4-430c-a746-2cbd7331f92f&secure%5Btoken%5D=262fee00034b87212880f07c7208336d9643649722474355704be3ebdb8e1620&tab=profile-progress-telerik
+Link: https://www.g2.com/reports/enterprise-grid-report-for-component-libraries-fall-2024.embed?featured=progress-telerik&secure%5Bgated_consumer%5D=a4a9e07e-c67f-4816-821a-127cce6ab57e&secure%5Btoken%5D=6b4ff6b83afd383dc37be83c448c4412f6b44cbf98f83957286893a1a3e38c06&utm_campaign=gate-2010594
+Link: https://www.g2.com/products/progress-telerik/reviews?utm_source=rewards-badge
+Link: https://www.g2.com/reports/mid-market-relationship-index-for-component-libraries-fall-2024.embed?featured=progress-kendo-ui&secure%5Bgated_consumer%5D=96d29863-c070-45ee-a6d8-cf9f43630f84&secure%5Btoken%5D=9301190c86719562b0a1a8778010a4128335a8e98d8ff2d0d9498a1bae2267dc&utm_campaign=gate-2011313
+Link: https://www.trustradius.com/buyer-blog/most-loved
+Link: javascript:void(0)
+Link: javascript:void(0)
+Link: javascript:void(0)
+Link: https://www.telerik.com/blogs/telerik-kendo-ui-2025-q1-release
+Link: https://www.telerik.com/design-system/designer-developer-collaboration-survey-2024/
+Link: https://www.telerik.com/blogs/using-fiddler-everywhere-grpc-services-net-core-clients
+Link: /blogs
+Link: /devcraft
+Link: /kendo-ui
+Link: /download
+Link: /purchase.aspx
+Link: /support/demos
+Link: /documentation
+Link: /support/whats-new/release-history
+Link: /forums
+Link: /blogs
+Link: /webinars
+Link: /videos
+Link: /services
+Link: https://www.progress.com/partners/partner-locator?Products=KendoUI+and+Telerik
+Link: /support/virtual-classroom
+Link: https://www.progress.com/events
+Link: /faqs
+Link: /about/success-stories
+Link: /about/testimonials
+Link: /contact
+Link: tel:+18886790442
+Link: tel:+441344838186
+Link: tel:+914069019447
+Link: tel:+35928099850
+Link: tel:+61370688610
+Link: https://www.facebook.com/telerik
+Link: https://x.com/telerik
+Link: https://www.linkedin.com/company/telerik
+Link: https://www.twitch.tv/codeitlive
+Link: https://www.youtube.com/c/telerik
+Link: https://github.com/telerik
+Link: /contact
+Link: https://www.facebook.com/telerik
+Link: https://x.com/telerik
+Link: https://www.linkedin.com/company/telerik
+Link: https://www.twitch.tv/codeitlive
+Link: https://www.youtube.com/c/telerik
+Link: https://github.com/telerik
+Link: https://www.progress.com
+Link: https://www.progress.com/company
+Link: https://www.progress.com/products
+Link: https://www.progress.com/company/awards
+Link: https://investors.progress.com/press-releases
+Link: https://www.progress.com/company/press-coverage
+Link: https://www.progress.com/company/careers
+Link: https://www.progress.com/company/offices
+Link: https://www.progress.com/company
+Link: https://www.progress.com/products
+Link: https://www.progress.com/company/awards
+Link: https://investors.progress.com/press-releases
+Link: https://www.progress.com/company/press-coverage
+Link: https://www.progress.com/company/careers
+Link: https://www.progress.com/company/offices
+Link: https://www.progress.com/legal/trademarks
+Link: /about/terms-of-use
+Link: /feedback
+Link: https://www.progress.com/legal/privacy-center
+Link: https://www.progress.com/trust-center
+Link: https://forms.progress.com/ccpa-subscription
+Link: https://www.progress.com/sitefinity-cms
+Link: https://www.progress.com/legal/cookie-policy
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h

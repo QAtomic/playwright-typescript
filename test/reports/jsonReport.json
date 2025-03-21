@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 6
+      "actualWorkers": 1
     },
     "preserveOutput": "always",
     "reporter": [
@@ -49,7 +49,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 6
+          "actualWorkers": 1
         },
         "id": "chromium",
         "name": "chromium",
@@ -70,861 +70,6 @@
   },
   "suites": [
     {
-      "title": "api\\tests\\login.spec.ts",
-      "file": "api/tests/login.spec.ts",
-      "column": 0,
-      "line": 0,
-      "specs": [],
-      "suites": [
-        {
-          "title": "API : Login",
-          "file": "api/tests/login.spec.ts",
-          "line": 4,
-          "column": 15,
-          "specs": [
-            {
-              "title": "Valid Login",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 22,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 422,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-20T21:04:29.593Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\api-tests-login-API-Login-Valid-Login-chromium\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "bed619298dda8fc93cc8-2552cbdc2713a4e2197f",
-              "file": "api/tests/login.spec.ts",
-              "line": 7,
-              "column": 5
-            },
-            {
-              "title": "Invalid Login",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 23,
-                      "parallelIndex": 1,
-                      "status": "passed",
-                      "duration": 438,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-20T21:04:29.594Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\api-tests-login-API-Login-Invalid-Login-chromium\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "bed619298dda8fc93cc8-f480e484fac243d78481",
-              "file": "api/tests/login.spec.ts",
-              "line": 25,
-              "column": 5
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "api\\tests\\users.spec.ts",
-      "file": "api/tests/users.spec.ts",
-      "column": 0,
-      "line": 0,
-      "specs": [],
-      "suites": [
-        {
-          "title": "API : Users",
-          "file": "api/tests/users.spec.ts",
-          "line": 3,
-          "column": 15,
-          "specs": [
-            {
-              "title": "Get User Two",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 24,
-                      "parallelIndex": 2,
-                      "status": "passed",
-                      "duration": 262,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-20T21:04:29.616Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\api-tests-users-API-Users-Get-User-Two-chromium\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "3def830b4e9a106941f3-f66e1cc426545ccaf912",
-              "file": "api/tests/users.spec.ts",
-              "line": 6,
-              "column": 5
-            },
-            {
-              "title": "User Not Found",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 25,
-                      "parallelIndex": 3,
-                      "status": "passed",
-                      "duration": 438,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-20T21:04:29.604Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\api-tests-users-API-Users-User-Not-Found-chromium\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "3def830b4e9a106941f3-ce40689ee02e09124d2b",
-              "file": "api/tests/users.spec.ts",
-              "line": 23,
-              "column": 5
-            },
-            {
-              "title": "Create User",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 26,
-                      "parallelIndex": 4,
-                      "status": "passed",
-                      "duration": 408,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-20T21:04:29.653Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\api-tests-users-API-Users-Create-User-chromium\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "3def830b4e9a106941f3-5bb4f272fd5376dc8da3",
-              "file": "api/tests/users.spec.ts",
-              "line": 30,
-              "column": 5
-            },
-            {
-              "title": "Update User Name",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 27,
-                      "parallelIndex": 5,
-                      "status": "passed",
-                      "duration": 392,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-20T21:04:29.686Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\api-tests-users-API-Users-Update-User-Name-chromium\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "3def830b4e9a106941f3-7042d7c372def3755cff",
-              "file": "api/tests/users.spec.ts",
-              "line": 50,
-              "column": 5
-            },
-            {
-              "title": "Update User Job",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 24,
-                      "parallelIndex": 2,
-                      "status": "passed",
-                      "duration": 233,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-20T21:04:29.948Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\api-tests-users-API-Users-Update-User-Job-chromium\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "3def830b4e9a106941f3-d0782af65a3d7b0d77a8",
-              "file": "api/tests/users.spec.ts",
-              "line": 68,
-              "column": 5
-            },
-            {
-              "title": "Delete User",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 22,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 222,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-20T21:04:30.140Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\api-tests-users-API-Users-Delete-User-chromium\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "3def830b4e9a106941f3-cd17d60044b7c26ac17d",
-              "file": "api/tests/users.spec.ts",
-              "line": 86,
-              "column": 5
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "functional\\tests\\sumFunction.spec.ts",
-      "file": "functional/tests/sumFunction.spec.ts",
-      "column": 0,
-      "line": 0,
-      "specs": [],
-      "suites": [
-        {
-          "title": "Test Sum Function",
-          "file": "functional/tests/sumFunction.spec.ts",
-          "line": 5,
-          "column": 6,
-          "specs": [
-            {
-              "title": "Two Plus Three",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 23,
-                      "parallelIndex": 1,
-                      "status": "passed",
-                      "duration": 6,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-20T21:04:30.163Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\functional-tests-sumFuncti-b5a64-Sum-Function-Two-Plus-Three-chromium\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "2c08f36e1dedb8e62c77-5e5cb0c7edab0006f90b",
-              "file": "functional/tests/sumFunction.spec.ts",
-              "line": 9,
-              "column": 9
-            },
-            {
-              "title": "Four Plus Five",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 25,
-                      "parallelIndex": 3,
-                      "status": "passed",
-                      "duration": 6,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-20T21:04:30.164Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\functional-tests-sumFuncti-a615f-Sum-Function-Four-Plus-Five-chromium\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "2c08f36e1dedb8e62c77-e3adec518c7df835bc67",
-              "file": "functional/tests/sumFunction.spec.ts",
-              "line": 9,
-              "column": 9
-            },
-            {
-              "title": "Six Plus Seven (Forced Error)",
-              "ok": false,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 27,
-                      "parallelIndex": 5,
-                      "status": "failed",
-                      "duration": 9,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m12\u001b[39m\nReceived: \u001b[31m13\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m12\u001b[39m\nReceived: \u001b[31m13\u001b[39m\n    at C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\functional\\tests\\sumFunction.spec.ts:10:47",
-                        "matcherResult": {
-                          "actual": 13,
-                          "expected": 12,
-                          "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m12\u001b[39m\nReceived: \u001b[31m13\u001b[39m",
-                          "name": "toBe",
-                          "pass": false
-                        },
-                        "location": {
-                          "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\functional\\tests\\sumFunction.spec.ts",
-                          "column": 47,
-                          "line": 10
-                        },
-                        "snippet": "\u001b[0m \u001b[90m  8 |\u001b[39m     sumTestData\u001b[33m.\u001b[39mforEach(sumTest \u001b[33m=>\u001b[39m {\n \u001b[90m  9 |\u001b[39m         test(sumTest\u001b[33m.\u001b[39mtestName\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 |\u001b[39m             expect(sum(sumTest\u001b[33m.\u001b[39ma\u001b[33m,\u001b[39m sumTest\u001b[33m.\u001b[39mb))\u001b[33m.\u001b[39mtoBe(sumTest\u001b[33m.\u001b[39mresult)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 11 |\u001b[39m         })\u001b[33m;\u001b[39m\n \u001b[90m 12 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 13 |\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\functional\\tests\\sumFunction.spec.ts",
-                            "column": 47,
-                            "line": 10
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m12\u001b[39m\nReceived: \u001b[31m13\u001b[39m\n\n\u001b[0m \u001b[90m  8 |\u001b[39m     sumTestData\u001b[33m.\u001b[39mforEach(sumTest \u001b[33m=>\u001b[39m {\n \u001b[90m  9 |\u001b[39m         test(sumTest\u001b[33m.\u001b[39mtestName\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 |\u001b[39m             expect(sum(sumTest\u001b[33m.\u001b[39ma\u001b[33m,\u001b[39m sumTest\u001b[33m.\u001b[39mb))\u001b[33m.\u001b[39mtoBe(sumTest\u001b[33m.\u001b[39mresult)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 11 |\u001b[39m         })\u001b[33m;\u001b[39m\n \u001b[90m 12 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 13 |\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\functional\\tests\\sumFunction.spec.ts:10:47\u001b[22m"
-                        }
-                      ],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-20T21:04:30.190Z",
-                      "attachments": [
-                        {
-                          "name": "_prompt-0",
-                          "contentType": "text/markdown",
-                          "body": "IyBJbnN0cnVjdGlvbnMKCi0gRm9sbG93aW5nIFBsYXl3cmlnaHQgdGVzdCBmYWlsZWQuCi0gRXhwbGFpbiB3aHksIGJlIGNvbmNpc2UsIHJlc3BlY3QgUGxheXdyaWdodCBiZXN0IHByYWN0aWNlcy4KLSBQcm92aWRlIGEgc25pcHBldCBvZiBjb2RlIHdpdGggdGhlIGZpeCwgaWYgcG9zc2libGUuCgojIFRlc3QgaW5mbwoKLSBOYW1lOiBUZXN0IFN1bSBGdW5jdGlvbiA+PiBTaXggUGx1cyBTZXZlbiAoRm9yY2VkIEVycm9yKQotIExvY2F0aW9uOiBDOlxVc2Vyc1xEcmV3XERvY3VtZW50c1xWU2NvZGUtd29ya3NwYWNlXHBsYXl3cmlnaHQtaW5mcmFzdHJ1Y3R1cmVcdGVzdFxmdW5jdGlvbmFsXHRlc3RzXHN1bUZ1bmN0aW9uLnNwZWMudHM6OTo5CgojIEVycm9yIGRldGFpbHMKCmBgYApFcnJvcjogZXhwZWN0KHJlY2VpdmVkKS50b0JlKGV4cGVjdGVkKSAvLyBPYmplY3QuaXMgZXF1YWxpdHkKCkV4cGVjdGVkOiAxMgpSZWNlaXZlZDogMTMKICAgIGF0IEM6XFVzZXJzXERyZXdcRG9jdW1lbnRzXFZTY29kZS13b3Jrc3BhY2VccGxheXdyaWdodC1pbmZyYXN0cnVjdHVyZVx0ZXN0XGZ1bmN0aW9uYWxcdGVzdHNcc3VtRnVuY3Rpb24uc3BlYy50czoxMDo0NwpgYGAKCiMgVGVzdCBzb3VyY2UKCmBgYHRzCiAgIDEgfCBpbXBvcnQgeyB0ZXN0LCBleHBlY3QgfSBmcm9tICdAcGxheXdyaWdodC90ZXN0JzsKICAgMiB8IGltcG9ydCB7IHN1bSB9IGZyb20gIi4uLy4uLy4uL3NyYy9mdW5jdGlvbnMvc3VtLmpzIjsKICAgMyB8IGltcG9ydCB7IHN1bURhdGEgfSBmcm9tICIuLi9kYXRhL3N1bURhdGEuanMiOwogICA0IHwKICAgNSB8IHRlc3QuZGVzY3JpYmUoIlRlc3QgU3VtIEZ1bmN0aW9uIiwgKCkgPT4gewogICA2IHwgICAgIGxldCBzdW1UZXN0RGF0YSA9IHN1bURhdGE7CiAgIDcgfCAgICAgCiAgIDggfCAgICAgc3VtVGVzdERhdGEuZm9yRWFjaChzdW1UZXN0ID0+IHsKICAgOSB8ICAgICAgICAgdGVzdChzdW1UZXN0LnRlc3ROYW1lLCAoKSA9PiB7Cj4gMTAgfCAgICAgICAgICAgICBleHBlY3Qoc3VtKHN1bVRlc3QuYSwgc3VtVGVzdC5iKSkudG9CZShzdW1UZXN0LnJlc3VsdCk7CiAgICAgfCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXiBFcnJvcjogZXhwZWN0KHJlY2VpdmVkKS50b0JlKGV4cGVjdGVkKSAvLyBPYmplY3QuaXMgZXF1YWxpdHkKICAxMSB8ICAgICAgICAgfSk7CiAgMTIgfCAgICAgfSk7CiAgMTMgfAogIDE0IHwgfSk7CmBgYA=="
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\functional-tests-sumFuncti-6fc45-ix-Plus-Seven-Forced-Error--chromium\\trace.zip"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\functional\\tests\\sumFunction.spec.ts",
-                        "column": 47,
-                        "line": 10
-                      }
-                    }
-                  ],
-                  "status": "unexpected"
-                }
-              ],
-              "id": "2c08f36e1dedb8e62c77-e9d5f80e4144740f21dd",
-              "file": "functional/tests/sumFunction.spec.ts",
-              "line": 9,
-              "column": 9
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "ui\\tests\\contactUsPageTests.spec.ts",
-      "file": "ui/tests/contactUsPageTests.spec.ts",
-      "column": 0,
-      "line": 0,
-      "specs": [],
-      "suites": [
-        {
-          "title": "Form Submissions",
-          "file": "ui/tests/contactUsPageTests.spec.ts",
-          "line": 6,
-          "column": 6,
-          "specs": [
-            {
-              "title": "Form Steve",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 26,
-                      "parallelIndex": 4,
-                      "status": "passed",
-                      "duration": 14452,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "Cookie Popup Displayed\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-20T21:04:30.200Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-contactUsPageTests-Form-Submissions-Form-Steve-chromium\\test-finished-1.png"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-contactUsPageTests-Form-Submissions-Form-Steve-chromium\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "9eda3442cf749e990d6e-541b73998dbd4ee3b7b6",
-              "file": "ui/tests/contactUsPageTests.spec.ts",
-              "line": 17,
-              "column": 9
-            },
-            {
-              "title": "Form Mike",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 25,
-                      "parallelIndex": 3,
-                      "status": "passed",
-                      "duration": 14936,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "Cookie Popup Displayed\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-20T21:04:30.250Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-contactUsPageTests-Form-Submissions-Form-Mike-chromium\\test-finished-1.png"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-contactUsPageTests-Form-Submissions-Form-Mike-chromium\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "9eda3442cf749e990d6e-2eb1d93014b74662e235",
-              "file": "ui/tests/contactUsPageTests.spec.ts",
-              "line": 17,
-              "column": 9
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "ui\\tests\\homePageTests.spec.ts",
-      "file": "ui/tests/homePageTests.spec.ts",
-      "column": 0,
-      "line": 0,
-      "specs": [],
-      "suites": [
-        {
-          "title": "Home Page Links",
-          "file": "ui/tests/homePageTests.spec.ts",
-          "line": 7,
-          "column": 6,
-          "specs": [
-            {
-              "title": "Contact Us Link",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 23,
-                      "parallelIndex": 1,
-                      "status": "passed",
-                      "duration": 13101,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "Cookie Popup Displayed\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-20T21:04:30.283Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-homePageTests-Home-Page-Links-Contact-Us-Link-chromium\\test-finished-1.png"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-homePageTests-Home-Page-Links-Contact-Us-Link-chromium\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "efb17b8588b2871c10ad-d7259188b7221fe307ab",
-              "file": "ui/tests/homePageTests.spec.ts",
-              "line": 23,
-              "column": 5
-            },
-            {
-              "title": "Pricing Link",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 24,
-                      "parallelIndex": 2,
-                      "status": "passed",
-                      "duration": 11302,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "No cookie Popup Found\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-20T21:04:30.292Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-homePageTests-Home-Page-Links-Pricing-Link-chromium\\test-finished-1.png"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-homePageTests-Home-Page-Links-Pricing-Link-chromium\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "efb17b8588b2871c10ad-24878b2e69e595ace2c1",
-              "file": "ui/tests/homePageTests.spec.ts",
-              "line": 29,
-              "column": 5
-            },
-            {
-              "title": "Search Link",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 28,
-                      "parallelIndex": 5,
-                      "status": "passed",
-                      "duration": 10573,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "Cookie Popup Displayed\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-20T21:04:35.691Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-homePageTests-Home-Page-Links-Search-Link-chromium\\test-finished-1.png"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-homePageTests-Home-Page-Links-Search-Link-chromium\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "efb17b8588b2871c10ad-9a42b4889319d5dd4a08",
-              "file": "ui/tests/homePageTests.spec.ts",
-              "line": 35,
-              "column": 5
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "ui\\tests\\pricingPageTests.spec.ts",
-      "file": "ui/tests/pricingPageTests.spec.ts",
-      "column": 0,
-      "line": 0,
-      "specs": [],
-      "suites": [
-        {
-          "title": "Product Pricing",
-          "file": "ui/tests/pricingPageTests.spec.ts",
-          "line": 5,
-          "column": 6,
-          "specs": [
-            {
-              "title": "Featured Pricing",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 22,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 9385,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "Cookie Popup Displayed\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-20T21:04:30.634Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-pricingPageTests-Product-Pricing-Featured-Pricing-chromium\\test-finished-1.png"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-pricingPageTests-Product-Pricing-Featured-Pricing-chromium\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "45ec4eab0ad639fc24c4-acf0dfaea86c0ae26e30",
-              "file": "ui/tests/pricingPageTests.spec.ts",
-              "line": 13,
-              "column": 5
-            }
-          ]
-        }
-      ]
-    },
-    {
       "title": "ui\\tests\\searchPageTests.spec.ts",
       "file": "ui/tests/searchPageTests.spec.ts",
       "column": 0,
@@ -932,55 +77,436 @@
       "specs": [],
       "suites": [
         {
-          "title": "Search",
+          "title": "Search Page Tests",
           "file": "ui/tests/searchPageTests.spec.ts",
           "line": 4,
           "column": 6,
           "specs": [
             {
-              "title": "Search DevCraft",
-              "ok": true,
+              "title": "Broken Link Checker",
+              "ok": false,
               "tags": [],
               "tests": [
                 {
-                  "timeout": 30000,
+                  "timeout": 120000,
                   "annotations": [],
                   "expectedStatus": "passed",
                   "projectId": "chromium",
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 22,
+                      "workerIndex": 8,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 4976,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 21912,
+                      "error": {
+                        "message": "Error: null is not a valid href\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m",
+                        "stack": "Error: null is not a valid href\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n    at reduce (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\utils\\brokenLinkChecker.ts:16:58)\n    at brokenLinkChecker (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\utils\\brokenLinkChecker.ts:15:36)\n    at SearchPage.checkForBrokenLinks (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\pages\\searchPage.ts:25:9)\n    at C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\tests\\searchPageTests.spec.ts:14:9",
+                        "matcherResult": {
+                          "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m",
+                          "pass": false
+                        },
+                        "location": {
+                          "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\utils\\brokenLinkChecker.ts",
+                          "column": 58,
+                          "line": 16
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39mui\\utils\\brokenLinkChecker.ts:16\n\n\u001b[0m \u001b[90m 14 |\u001b[39m\n \u001b[90m 15 |\u001b[39m     \u001b[36mconst\u001b[39m allValidHrefs \u001b[33m=\u001b[39m allHrefs\u001b[33m.\u001b[39mreduce((links\u001b[33m,\u001b[39m link) \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 16 |\u001b[39m         expect\u001b[33m.\u001b[39msoft(link\u001b[33m,\u001b[39m \u001b[32m`${link} is not a valid href`\u001b[39m)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 17 |\u001b[39m         \u001b[36mif\u001b[39m (link \u001b[33m&&\u001b[39m \u001b[33m!\u001b[39mlink\u001b[33m?\u001b[39m\u001b[33m.\u001b[39mstartsWith(\u001b[32m\"mailto\"\u001b[39m)) {\n \u001b[90m 18 |\u001b[39m             \u001b[36mif\u001b[39m (link\u001b[33m.\u001b[39mcharAt(\u001b[35m0\u001b[39m) \u001b[33m===\u001b[39m \u001b[32m\"/\"\u001b[39m \u001b[33m||\u001b[39m link\u001b[33m.\u001b[39mcharAt(\u001b[35m0\u001b[39m) \u001b[33m===\u001b[39m \u001b[32m\"#\"\u001b[39m) link \u001b[33m=\u001b[39m baseURL \u001b[33m+\u001b[39m link\u001b[33m;\u001b[39m\n \u001b[90m 19 |\u001b[39m             \u001b[36mif\u001b[39m (link\u001b[33m.\u001b[39mincludes(baseURL)) links\u001b[33m.\u001b[39madd(link)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\utils\\brokenLinkChecker.ts",
+                            "column": 58,
+                            "line": 16
+                          },
+                          "message": "Error: null is not a valid href\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n\n\u001b[90m   at \u001b[39mui\\utils\\brokenLinkChecker.ts:16\n\n\u001b[0m \u001b[90m 14 |\u001b[39m\n \u001b[90m 15 |\u001b[39m     \u001b[36mconst\u001b[39m allValidHrefs \u001b[33m=\u001b[39m allHrefs\u001b[33m.\u001b[39mreduce((links\u001b[33m,\u001b[39m link) \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 16 |\u001b[39m         expect\u001b[33m.\u001b[39msoft(link\u001b[33m,\u001b[39m \u001b[32m`${link} is not a valid href`\u001b[39m)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 17 |\u001b[39m         \u001b[36mif\u001b[39m (link \u001b[33m&&\u001b[39m \u001b[33m!\u001b[39mlink\u001b[33m?\u001b[39m\u001b[33m.\u001b[39mstartsWith(\u001b[32m\"mailto\"\u001b[39m)) {\n \u001b[90m 18 |\u001b[39m             \u001b[36mif\u001b[39m (link\u001b[33m.\u001b[39mcharAt(\u001b[35m0\u001b[39m) \u001b[33m===\u001b[39m \u001b[32m\"/\"\u001b[39m \u001b[33m||\u001b[39m link\u001b[33m.\u001b[39mcharAt(\u001b[35m0\u001b[39m) \u001b[33m===\u001b[39m \u001b[32m\"#\"\u001b[39m) link \u001b[33m=\u001b[39m baseURL \u001b[33m+\u001b[39m link\u001b[33m;\u001b[39m\n \u001b[90m 19 |\u001b[39m             \u001b[36mif\u001b[39m (link\u001b[33m.\u001b[39mincludes(baseURL)) links\u001b[33m.\u001b[39madd(link)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at reduce (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\utils\\brokenLinkChecker.ts:16:58)\u001b[22m\n\u001b[2m    at brokenLinkChecker (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\utils\\brokenLinkChecker.ts:15:36)\u001b[22m\n\u001b[2m    at SearchPage.checkForBrokenLinks (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\pages\\searchPage.ts:25:9)\u001b[22m\n\u001b[2m    at C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\tests\\searchPageTests.spec.ts:14:9\u001b[22m"
+                        }
+                      ],
                       "stdout": [
                         {
                           "text": "Cookie Popup Displayed\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com#skip-to-content\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/devcraft\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/kendo-ui\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/kendo-jquery-ui\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/kendo-angular-ui\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/kendo-react-ui\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/kendo-vue-ui\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/blazor-ui\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/aspnet-core-ui\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/aspnet-mvc\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/products/aspnet-ajax.aspx\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/maui-ui\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/document-processing-libraries\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/winui\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/products/winforms.aspx\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/products/wpf/overview.aspx\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/products/reporting.aspx\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/report-server\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/teststudio\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/teststudio-dev\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/products/mocking.aspx\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/themebuilder\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/design-system\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/page-templates-and-ui-blocks\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/fiddler\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/fiddler/fiddler-everywhere\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/fiddler/fiddler-classic\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/fiddler/fiddler-everywhere-reporter\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/fiddlercore\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/teststudio/testing-framework\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/all-products\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/support/demos\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/services\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/blogs\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/support\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/purchase.aspx\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/search\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/account/\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/account/your-licenses\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/account/downloads\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/account/support-center\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/forums/profile/mine\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/account/payment-methods\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/account/profile\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/contact\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/download\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/documentation\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/support/whats-new/release-history\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/forums\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/webinars\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/videos\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/support/virtual-classroom\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/faqs\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/about/success-stories\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/about/testimonials\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/about/terms-of-use\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
+                        },
+                        {
+                          "text": "https://www.telerik.com/feedback\n"
+                        },
+                        {
+                          "text": "Response.ok : true\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-20T21:04:40.920Z",
+                      "startTime": "2025-03-21T01:42:12.406Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-searchPageTests-Search-Search-DevCraft-chromium\\test-finished-1.png"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-searchPageTests-S-8dad9-e-Tests-Broken-Link-Checker-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "_prompt-0",
+                          "contentType": "text/markdown",
+                          "body": "IyBJbnN0cnVjdGlvbnMKCi0gRm9sbG93aW5nIFBsYXl3cmlnaHQgdGVzdCBmYWlsZWQuCi0gRXhwbGFpbiB3aHksIGJlIGNvbmNpc2UsIHJlc3BlY3QgUGxheXdyaWdodCBiZXN0IHByYWN0aWNlcy4KLSBQcm92aWRlIGEgc25pcHBldCBvZiBjb2RlIHdpdGggdGhlIGZpeCwgaWYgcG9zc2libGUuCgojIFRlc3QgaW5mbwoKLSBOYW1lOiBTZWFyY2ggUGFnZSBUZXN0cyA+PiBCcm9rZW4gTGluayBDaGVja2VyCi0gTG9jYXRpb246IEM6XFVzZXJzXERyZXdcRG9jdW1lbnRzXFZTY29kZS13b3Jrc3BhY2VccGxheXdyaWdodC1pbmZyYXN0cnVjdHVyZVx0ZXN0XHVpXHRlc3RzXHNlYXJjaFBhZ2VUZXN0cy5zcGVjLnRzOjEyOjUKCiMgRXJyb3IgZGV0YWlscwoKYGBgCkVycm9yOiBudWxsIGlzIG5vdCBhIHZhbGlkIGhyZWYKCmV4cGVjdChyZWNlaXZlZCkudG9CZVRydXRoeSgpCgpSZWNlaXZlZDogbnVsbAogICAgYXQgcmVkdWNlIChDOlxVc2Vyc1xEcmV3XERvY3VtZW50c1xWU2NvZGUtd29ya3NwYWNlXHBsYXl3cmlnaHQtaW5mcmFzdHJ1Y3R1cmVcdGVzdFx1aVx1dGlsc1xicm9rZW5MaW5rQ2hlY2tlci50czoxNjo1OCkKICAgIGF0IGJyb2tlbkxpbmtDaGVja2VyIChDOlxVc2Vyc1xEcmV3XERvY3VtZW50c1xWU2NvZGUtd29ya3NwYWNlXHBsYXl3cmlnaHQtaW5mcmFzdHJ1Y3R1cmVcdGVzdFx1aVx1dGlsc1xicm9rZW5MaW5rQ2hlY2tlci50czoxNTozNikKICAgIGF0IFNlYXJjaFBhZ2UuY2hlY2tGb3JCcm9rZW5MaW5rcyAoQzpcVXNlcnNcRHJld1xEb2N1bWVudHNcVlNjb2RlLXdvcmtzcGFjZVxwbGF5d3JpZ2h0LWluZnJhc3RydWN0dXJlXHRlc3RcdWlccGFnZXNcc2VhcmNoUGFnZS50czoyNTo5KQogICAgYXQgQzpcVXNlcnNcRHJld1xEb2N1bWVudHNcVlNjb2RlLXdvcmtzcGFjZVxwbGF5d3JpZ2h0LWluZnJhc3RydWN0dXJlXHRlc3RcdWlcdGVzdHNcc2VhcmNoUGFnZVRlc3RzLnNwZWMudHM6MTQ6OQpgYGAKCiMgUGFnZSBzbmFwc2hvdAoKYGBgeWFtbAotIG5hdmlnYXRpb246CiAgLSBmaWd1cmU6CiAgICAtIGxpbmsgInNraXAgbmF2aWdhdGlvbiIKICAgIC0gbGluayAiR28gdG8gSG9tZXBhZ2UiOgogICAgICAtIGltZwogIC0gbGlzdDoKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gYnV0dG9uICJQcm9kdWN0IE5hdmlnYXRpb24iOiBBbGwgUHJvZHVjdHMKICAtIGxpc3Q6CiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkRlbW9zIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJTZXJ2aWNlcyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiQmxvZ3MiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkRvY3MgJiBTdXBwb3J0IgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJQcmljaW5nIgogIC0gbGlzdDoKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiU2VhcmNoIjoKICAgICAgICAtIGltZwogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJTaG9wcGluZyBjYXJ0IjoKICAgICAgICAtIGltZwogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJZb3VyIEFjY291bnQiOgogICAgICAgIC0gaW1nCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkNvbnRhY3QgVXMiOgogICAgICAgIC0gaW1nCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkdldCBBIEZyZWUgVHJpYWwiCi0gaGVhZGluZyAiU2VhcmNoIiBbbGV2ZWw9Ml0KLSBwYXJhZ3JhcGg6CiAgLSB0ZXh0OiBTZWFyY2ggb3VyIGVudGlyZSB3ZWJzaXRlLiBGb3IgbW9yZSBzcGVjaWZpYyByZXN1bHRzLCBpbmNsdWRlIHlvdXIgcHJvZHVjdCdzIG5hbWUgaW4gYSBzaW5nbGUgc2VudGVuY2UuIEZvciBleGFtcGxlLCB1c2UKICAtIGVtcGhhc2lzOiAiXCJUeXBlcyBvZiBUZXN0IFN0dWRpbyBsb2FkIHRlc3RzXCIiCiAgLSB0ZXh0OiBpbnN0ZWFkIG9mCiAgLSBlbXBoYXNpczogIlwibG9hZCB0ZXN0aW5nXCIiCiAgLSB0ZXh0OiAuCi0gc2VhcmNoYm94ICJzZWFyY2giCi0gYnV0dG9uICJDbGljayB0byBzZWFyY2giOgogIC0gaW1nICJTZWFyY2ggaWNvbiIKICAtIHRleHQ6IFNlYXJjaAotIGxpc3Q6CiAgLSBsaXN0aXRlbToKICAgIC0gaGVhZGluZyAiVGVsZXJpayBEZXZDcmFmdCIgW2xldmVsPTNdOgogICAgICAtIGxpbmsgIlRlbGVyaWsgRGV2Q3JhZnQiOgogICAgICAgIC0gdGV4dDogVGVsZXJpawogICAgICAgIC0gc3Ryb25nOiBEZXZDcmFmdAogICAgLSBwYXJhZ3JhcGg6CiAgICAgIC0gdGV4dDogVGVsZXJpawogICAgICAtIHN0cm9uZzogRGV2Q3JhZnQKICAgICAgLSB0ZXh0OiAuIFRoZSBVbHRpbWF0ZSBUb29sa2l0IGZvciBCdWlsZGluZyBNb2Rlcm4gQXBwcyBXaXRoIFNsZWVrIFVJLiBPdXIgLk5FVCBhbmQgSmF2YVNjcmlwdCB0b29saW5nIGVuYWJsZXMgeW91IHRvIGJ1aWxkIG1vZGVybiwgaGlnaC1wZXJmb3JtYW50CiAgICAtIGxpbmsgImh0dHBzOi8vd3d3LnRlbGVyaWsuY29tL2RldmNyYWZ0IgogIC0gbGlzdGl0ZW06CiAgICAtIGhlYWRpbmcgIktlbmRvIFVJIiBbbGV2ZWw9M106CiAgICAgIC0gbGluayAiS2VuZG8gVUkiOgogICAgICAgIC0gc3Ryb25nOiBLZW5kbwogICAgICAgIC0gdGV4dDogVUkKICAgIC0gcGFyYWdyYXBoOgogICAgICAtIHRleHQ6IEl0ZW1zIDEgLSAyMCBvZiA5MQogICAgICAtIHN0cm9uZzogLi4uCiAgICAgIC0gdGV4dDogUXVpY2tseSBidWlsZCBleWUtY2F0Y2hpbmcgd2ViIGFwcHMgdXNpbmcKICAgICAgLSBzdHJvbmc6IEtlbmRvCiAgICAgIC0gdGV4dDogVUkncyB1bHRpbWF0ZSBjb2xsZWN0aW9uIG9mIEphdmFTY3JpcHQgVUkgY29tcG9uZW50cyB3aXRoIGxpYnJhcmllcyBmb3IgalF1ZXJ5LCBBbmd1bGFyLCBSZWFjdCwgLi4uCiAgICAtIGxpbmsgImh0dHBzOi8vd3d3LnRlbGVyaWsuY29tL2tlbmRvLXVpIgogIC0gbGlzdGl0ZW06CiAgICAtIGhlYWRpbmcgIlB1cmNoYXNlIFRlbGVyaWsgU29mdHdhcmUgRGV2ZWxvcG1lbnQgVG9vbHMiIFtsZXZlbD0zXToKICAgICAgLSBsaW5rICJQdXJjaGFzZSBUZWxlcmlrIFNvZnR3YXJlIERldmVsb3BtZW50IFRvb2xzIjoKICAgICAgICAtIHN0cm9uZzogUHVyY2hhc2UKICAgICAgICAtIHRleHQ6IFRlbGVyaWsgU29mdHdhcmUgRGV2ZWxvcG1lbnQgVG9vbHMKICAgIC0gcGFyYWdyYXBoOgogICAgICAtIHN0cm9uZzogUHVyY2hhc2UKICAgICAgLSB0ZXh0OiBUZWxlcmlrIHNvZnR3YXJlIGRldmVsb3BtZW50IHRvb2xzIGZvciBldmVyeSB0eXBlIG9mIHByb2plY3QgYWNyb3NzIG1ham9yIGRldmVsb3BtZW50IHBsYXRmb3Jtcy4gRHluYW1pYyByZWxlYXNlIGN5Y2xlIGFuZCBiZXN0IHN1cHBvcnQgc2VydmljZS4KICAgIC0gbGluayAiaHR0cHM6Ly93d3cudGVsZXJpay5jb20vcHVyY2hhc2UuYXNweCIKLSBjb250ZW50aW5mbzoKICAtIHRleHQ6IENvbXBsZXRlIC5ORVQgVG9vbGJveAogIC0gbGluayAiVGVsZXJpayBEZXZDcmFmdCIKICAtIHRleHQ6IENvbXBsZXRlIEphdmFTY3JpcHQgVG9vbGJveAogIC0gbGluayAiS2VuZG8gVUkiCiAgLSB0ZXh0OiBHZXQgUHJvZHVjdHMKICAtIGxpc3Q6CiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkZyZWUgVHJpYWxzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJQcmljaW5nIgogIC0gdGV4dDogUmVzb3VyY2VzCiAgLSBsaXN0OgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJEZW1vcyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiRG9jdW1lbnRhdGlvbiIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiUmVsZWFzZSBIaXN0b3J5IgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJGb3J1bXMiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkJsb2dzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJXZWJpbmFycyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiVmlkZW9zIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJQcm9mZXNzaW9uYWwgU2VydmljZXMiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlBhcnRuZXJzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJWaXJ0dWFsIENsYXNzcm9vbSIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiRXZlbnRzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJGQVFzIgogIC0gdGV4dDogUmVjb2duaXRpb24KICAtIGxpc3Q6CiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlN1Y2Nlc3MgU3RvcmllcyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiVGVzdGltb25pYWxzIgogIC0gdGV4dDogR2V0IGluIHRvdWNoCiAgLSBsaXN0OgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJDb250YWN0IFVzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaXN0OgogICAgICAgIC0gbGlzdGl0ZW06CiAgICAgICAgICAtICdsaW5rICJVU0E6ICsxIDg4OCA2NzkgMDQ0MiInCiAgICAgICAgLSBsaXN0aXRlbToKICAgICAgICAgIC0gJ2xpbmsgIlVLOiArNDQgMTMgNDQ4MyA4MTg2IicKICAgICAgICAtIGxpc3RpdGVtOgogICAgICAgICAgLSAnbGluayAiSW5kaWE6ICs5MSA0MDYgOTAxOTQ0NyInCiAgICAgICAgLSBsaXN0aXRlbToKICAgICAgICAgIC0gJ2xpbmsgIkJ1bGdhcmlhOiArMzU5IDIgODA5OTg1MCInCiAgICAgICAgLSBsaXN0aXRlbToKICAgICAgICAgIC0gJ2xpbmsgIkF1c3RyYWxpYTogKzYxIDMgNzA2OCA4NjEwIicKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGlzdDoKICAgICAgICAtIGxpc3RpdGVtOgogICAgICAgICAgLSBsaW5rICIxNjVrKyI6CiAgICAgICAgICAgIC0gaW1nCiAgICAgICAgICAgIC0gdGV4dDogMTY1aysKICAgICAgICAtIGxpc3RpdGVtOgogICAgICAgICAgLSBsaW5rICI1MGsrIjoKICAgICAgICAgICAgLSBpbWcKICAgICAgICAgICAgLSB0ZXh0OiA1MGsrCiAgICAgICAgLSBsaXN0aXRlbToKICAgICAgICAgIC0gbGluayAiMTdrKyI6CiAgICAgICAgICAgIC0gaW1nCiAgICAgICAgICAgIC0gdGV4dDogMTdrKwogICAgICAgIC0gbGlzdGl0ZW06CiAgICAgICAgICAtIGxpbmsgIjRrKyI6CiAgICAgICAgICAgIC0gaW1nCiAgICAgICAgICAgIC0gdGV4dDogNGsrCiAgICAgICAgLSBsaXN0aXRlbToKICAgICAgICAgIC0gbGluayAiMTRrKyI6CiAgICAgICAgICAgIC0gaW1nCiAgICAgICAgICAgIC0gdGV4dDogMTRrKwogICAgICAgIC0gbGlzdGl0ZW06CiAgICAgICAgICAtIGxpbmsgIkdpdEh1YiI6CiAgICAgICAgICAgIC0gaW1nCiAgLSBsaW5rICJHbyB0byBQcm9ncmVzcy5jb20iOgogICAgLSBpbWcKICAtIHBhcmFncmFwaDogVGVsZXJpayBhbmQgS2VuZG8gVUkgYXJlIHBhcnQgb2YgUHJvZ3Jlc3MgcHJvZHVjdCBwb3J0Zm9saW8uIFByb2dyZXNzIGlzIHRoZSBsZWFkaW5nIHByb3ZpZGVyIG9mIGFwcGxpY2F0aW9uIGRldmVsb3BtZW50IGFuZCBkaWdpdGFsIGV4cGVyaWVuY2UgdGVjaG5vbG9naWVzLgogIC0gbGlzdDoKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiQ29tcGFueSIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiVGVjaG5vbG9neSIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiQXdhcmRzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJQcmVzcyBSZWxlYXNlcyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiTWVkaWEgQ292ZXJhZ2UiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkNhcmVlcnMiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIk9mZmljZXMiCiAgLSBwYXJhZ3JhcGg6IENvcHlyaWdodCDCqSAyMDI1IFByb2dyZXNzIFNvZnR3YXJlIENvcnBvcmF0aW9uIGFuZC9vciBpdHMgc3Vic2lkaWFyaWVzIG9yIGFmZmlsaWF0ZXMuIEFsbCBSaWdodHMgUmVzZXJ2ZWQuCiAgLSBwYXJhZ3JhcGg6CiAgICAtIHRleHQ6IFByb2dyZXNzIGFuZCBjZXJ0YWluIHByb2R1Y3QgbmFtZXMgdXNlZCBoZXJlaW4gYXJlIHRyYWRlbWFya3Mgb3IgcmVnaXN0ZXJlZCB0cmFkZW1hcmtzIG9mIFByb2dyZXNzIFNvZnR3YXJlIENvcnBvcmF0aW9uIGFuZC9vciBvbmUgb2YgaXRzIHN1YnNpZGlhcmllcyBvciBhZmZpbGlhdGVzIGluIHRoZSBVLlMuIGFuZC9vciBvdGhlciBjb3VudHJpZXMuIFNlZQogICAgLSBsaW5rICJUcmFkZW1hcmtzIgogICAgLSB0ZXh0OiBmb3IgYXBwcm9wcmlhdGUgbWFya2luZ3MuCiAgLSBsaXN0OgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJUZXJtcyBvZiBVc2UiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlNpdGUgRmVlZGJhY2siCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlByaXZhY3kgQ2VudGVyIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJUcnVzdCBDZW50ZXIiCiAgLSBsaW5rICJEbyBOb3QgU2VsbCBvciBTaGFyZSBNeSBQZXJzb25hbCBJbmZvcm1hdGlvbiIKICAtIHBhcmFncmFwaDoKICAgIC0gdGV4dDogUG93ZXJlZCBieQogICAgLSBsaW5rICJQcm9ncmVzcyBTaXRlZmluaXR5IgpgYGAKCiMgVGVzdCBzb3VyY2UKCmBgYHRzCiAgIDEgfCBpbXBvcnQgeyBQYWdlLCBleHBlY3QgfSBmcm9tICJAcGxheXdyaWdodC90ZXN0IjsKICAgMiB8CiAgIDMgfAogICA0IHwgZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGJyb2tlbkxpbmtDaGVja2VyKHBhZ2U6IFBhZ2UpIHsKICAgNSB8ICAgICBjb25zdCBiYXNlVVJMID0gImh0dHBzOi8vd3d3LnRlbGVyaWsuY29tIjsKICAgNiB8CiAgIDcgfCAgICAgY29uc3QgbGlua3MgPSBwYWdlLmxvY2F0b3IoImEiKTsKICAgOCB8CiAgIDkgfCAgICAgY29uc3QgYWxsTGlua3MgPSBhd2FpdCBsaW5rcy5hbGwoKTsKICAxMCB8CiAgMTEgfCAgICAgY29uc3QgYWxsSHJlZnMgPSBhd2FpdCBQcm9taXNlLmFsbCgKICAxMiB8ICAgICAgICAgYWxsTGlua3MubWFwKChsaW5rKSA9PiBsaW5rLmdldEF0dHJpYnV0ZSgiaHJlZiIpKQogIDEzIHwgICAgICkKICAxNCB8CiAgMTUgfCAgICAgY29uc3QgYWxsVmFsaWRIcmVmcyA9IGFsbEhyZWZzLnJlZHVjZSgobGlua3MsIGxpbmspID0+IHsKPiAxNiB8ICAgICAgICAgZXhwZWN0LnNvZnQobGluaywgYCR7bGlua30gaXMgbm90IGEgdmFsaWQgaHJlZmApLnRvQmVUcnV0aHkoKTsKICAgICB8ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF4gRXJyb3I6IG51bGwgaXMgbm90IGEgdmFsaWQgaHJlZgogIDE3IHwgICAgICAgICBpZiAobGluayAmJiAhbGluaz8uc3RhcnRzV2l0aCgibWFpbHRvIikpIHsKICAxOCB8ICAgICAgICAgICAgIGlmIChsaW5rLmNoYXJBdCgwKSA9PT0gIi8iIHx8IGxpbmsuY2hhckF0KDApID09PSAiIyIpIGxpbmsgPSBiYXNlVVJMICsgbGluazsKICAxOSB8ICAgICAgICAgICAgIGlmIChsaW5rLmluY2x1ZGVzKGJhc2VVUkwpKSBsaW5rcy5hZGQobGluayk7CiAgMjAgfCAgICAgICAgIH0KICAyMSB8ICAgICAgICAgICAgIHJldHVybiBsaW5rcwogIDIyIHwgICAgICAgICB9LCBuZXcgU2V0PHN0cmluZz4oKSkKICAyMyB8CiAgMjQgfCAgICAgICAgIGZvciAobGV0IHVybCBvZiBhbGxWYWxpZEhyZWZzKSB7CiAgMjUgfCAgICAgICAgICAgICBjb25zb2xlLmxvZyh1cmwpOwogIDI2IHwgICAgICAgICAgICAgdHJ5IHsKICAyNyB8ICAgICAgICAgICAgICAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IHBhZ2UucmVxdWVzdC5nZXQodXJsKTsKICAyOCB8ICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygiUmVzcG9uc2Uub2sgOiAiICsgcmVzcG9uc2Uub2soKSk7CiAgMjkgfCAgICAgICAgICAgICAgICAgZXhwZWN0LnNvZnQocmVzcG9uc2Uub2soKSwgYCR7dXJsfSBpcyBub3QgdmFsaWRgKS50b0JlVHJ1dGh5KCk7CiAgMzAgfCAgICAgICAgICAgICB9IGNhdGNoKGVycikgewogIDMxIHwgICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCJFcnJvciA6ICIgKyBlcnIpOwogIDMyIHwgICAgICAgICAgICAgICAgIGV4cGVjdC5zb2Z0KG51bGwsIGAke3VybH0gaXMgbm90IHZhbGlkYCkudG9CZVRydXRoeSgpOwogIDMzIHwgICAgICAgICAgICAgfQogIDM0IHwgICAgIH0KICAzNSB8IH0KYGBg"
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-searchPageTests-Search-Search-DevCraft-chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-searchPageTests-S-8dad9-e-Tests-Broken-Link-Checker-chromium\\trace.zip"
                         }
-                      ]
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\utils\\brokenLinkChecker.ts",
+                        "column": 58,
+                        "line": 16
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
-              "id": "23e325aee696e2bb37b0-10ec667214366bf23fd8",
+              "id": "23e325aee696e2bb37b0-3c4ed0af0b3184d97122",
               "file": "ui/tests/searchPageTests.spec.ts",
               "line": 12,
               "column": 5
@@ -992,9 +518,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-03-20T21:04:27.300Z",
-    "duration": 19811.42799999984,
-    "expected": 17,
+    "startTime": "2025-03-21T01:42:10.490Z",
+    "duration": 24802.138000000035,
+    "expected": 0,
     "skipped": 0,
     "unexpected": 1,
     "flaky": 0
