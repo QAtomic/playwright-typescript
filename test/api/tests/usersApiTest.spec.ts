@@ -20,8 +20,6 @@ test.describe.parallel("API : Users", () => {
 
         const responseBody = JSON.parse(await response.text());
 
-        //console.log(responseBody);
-
         expect(responseBody.data.id).toBe(2);
         expect(responseBody.data.first_name).toBe("Janet");
         expect(responseBody.data.last_name).toBe("Weaver");

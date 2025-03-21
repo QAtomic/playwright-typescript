@@ -1,7 +1,7 @@
 {
   "config": {
-    "configFile": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\playwright.config.ts",
-    "rootDir": "C:/Users/Drew/Documents/VScode-workspace/playwright-infrastructure/test",
+    "configFile": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\playwright.config.ts",
+    "rootDir": "C:/Users/Drew/Documents/VScode-workspace/playwright-typescript/test",
     "forbidOnly": false,
     "fullyParallel": true,
     "globalSetup": null,
@@ -32,7 +32,7 @@
         null
       ],
       [
-        "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
+        "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
         {
           "resultsDir": "./test/reports/allureReport"
         }
@@ -45,7 +45,7 @@
     "quiet": false,
     "projects": [
       {
-        "outputDir": "C:/Users/Drew/Documents/VScode-workspace/playwright-infrastructure/test-results",
+        "outputDir": "C:/Users/Drew/Documents/VScode-workspace/playwright-typescript/test-results",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -53,7 +53,7 @@
         },
         "id": "chromium",
         "name": "chromium",
-        "testDir": "C:/Users/Drew/Documents/VScode-workspace/playwright-infrastructure/test",
+        "testDir": "C:/Users/Drew/Documents/VScode-workspace/playwright-typescript/test",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -70,15 +70,15 @@
   },
   "suites": [
     {
-      "title": "api\\tests\\login.spec.ts",
-      "file": "api/tests/login.spec.ts",
+      "title": "api\\tests\\loginApiTest.spec.ts",
+      "file": "api/tests/loginApiTest.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
           "title": "API : Login",
-          "file": "api/tests/login.spec.ts",
+          "file": "api/tests/loginApiTest.spec.ts",
           "line": 4,
           "column": 15,
           "specs": [
@@ -95,20 +95,20 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 29,
+                      "workerIndex": 4,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 402,
+                      "duration": 443,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-21T10:48:46.985Z",
+                      "startTime": "2025-03-21T16:57:40.978Z",
                       "attachments": [
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\api-tests-login-API-Login-Valid-Login-chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\api-tests-loginApiTest-API-Login-Valid-Login-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -116,8 +116,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "bed619298dda8fc93cc8-2552cbdc2713a4e2197f",
-              "file": "api/tests/login.spec.ts",
+              "id": "b46444c75a7ac1ec147b-d8e9fc8b5e56eb9b824d",
+              "file": "api/tests/loginApiTest.spec.ts",
               "line": 8,
               "column": 5
             },
@@ -134,20 +134,20 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 30,
+                      "workerIndex": 5,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 413,
+                      "duration": 498,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-21T10:48:46.986Z",
+                      "startTime": "2025-03-21T16:57:40.971Z",
                       "attachments": [
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\api-tests-login-API-Login-Invalid-Login-chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\api-tests-loginApiTest-API-Login-Invalid-Login-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -155,8 +155,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "bed619298dda8fc93cc8-f480e484fac243d78481",
-              "file": "api/tests/login.spec.ts",
+              "id": "b46444c75a7ac1ec147b-7b74a91172d95186f334",
+              "file": "api/tests/loginApiTest.spec.ts",
               "line": 26,
               "column": 5
             }
@@ -165,15 +165,149 @@
       ]
     },
     {
-      "title": "api\\tests\\users.spec.ts",
-      "file": "api/tests/users.spec.ts",
+      "title": "api\\tests\\unknownApiTest.spec.ts",
+      "file": "api/tests/unknownApiTest.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "API : Unknown",
+          "file": "api/tests/unknownApiTest.spec.ts",
+          "line": 6,
+          "column": 15,
+          "specs": [
+            {
+              "title": "Unknown Schema Validation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 347,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-03-21T16:57:41.109Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\api-tests-unknownApiTest-A-d5c84-n-Unknown-Schema-Validation-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "788a7a975518f6fa233a-2c2822f490996fc115a2",
+              "file": "api/tests/unknownApiTest.spec.ts",
+              "line": 10,
+              "column": 5
+            },
+            {
+              "title": "Get Single Resource",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 290,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-03-21T16:57:41.125Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\api-tests-unknownApiTest-API-Unknown-Get-Single-Resource-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "788a7a975518f6fa233a-b48f4ee582b250a77b59",
+              "file": "api/tests/unknownApiTest.spec.ts",
+              "line": 17,
+              "column": 5
+            },
+            {
+              "title": "Single Resource Not Found",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 268,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-03-21T16:57:41.124Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\api-tests-unknownApiTest-A-d0945-n-Single-Resource-Not-Found-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "788a7a975518f6fa233a-e7e5813802daddd389ef",
+              "file": "api/tests/unknownApiTest.spec.ts",
+              "line": 30,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "api\\tests\\usersApiTest.spec.ts",
+      "file": "api/tests/usersApiTest.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
           "title": "API : Users",
-          "file": "api/tests/users.spec.ts",
+          "file": "api/tests/usersApiTest.spec.ts",
           "line": 5,
           "column": 15,
           "specs": [
@@ -190,20 +324,20 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 31,
-                      "parallelIndex": 2,
+                      "workerIndex": 9,
+                      "parallelIndex": 5,
                       "status": "passed",
-                      "duration": 366,
+                      "duration": 379,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-21T10:48:47.149Z",
+                      "startTime": "2025-03-21T16:57:41.159Z",
                       "attachments": [
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\api-tests-users-API-Users-Users-Schema-Validation-chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\api-tests-usersApiTest-API-Users-Users-Schema-Validation-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -211,8 +345,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "3def830b4e9a106941f3-546696dcf8ddab5d68e3",
-              "file": "api/tests/users.spec.ts",
+              "id": "2045b9edd120eb4d700f-b7be70f0e965318636e6",
+              "file": "api/tests/usersApiTest.spec.ts",
               "line": 9,
               "column": 5
             },
@@ -229,20 +363,20 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 32,
-                      "parallelIndex": 3,
+                      "workerIndex": 8,
+                      "parallelIndex": 4,
                       "status": "passed",
-                      "duration": 290,
+                      "duration": 128,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-21T10:48:47.154Z",
+                      "startTime": "2025-03-21T16:57:41.510Z",
                       "attachments": [
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\api-tests-users-API-Users-Get-User-Two-chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\api-tests-usersApiTest-API-Users-Get-User-Two-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -250,8 +384,8 @@
                   "status": "expected"
                 }
               ],
-              "id": "3def830b4e9a106941f3-f66e1cc426545ccaf912",
-              "file": "api/tests/users.spec.ts",
+              "id": "2045b9edd120eb4d700f-c7430db20444c0a61141",
+              "file": "api/tests/usersApiTest.spec.ts",
               "line": 16,
               "column": 5
             },
@@ -268,20 +402,20 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 33,
-                      "parallelIndex": 4,
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 226,
+                      "duration": 258,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-21T10:48:47.223Z",
+                      "startTime": "2025-03-21T16:57:41.700Z",
                       "attachments": [
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\api-tests-users-API-Users-User-Not-Found-chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\api-tests-usersApiTest-API-Users-User-Not-Found-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -289,9 +423,9 @@
                   "status": "expected"
                 }
               ],
-              "id": "3def830b4e9a106941f3-ce40689ee02e09124d2b",
-              "file": "api/tests/users.spec.ts",
-              "line": 33,
+              "id": "2045b9edd120eb4d700f-a55fa88c0ba2ae47bd03",
+              "file": "api/tests/usersApiTest.spec.ts",
+              "line": 31,
               "column": 5
             },
             {
@@ -307,20 +441,20 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 34,
-                      "parallelIndex": 5,
+                      "workerIndex": 7,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 398,
+                      "duration": 237,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-21T10:48:47.189Z",
+                      "startTime": "2025-03-21T16:57:41.544Z",
                       "attachments": [
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\api-tests-users-API-Users-Create-User-chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\api-tests-usersApiTest-API-Users-Create-User-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -328,9 +462,9 @@
                   "status": "expected"
                 }
               ],
-              "id": "3def830b4e9a106941f3-5bb4f272fd5376dc8da3",
-              "file": "api/tests/users.spec.ts",
-              "line": 40,
+              "id": "2045b9edd120eb4d700f-ee95e581ae53fe405f47",
+              "file": "api/tests/usersApiTest.spec.ts",
+              "line": 38,
               "column": 5
             },
             {
@@ -346,20 +480,20 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 29,
-                      "parallelIndex": 0,
+                      "workerIndex": 5,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 253,
+                      "duration": 273,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-21T10:48:47.713Z",
+                      "startTime": "2025-03-21T16:57:41.731Z",
                       "attachments": [
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\api-tests-users-API-Users-Update-User-Name-chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\api-tests-usersApiTest-API-Users-Update-User-Name-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -367,9 +501,9 @@
                   "status": "expected"
                 }
               ],
-              "id": "3def830b4e9a106941f3-7042d7c372def3755cff",
-              "file": "api/tests/users.spec.ts",
-              "line": 60,
+              "id": "2045b9edd120eb4d700f-84f1a4044ce1ceb35019",
+              "file": "api/tests/usersApiTest.spec.ts",
+              "line": 58,
               "column": 5
             },
             {
@@ -385,20 +519,20 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 30,
-                      "parallelIndex": 1,
+                      "workerIndex": 6,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 288,
+                      "duration": 241,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-21T10:48:47.779Z",
+                      "startTime": "2025-03-21T16:57:41.603Z",
                       "attachments": [
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\api-tests-users-API-Users-Update-User-Job-chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\api-tests-usersApiTest-API-Users-Update-User-Job-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -406,9 +540,9 @@
                   "status": "expected"
                 }
               ],
-              "id": "3def830b4e9a106941f3-d0782af65a3d7b0d77a8",
-              "file": "api/tests/users.spec.ts",
-              "line": 78,
+              "id": "2045b9edd120eb4d700f-9e715b9bb9b3a47ca324",
+              "file": "api/tests/usersApiTest.spec.ts",
+              "line": 76,
               "column": 5
             },
             {
@@ -424,20 +558,20 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 32,
-                      "parallelIndex": 3,
+                      "workerIndex": 9,
+                      "parallelIndex": 5,
                       "status": "passed",
-                      "duration": 263,
+                      "duration": 216,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-21T10:48:47.552Z",
+                      "startTime": "2025-03-21T16:57:41.636Z",
                       "attachments": [
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\api-tests-users-API-Users-Delete-User-chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\api-tests-usersApiTest-API-Users-Delete-User-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -445,9 +579,9 @@
                   "status": "expected"
                 }
               ],
-              "id": "3def830b4e9a106941f3-cd17d60044b7c26ac17d",
-              "file": "api/tests/users.spec.ts",
-              "line": 96,
+              "id": "2045b9edd120eb4d700f-b16d22766981375d3e05",
+              "file": "api/tests/usersApiTest.spec.ts",
+              "line": 94,
               "column": 5
             }
           ]
@@ -480,20 +614,20 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 33,
+                      "workerIndex": 8,
                       "parallelIndex": 4,
                       "status": "passed",
-                      "duration": 7,
+                      "duration": 5,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-21T10:48:47.576Z",
+                      "startTime": "2025-03-21T16:57:41.694Z",
                       "attachments": [
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\functional-tests-sumFuncti-b5a64-Sum-Function-Two-Plus-Three-chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\functional-tests-sumFuncti-b5a64-Sum-Function-Two-Plus-Three-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -519,20 +653,20 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 31,
-                      "parallelIndex": 2,
+                      "workerIndex": 8,
+                      "parallelIndex": 4,
                       "status": "passed",
-                      "duration": 6,
+                      "duration": 4,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-21T10:48:47.642Z",
+                      "startTime": "2025-03-21T16:57:41.731Z",
                       "attachments": [
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\functional-tests-sumFuncti-a615f-Sum-Function-Four-Plus-Five-chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\functional-tests-sumFuncti-a615f-Sum-Function-Four-Plus-Five-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -558,13 +692,13 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 33,
+                      "workerIndex": 8,
                       "parallelIndex": 4,
                       "status": "failed",
-                      "duration": 9,
+                      "duration": 7,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m12\u001b[39m\nReceived: \u001b[31m13\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m12\u001b[39m\nReceived: \u001b[31m13\u001b[39m\n    at C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\functional\\tests\\sumFunction.spec.ts:10:47",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m12\u001b[39m\nReceived: \u001b[31m13\u001b[39m\n    at C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\functional\\tests\\sumFunction.spec.ts:10:47",
                         "matcherResult": {
                           "actual": 13,
                           "expected": 12,
@@ -573,7 +707,7 @@
                           "pass": false
                         },
                         "location": {
-                          "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\functional\\tests\\sumFunction.spec.ts",
+                          "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\functional\\tests\\sumFunction.spec.ts",
                           "column": 47,
                           "line": 10
                         },
@@ -582,31 +716,31 @@
                       "errors": [
                         {
                           "location": {
-                            "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\functional\\tests\\sumFunction.spec.ts",
+                            "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\functional\\tests\\sumFunction.spec.ts",
                             "column": 47,
                             "line": 10
                           },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m12\u001b[39m\nReceived: \u001b[31m13\u001b[39m\n\n\u001b[0m \u001b[90m  8 |\u001b[39m     sumTestData\u001b[33m.\u001b[39mforEach(sumTest \u001b[33m=>\u001b[39m {\n \u001b[90m  9 |\u001b[39m         test(sumTest\u001b[33m.\u001b[39mtestName\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 |\u001b[39m             expect(sum(sumTest\u001b[33m.\u001b[39ma\u001b[33m,\u001b[39m sumTest\u001b[33m.\u001b[39mb))\u001b[33m.\u001b[39mtoBe(sumTest\u001b[33m.\u001b[39mresult)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 11 |\u001b[39m         })\u001b[33m;\u001b[39m\n \u001b[90m 12 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 13 |\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\functional\\tests\\sumFunction.spec.ts:10:47\u001b[22m"
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m12\u001b[39m\nReceived: \u001b[31m13\u001b[39m\n\n\u001b[0m \u001b[90m  8 |\u001b[39m     sumTestData\u001b[33m.\u001b[39mforEach(sumTest \u001b[33m=>\u001b[39m {\n \u001b[90m  9 |\u001b[39m         test(sumTest\u001b[33m.\u001b[39mtestName\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 |\u001b[39m             expect(sum(sumTest\u001b[33m.\u001b[39ma\u001b[33m,\u001b[39m sumTest\u001b[33m.\u001b[39mb))\u001b[33m.\u001b[39mtoBe(sumTest\u001b[33m.\u001b[39mresult)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 11 |\u001b[39m         })\u001b[33m;\u001b[39m\n \u001b[90m 12 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 13 |\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\functional\\tests\\sumFunction.spec.ts:10:47\u001b[22m"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-21T10:48:47.630Z",
+                      "startTime": "2025-03-21T16:57:41.768Z",
                       "attachments": [
                         {
                           "name": "_prompt-0",
                           "contentType": "text/markdown",
-                          "body": "IyBJbnN0cnVjdGlvbnMKCi0gRm9sbG93aW5nIFBsYXl3cmlnaHQgdGVzdCBmYWlsZWQuCi0gRXhwbGFpbiB3aHksIGJlIGNvbmNpc2UsIHJlc3BlY3QgUGxheXdyaWdodCBiZXN0IHByYWN0aWNlcy4KLSBQcm92aWRlIGEgc25pcHBldCBvZiBjb2RlIHdpdGggdGhlIGZpeCwgaWYgcG9zc2libGUuCgojIFRlc3QgaW5mbwoKLSBOYW1lOiBUZXN0IFN1bSBGdW5jdGlvbiA+PiBTaXggUGx1cyBTZXZlbiAoRm9yY2VkIEVycm9yKQotIExvY2F0aW9uOiBDOlxVc2Vyc1xEcmV3XERvY3VtZW50c1xWU2NvZGUtd29ya3NwYWNlXHBsYXl3cmlnaHQtaW5mcmFzdHJ1Y3R1cmVcdGVzdFxmdW5jdGlvbmFsXHRlc3RzXHN1bUZ1bmN0aW9uLnNwZWMudHM6OTo5CgojIEVycm9yIGRldGFpbHMKCmBgYApFcnJvcjogZXhwZWN0KHJlY2VpdmVkKS50b0JlKGV4cGVjdGVkKSAvLyBPYmplY3QuaXMgZXF1YWxpdHkKCkV4cGVjdGVkOiAxMgpSZWNlaXZlZDogMTMKICAgIGF0IEM6XFVzZXJzXERyZXdcRG9jdW1lbnRzXFZTY29kZS13b3Jrc3BhY2VccGxheXdyaWdodC1pbmZyYXN0cnVjdHVyZVx0ZXN0XGZ1bmN0aW9uYWxcdGVzdHNcc3VtRnVuY3Rpb24uc3BlYy50czoxMDo0NwpgYGAKCiMgVGVzdCBzb3VyY2UKCmBgYHRzCiAgIDEgfCBpbXBvcnQgeyB0ZXN0LCBleHBlY3QgfSBmcm9tICdAcGxheXdyaWdodC90ZXN0JzsKICAgMiB8IGltcG9ydCB7IHN1bSB9IGZyb20gIi4uLy4uLy4uL3NyYy9mdW5jdGlvbnMvc3VtLmpzIjsKICAgMyB8IGltcG9ydCB7IHN1bURhdGEgfSBmcm9tICIuLi9kYXRhL3N1bURhdGEuanMiOwogICA0IHwKICAgNSB8IHRlc3QuZGVzY3JpYmUoIlRlc3QgU3VtIEZ1bmN0aW9uIiwgKCkgPT4gewogICA2IHwgICAgIGxldCBzdW1UZXN0RGF0YSA9IHN1bURhdGE7CiAgIDcgfCAgICAgCiAgIDggfCAgICAgc3VtVGVzdERhdGEuZm9yRWFjaChzdW1UZXN0ID0+IHsKICAgOSB8ICAgICAgICAgdGVzdChzdW1UZXN0LnRlc3ROYW1lLCAoKSA9PiB7Cj4gMTAgfCAgICAgICAgICAgICBleHBlY3Qoc3VtKHN1bVRlc3QuYSwgc3VtVGVzdC5iKSkudG9CZShzdW1UZXN0LnJlc3VsdCk7CiAgICAgfCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXiBFcnJvcjogZXhwZWN0KHJlY2VpdmVkKS50b0JlKGV4cGVjdGVkKSAvLyBPYmplY3QuaXMgZXF1YWxpdHkKICAxMSB8ICAgICAgICAgfSk7CiAgMTIgfCAgICAgfSk7CiAgMTMgfAogIDE0IHwgfSk7CmBgYA=="
+                          "body": "IyBJbnN0cnVjdGlvbnMKCi0gRm9sbG93aW5nIFBsYXl3cmlnaHQgdGVzdCBmYWlsZWQuCi0gRXhwbGFpbiB3aHksIGJlIGNvbmNpc2UsIHJlc3BlY3QgUGxheXdyaWdodCBiZXN0IHByYWN0aWNlcy4KLSBQcm92aWRlIGEgc25pcHBldCBvZiBjb2RlIHdpdGggdGhlIGZpeCwgaWYgcG9zc2libGUuCgojIFRlc3QgaW5mbwoKLSBOYW1lOiBUZXN0IFN1bSBGdW5jdGlvbiA+PiBTaXggUGx1cyBTZXZlbiAoRm9yY2VkIEVycm9yKQotIExvY2F0aW9uOiBDOlxVc2Vyc1xEcmV3XERvY3VtZW50c1xWU2NvZGUtd29ya3NwYWNlXHBsYXl3cmlnaHQtdHlwZXNjcmlwdFx0ZXN0XGZ1bmN0aW9uYWxcdGVzdHNcc3VtRnVuY3Rpb24uc3BlYy50czo5OjkKCiMgRXJyb3IgZGV0YWlscwoKYGBgCkVycm9yOiBleHBlY3QocmVjZWl2ZWQpLnRvQmUoZXhwZWN0ZWQpIC8vIE9iamVjdC5pcyBlcXVhbGl0eQoKRXhwZWN0ZWQ6IDEyClJlY2VpdmVkOiAxMwogICAgYXQgQzpcVXNlcnNcRHJld1xEb2N1bWVudHNcVlNjb2RlLXdvcmtzcGFjZVxwbGF5d3JpZ2h0LXR5cGVzY3JpcHRcdGVzdFxmdW5jdGlvbmFsXHRlc3RzXHN1bUZ1bmN0aW9uLnNwZWMudHM6MTA6NDcKYGBgCgojIFRlc3Qgc291cmNlCgpgYGB0cwogICAxIHwgaW1wb3J0IHsgdGVzdCwgZXhwZWN0IH0gZnJvbSAnQHBsYXl3cmlnaHQvdGVzdCc7CiAgIDIgfCBpbXBvcnQgeyBzdW0gfSBmcm9tICIuLi8uLi8uLi9zcmMvZnVuY3Rpb25zL3N1bS5qcyI7CiAgIDMgfCBpbXBvcnQgeyBzdW1EYXRhIH0gZnJvbSAiLi4vZGF0YS9zdW1EYXRhLmpzIjsKICAgNCB8CiAgIDUgfCB0ZXN0LmRlc2NyaWJlKCJUZXN0IFN1bSBGdW5jdGlvbiIsICgpID0+IHsKICAgNiB8ICAgICBsZXQgc3VtVGVzdERhdGEgPSBzdW1EYXRhOwogICA3IHwgICAgIAogICA4IHwgICAgIHN1bVRlc3REYXRhLmZvckVhY2goc3VtVGVzdCA9PiB7CiAgIDkgfCAgICAgICAgIHRlc3Qoc3VtVGVzdC50ZXN0TmFtZSwgKCkgPT4gewo+IDEwIHwgICAgICAgICAgICAgZXhwZWN0KHN1bShzdW1UZXN0LmEsIHN1bVRlc3QuYikpLnRvQmUoc3VtVGVzdC5yZXN1bHQpOwogICAgIHwgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF4gRXJyb3I6IGV4cGVjdChyZWNlaXZlZCkudG9CZShleHBlY3RlZCkgLy8gT2JqZWN0LmlzIGVxdWFsaXR5CiAgMTEgfCAgICAgICAgIH0pOwogIDEyIHwgICAgIH0pOwogIDEzIHwKICAxNCB8IH0pOwpgYGA="
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\functional-tests-sumFuncti-6fc45-ix-Plus-Seven-Forced-Error--chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\functional-tests-sumFuncti-6fc45-ix-Plus-Seven-Forced-Error--chromium\\trace.zip"
                         }
                       ],
                       "errorLocation": {
-                        "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\functional\\tests\\sumFunction.spec.ts",
+                        "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\functional\\tests\\sumFunction.spec.ts",
                         "column": 47,
                         "line": 10
                       }
@@ -650,25 +784,25 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 35,
+                      "workerIndex": 10,
                       "parallelIndex": 4,
                       "status": "passed",
-                      "duration": 13481,
+                      "duration": 17743,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-21T10:48:54.093Z",
+                      "startTime": "2025-03-21T16:57:43.495Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-contactUsPageTests-Contact-Us-Page-Tests-Form-Steve-chromium\\test-finished-1.png"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\ui-tests-contactUsPageTests-Contact-Us-Page-Tests-Form-Steve-chromium\\test-finished-1.png"
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-contactUsPageTests-Contact-Us-Page-Tests-Form-Steve-chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\ui-tests-contactUsPageTests-Contact-Us-Page-Tests-Form-Steve-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -694,25 +828,25 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 34,
-                      "parallelIndex": 5,
+                      "workerIndex": 7,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 17049,
+                      "duration": 19399,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-21T10:48:47.786Z",
+                      "startTime": "2025-03-21T16:57:41.872Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-contactUsPageTests-Contact-Us-Page-Tests-Form-Mike-chromium\\test-finished-1.png"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\ui-tests-contactUsPageTests-Contact-Us-Page-Tests-Form-Mike-chromium\\test-finished-1.png"
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-contactUsPageTests-Contact-Us-Page-Tests-Form-Mike-chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\ui-tests-contactUsPageTests-Contact-Us-Page-Tests-Form-Mike-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -755,19 +889,19 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 31,
+                      "workerIndex": 6,
                       "parallelIndex": 2,
                       "status": "failed",
-                      "duration": 58313,
+                      "duration": 58998,
                       "error": {
                         "message": "Error: null is not a valid href\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m",
-                        "stack": "Error: null is not a valid href\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n    at reduce (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\utils\\brokenLinkChecker.ts:16:58)\n    at brokenLinkChecker (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\utils\\brokenLinkChecker.ts:15:36)\n    at HomePage.checkForBrokenLinks (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\pages\\homePage.ts:26:9)\n    at C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\tests\\homePageTests.spec.ts:25:9",
+                        "stack": "Error: null is not a valid href\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n    at reduce (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\utils\\brokenLinkChecker.ts:16:58)\n    at brokenLinkChecker (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\utils\\brokenLinkChecker.ts:15:36)\n    at HomePage.checkForBrokenLinks (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\pages\\homePage.ts:26:9)\n    at C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\tests\\homePageTests.spec.ts:25:9",
                         "matcherResult": {
                           "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m",
                           "pass": false
                         },
                         "location": {
-                          "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\utils\\brokenLinkChecker.ts",
+                          "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\utils\\brokenLinkChecker.ts",
                           "column": 58,
                           "line": 16
                         },
@@ -776,36 +910,36 @@
                       "errors": [
                         {
                           "location": {
-                            "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\utils\\brokenLinkChecker.ts",
+                            "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\utils\\brokenLinkChecker.ts",
                             "column": 58,
                             "line": 16
                           },
-                          "message": "Error: null is not a valid href\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n\n\u001b[90m   at \u001b[39mui\\utils\\brokenLinkChecker.ts:16\n\n\u001b[0m \u001b[90m 14 |\u001b[39m\n \u001b[90m 15 |\u001b[39m     \u001b[36mconst\u001b[39m allValidHrefs \u001b[33m=\u001b[39m allHrefs\u001b[33m.\u001b[39mreduce((links\u001b[33m,\u001b[39m link) \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 16 |\u001b[39m         expect\u001b[33m.\u001b[39msoft(link\u001b[33m,\u001b[39m \u001b[32m`${link} is not a valid href`\u001b[39m)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 17 |\u001b[39m         \u001b[36mif\u001b[39m (link \u001b[33m&&\u001b[39m \u001b[33m!\u001b[39mlink\u001b[33m?\u001b[39m\u001b[33m.\u001b[39mstartsWith(\u001b[32m\"mailto\"\u001b[39m)) {\n \u001b[90m 18 |\u001b[39m             \u001b[36mif\u001b[39m (link\u001b[33m.\u001b[39mcharAt(\u001b[35m0\u001b[39m) \u001b[33m===\u001b[39m \u001b[32m\"/\"\u001b[39m \u001b[33m||\u001b[39m link\u001b[33m.\u001b[39mcharAt(\u001b[35m0\u001b[39m) \u001b[33m===\u001b[39m \u001b[32m\"#\"\u001b[39m) link \u001b[33m=\u001b[39m baseURL \u001b[33m+\u001b[39m link\u001b[33m;\u001b[39m\n \u001b[90m 19 |\u001b[39m             \u001b[36mif\u001b[39m (link\u001b[33m.\u001b[39mincludes(baseURL)) links\u001b[33m.\u001b[39madd(link)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at reduce (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\utils\\brokenLinkChecker.ts:16:58)\u001b[22m\n\u001b[2m    at brokenLinkChecker (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\utils\\brokenLinkChecker.ts:15:36)\u001b[22m\n\u001b[2m    at HomePage.checkForBrokenLinks (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\pages\\homePage.ts:26:9)\u001b[22m\n\u001b[2m    at C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\tests\\homePageTests.spec.ts:25:9\u001b[22m"
+                          "message": "Error: null is not a valid href\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n\n\u001b[90m   at \u001b[39mui\\utils\\brokenLinkChecker.ts:16\n\n\u001b[0m \u001b[90m 14 |\u001b[39m\n \u001b[90m 15 |\u001b[39m     \u001b[36mconst\u001b[39m allValidHrefs \u001b[33m=\u001b[39m allHrefs\u001b[33m.\u001b[39mreduce((links\u001b[33m,\u001b[39m link) \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 16 |\u001b[39m         expect\u001b[33m.\u001b[39msoft(link\u001b[33m,\u001b[39m \u001b[32m`${link} is not a valid href`\u001b[39m)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 17 |\u001b[39m         \u001b[36mif\u001b[39m (link \u001b[33m&&\u001b[39m \u001b[33m!\u001b[39mlink\u001b[33m?\u001b[39m\u001b[33m.\u001b[39mstartsWith(\u001b[32m\"mailto\"\u001b[39m)) {\n \u001b[90m 18 |\u001b[39m             \u001b[36mif\u001b[39m (link\u001b[33m.\u001b[39mcharAt(\u001b[35m0\u001b[39m) \u001b[33m===\u001b[39m \u001b[32m\"/\"\u001b[39m \u001b[33m||\u001b[39m link\u001b[33m.\u001b[39mcharAt(\u001b[35m0\u001b[39m) \u001b[33m===\u001b[39m \u001b[32m\"#\"\u001b[39m) link \u001b[33m=\u001b[39m baseURL \u001b[33m+\u001b[39m link\u001b[33m;\u001b[39m\n \u001b[90m 19 |\u001b[39m             \u001b[36mif\u001b[39m (link\u001b[33m.\u001b[39mincludes(baseURL)) links\u001b[33m.\u001b[39madd(link)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at reduce (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\utils\\brokenLinkChecker.ts:16:58)\u001b[22m\n\u001b[2m    at brokenLinkChecker (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\utils\\brokenLinkChecker.ts:15:36)\u001b[22m\n\u001b[2m    at HomePage.checkForBrokenLinks (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\pages\\homePage.ts:26:9)\u001b[22m\n\u001b[2m    at C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\tests\\homePageTests.spec.ts:25:9\u001b[22m"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-21T10:48:47.837Z",
+                      "startTime": "2025-03-21T16:57:41.954Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-homePageTests-Home-Page-Tests-Broken-Link-Checker-chromium\\test-failed-1.png"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\ui-tests-homePageTests-Home-Page-Tests-Broken-Link-Checker-chromium\\test-failed-1.png"
                         },
                         {
                           "name": "_prompt-0",
                           "contentType": "text/markdown",
-                          "body": "IyBJbnN0cnVjdGlvbnMKCi0gRm9sbG93aW5nIFBsYXl3cmlnaHQgdGVzdCBmYWlsZWQuCi0gRXhwbGFpbiB3aHksIGJlIGNvbmNpc2UsIHJlc3BlY3QgUGxheXdyaWdodCBiZXN0IHByYWN0aWNlcy4KLSBQcm92aWRlIGEgc25pcHBldCBvZiBjb2RlIHdpdGggdGhlIGZpeCwgaWYgcG9zc2libGUuCgojIFRlc3QgaW5mbwoKLSBOYW1lOiBIb21lIFBhZ2UgVGVzdHMgPj4gQnJva2VuIExpbmsgQ2hlY2tlcgotIExvY2F0aW9uOiBDOlxVc2Vyc1xEcmV3XERvY3VtZW50c1xWU2NvZGUtd29ya3NwYWNlXHBsYXl3cmlnaHQtaW5mcmFzdHJ1Y3R1cmVcdGVzdFx1aVx0ZXN0c1xob21lUGFnZVRlc3RzLnNwZWMudHM6MjM6NQoKIyBFcnJvciBkZXRhaWxzCgpgYGAKRXJyb3I6IG51bGwgaXMgbm90IGEgdmFsaWQgaHJlZgoKZXhwZWN0KHJlY2VpdmVkKS50b0JlVHJ1dGh5KCkKClJlY2VpdmVkOiBudWxsCiAgICBhdCByZWR1Y2UgKEM6XFVzZXJzXERyZXdcRG9jdW1lbnRzXFZTY29kZS13b3Jrc3BhY2VccGxheXdyaWdodC1pbmZyYXN0cnVjdHVyZVx0ZXN0XHVpXHV0aWxzXGJyb2tlbkxpbmtDaGVja2VyLnRzOjE2OjU4KQogICAgYXQgYnJva2VuTGlua0NoZWNrZXIgKEM6XFVzZXJzXERyZXdcRG9jdW1lbnRzXFZTY29kZS13b3Jrc3BhY2VccGxheXdyaWdodC1pbmZyYXN0cnVjdHVyZVx0ZXN0XHVpXHV0aWxzXGJyb2tlbkxpbmtDaGVja2VyLnRzOjE1OjM2KQogICAgYXQgSG9tZVBhZ2UuY2hlY2tGb3JCcm9rZW5MaW5rcyAoQzpcVXNlcnNcRHJld1xEb2N1bWVudHNcVlNjb2RlLXdvcmtzcGFjZVxwbGF5d3JpZ2h0LWluZnJhc3RydWN0dXJlXHRlc3RcdWlccGFnZXNcaG9tZVBhZ2UudHM6MjY6OSkKICAgIGF0IEM6XFVzZXJzXERyZXdcRG9jdW1lbnRzXFZTY29kZS13b3Jrc3BhY2VccGxheXdyaWdodC1pbmZyYXN0cnVjdHVyZVx0ZXN0XHVpXHRlc3RzXGhvbWVQYWdlVGVzdHMuc3BlYy50czoyNTo5CmBgYAoKIyBQYWdlIHNuYXBzaG90CgpgYGB5YW1sCi0gbmF2aWdhdGlvbjoKICAtIGZpZ3VyZToKICAgIC0gbGluayAic2tpcCBuYXZpZ2F0aW9uIgogICAgLSBsaW5rICJHbyB0byBIb21lcGFnZSI6CiAgICAgIC0gaW1nCiAgLSBsaXN0OgogICAgLSBsaXN0aXRlbToKICAgICAgLSBidXR0b24gIlByb2R1Y3QgTmF2aWdhdGlvbiI6IEFsbCBQcm9kdWN0cwogIC0gbGlzdDoKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiRGVtb3MiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlNlcnZpY2VzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJCbG9ncyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiRG9jcyAmIFN1cHBvcnQiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlByaWNpbmciCiAgLSBsaXN0OgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJTZWFyY2giOgogICAgICAgIC0gaW1nCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlNob3BwaW5nIGNhcnQiOgogICAgICAgIC0gaW1nCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIllvdXIgQWNjb3VudCI6CiAgICAgICAgLSBpbWcKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiQ29udGFjdCBVcyI6CiAgICAgICAgLSBpbWcKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiR2V0IEEgRnJlZSBUcmlhbCIKLSBpbWcgIkhlcm8gQmFubmVyIEhvbWUgUGFnZSIKLSBoZWFkaW5nICJNb2Rlcm4gVUkgTWFkZSBFYXN5IiBbbGV2ZWw9MV0KLSB0ZXh0OiBCdWlsZCBmZWF0dXJlLXJpY2gsIG1vZGVybiBleHBlcmllbmNlcyBmb3IgV2ViLCBDcm9zcy1QbGF0Zm9ybSwgTW9iaWxlIGFuZCBEZXNrdG9wLCBmYXN0ZXIgdGhhbiBldmVyIHdpdGggVGVsZXJpayBhbmQgS2VuZG8gVUkgY29tcG9uZW50cy4KLSBsaW5rICJEb3dubG9hZCBEZXZDcmFmdCBUcmlhbCIKLSBwYXJhZ3JhcGg6IERldkNyYWZ0IGluY2x1ZGVzIGFsbCBUZWxlcmlrIC5ORVQgYW5kIEtlbmRvIFVJIEphdmFTY3JpcHQgY29tcG9uZW50cywgRW1iZWRkZWQgUmVwb3J0aW5nIGFuZCBwcm9kdWN0aXZpdHkgdG9vbHMuCi0gaGVhZGluZyAiVUkgQ29tcG9uZW50cyIgW2xldmVsPTJdCi0gYnV0dG9uICJleHBhbmQgV2ViIENvbXBvbmVudHMiOgogIC0gaW1nICJXZWIgY29tcG9uZW50cyBzbWFsbCBpbWFnZSIKICAtIGhlYWRpbmcgIldlYiBDb21wb25lbnRzIiBbbGV2ZWw9M10KICAtIGltZyAiTmluamEgYW5kIEtlbmRva2EgV2ViIENvbXBvbmVudHMiCi0gYnV0dG9uICJleHBhbmQgRGVza3RvcCBDb21wb25lbnRzIjoKICAtIGltZyAiRGVza3RvcCBDb21wb25lbnRzIHNtYWxsIEltYWdlIgogIC0gaGVhZGluZyAiRGVza3RvcCBDb21wb25lbnRzIiBbbGV2ZWw9M10KICAtIGltZyAiTmluamEgRGVza3RvcCBDb21wb25lbnRzIgotIGJ1dHRvbiAiZXhwYW5kIE1vYmlsZSBDb21wb25lbnRzIjoKICAtIGltZyAiTW9iaWxlIENvbXBvbmVudHMgc21hbGwgaW1hZ2UiCiAgLSBoZWFkaW5nICJNb2JpbGUgQ29tcG9uZW50cyIgW2xldmVsPTNdCiAgLSBpbWcgIk5pbmphIE1vYmlsZSBDb21wb25lbnRzIERlc2t0b3AiCi0gaGVhZGluZyAiRGV2ZWxvcGVyIFNvbHV0aW9ucyIgW2xldmVsPTJdCi0gYnV0dG9uICJleHBhbmQgUmVwb3J0aW5nICYgRGFzaGJvYXJkcyI6CiAgLSBpbWcgIlJlcG9ydGluZyAmIERhc2hib2FyZHMgc21hbGwgaW1hZ2UiCiAgLSBoZWFkaW5nICJSZXBvcnRpbmcgJiBEYXNoYm9hcmRzIiBbbGV2ZWw9M10KICAtIGltZyAiTmluamEgUmVwb3J0aW5nICYgRGFzaGJvYXJkcyIKLSBidXR0b24gImV4cGFuZCBUZXN0aW5nICYgRGVidWdnaW5nIjoKICAtIGltZyAiVGVzdGluZyAmIERlYnVnZ2luZyBzbWFsbCBpbWFnZSIKICAtIGhlYWRpbmcgIlRlc3RpbmcgJiBEZWJ1Z2dpbmciIFtsZXZlbD0zXQogIC0gaW1nICJUZXN0aW5nICYgRGVidWdnaW5nIGNvbGxhcHNlZCIKLSBidXR0b24gImV4cGFuZCBVSS9VWCBUb29scyI6CiAgLSBpbWcgIlVJL1VYIFRvb2xzIHNtYWxsIEltYWdlIgogIC0gaGVhZGluZyAiVUkvVVggVG9vbHMiIFtsZXZlbD0zXQogIC0gaW1nICJVSS9VWCBUb29scyBjb2xsYXBzZWQgaW1hZ2UiCi0gaGVhZGluZyAiUHJvZHVjdCBCdW5kbGVzIiBbbGV2ZWw9Ml0KLSBpbWcgIkRldkNyYWZ0IEJ1bmRsZSIKLSBoZWFkaW5nICJUZWxlcmlrwq4gRGV2Q3JhZnQiIFtsZXZlbD0zXQotIHBhcmFncmFwaDogLk5FVCBjb250cm9scywgS2VuZG8gVUkgSmF2YVNjcmlwdCBjb21wb25lbnRzLCBlbWJlZGRlZCByZXBvcnRpbmcsIGF1dG9tYXRlZCB0ZXN0aW5nIGFuZCBwcm9kdWN0aXZpdHkgdG9vbHMuCi0gbGluayAiTW9yZSBhYm91dCBEZXZDcmFmdCIKLSBpbWcgIktlbmRvIFVJIgotIGhlYWRpbmcgIktlbmRvIFVJwq4iIFtsZXZlbD0zXQotIHBhcmFncmFwaDogVUkgY29tcG9uZW50cyBmb3IgSmF2YVNjcmlwdCBmcmFtZXdvcmtzIGluY2x1ZGluZyBqUXVlcnksIEFuZ3VsYXIsIFJlYWN0LCBhbmQgVnVlLgotIGxpbmsgIk1vcmUgYWJvdXQgS2VuZG8gVUkiCi0gdGV4dDogTGF0ZXN0IE5ld3MgVGhlIFN0YXRlIG9mIERlc2lnbmVyLURldmVsb3BlciBDb2xsYWJvcmF0aW9uIDIwMjQgU3VydmV5IFJlcG9ydCBpcyBvdXQhIFRoaXMgZ2xvYmFsIHN1cnZleSBzaGVkcyBsaWdodCBvbiB0aGUgd2F5IGRlc2lnbmVycyBhbmQgZGV2ZWxvcGVycyB3b3JrIHRvZ2V0aGVyIGluIHRoZSBjb250ZXh0IG9mIHdlYiBkZXZlbG9wbWVudCwgYW5kIHRoZSByb2xlIGRlc2lnbiBzeXN0ZW1zIGhhdmUgaW4gdGhpcyBjb2xsYWJvcmF0aW9uLgotIGxpbmsgIkNoZWNrIG91dCB0aGUgcmVzdWx0cyIKLSB0ZXh0OiAiISIKLSBsaW5rICJzZWxlY3RlZCIKLSBsaW5rICJHbyB0byBzbGlkZSAyIgotIHRleHQ6IO6YhCDumIYKLSBsaXN0OgogIC0gbGlzdGl0ZW06IEZlYXR1cmUtcmljaCBVSSBjb21wb25lbnRzIGZvciBhbGwgLk5FVCBhbmQgSmF2YVNjcmlwdCBmcmFtZXdvcmtzCi0gbGlzdDoKICAtIGxpc3RpdGVtOiBQcm9mZXNzaW9uYWxseSBkZXNpZ25lZCBjb21wb25lbnRzIGFuZCB0aGVtZXMgZm9yIGJlYXV0aWZ1bCwgZW5nYWdpbmcgYW5kIGFsd2F5cyBtb2Rlcm4gYXBwcwotIGxpc3Q6CiAgLSBsaXN0aXRlbTogSW5kdXN0cnkgbGVhZGluZyBzdXBwb3J0IGRlbGl2ZXJlZCBmcm9tIHRoZSBlbmdpbmVlcnMgd2hvIGJ1aWx0IHRoZSBwcm9kdWN0Ci0gbGlzdDoKICAtIGxpc3RpdGVtOiBPbiBkZW1hbmQgdGVjaG5pY2FsIHByb2R1Y3QgdHJhaW5pbmcKLSBsaXN0OgogIC0gbGlzdGl0ZW06IFBlcmZvcm1hbmNlLCBhY2Nlc3NpYmlsaXR5LCBsb2NhbGl6YXRpb24gYW5kIHNlY3VyaXR5IGd1YXJhbnRlZWQKLSBsaXN0OgogIC0gbGlzdGl0ZW06IENvbnRpbnVvdXMgaW5ub3ZhdGlvbiB0byBjb3ZlciB5b3VyIG5lZWRzIHRvZGF5IGFuZCB0b21vcnJvdwotIGxpbmsgIlNlZSBTdGFuZGFyZGl6YXRpb24gQmVuZWZpdHMiCi0gaW1nICJOYXNhIgotIGltZyAiTWljcm9zb2Z0IgotIGltZyAiRm94IgotIGltZyAiU2Ftc3VuZyIKLSBpbWcgIklCTSIKLSBpbWcgIldvcmxkIEJhbmsgR3JvdXAiCi0gaW1nICJWb2x2byIKLSBpbWcgInN0b3J5LWRlY29yIgotIGhlYWRpbmcgIllvdXIgU3VjY2VzcyBpcyBPdXIgU3VjY2VzcyIgW2xldmVsPTJdCi0gaGVhZGluZyAiQ2hhbGxlbmdlIiBbbGV2ZWw9M106CiAgLSBidXR0b24gIkNoYWxsZW5nZSIKLSBwYXJhZ3JhcGg6IFRoZSBkZW1hbmQgZm9yIGJldHRlciB1c2VyIGV4cGVyaWVuY2VzIGNvbnRpbnVlcyB0byBncm93LCB3aGlsZSB0aGUgdGltZSB5b3UgaGF2ZSB0byBkZXZlbG9wIGEgaGlnaCBxdWFsaXR5LCBtb2Rlcm4gYW5kIGVuZ2FnaW5nIGFwcGxpY2F0aW9uIGNvbnRpbnVlcyB0byBzaHJpbmsuIFN0b3Agc3dlYXRpbmcgb3ZlciBVSSBhbmQgZm9jdXMgb24gdGhlIHBhcnRzIG9mIHRoZSBhcHBsaWNhdGlvbiB3aGVyZSB5b3UgY2FuIHRydWx5IG1ha2UgYSBkaWZmZXJlbmNlLgotIGhlYWRpbmcgIlBhcnRuZXJzaGlwIGFuZCBDb21tdW5pdHkiIFtsZXZlbD0zXToKICAtIGJ1dHRvbiAiUGFydG5lcnNoaXAgYW5kIENvbW11bml0eSIKLSBwYXJhZ3JhcGg6IExpa2UgeW91LCB3ZSBhcmUgZGV2ZWxvcGVycy4gT3VyIHB1cnBvc2UgaW4gbGlmZSBpcyB0byBtYWtlIGRldmVsb3BlcnMgc3VwZXJoZXJvZXMgYnkgZW5hYmxpbmcgeW91IHRvIGRlbGl2ZXIgbW9yZSB0aGFuIGV4cGVjdGVkLCBmYXN0ZXIgdGhhbiBleHBlY3RlZC4gRm9yIG5lYXJseSB0d28gZGVjYWRlcywgd2UgaGF2ZSBiZWVuIHBhcnRuZXJpbmcgd2l0aCBvdXIgY29tbXVuaXR5IG9mIG92ZXIgZm91ciBtaWxsaW9uIGRldmVsb3BlcnMgdG8gaGVscCBjdXQgZG93biBvbiBkZXZlbG9wbWVudCB0aW1lLCBpbmNyZWFzZSBwcm9kdWN0aXZpdHksIGFuZCBtYWtlIGl0IGVhc3kgdG8gZW1icmFjZSB0aGUgbGF0ZXN0IHRlY2hub2xvZ2llcyBhbmQgdXNlciBleHBlcmllbmNlIHRyZW5kcy4KLSBoZWFkaW5nICJEZWxpdmVyIE1vcmUgVGhhbiBFeHBlY3RlZCIgW2xldmVsPTNdOgogIC0gYnV0dG9uICJEZWxpdmVyIE1vcmUgVGhhbiBFeHBlY3RlZCIKLSBwYXJhZ3JhcGg6IEJ5IHVzaW5nIHRoZSBtb2Rlcm4sIGZlYXR1cmUtcmljaCBhbmQgcHJvZmVzc2lvbmFsbHkgZGVzaWduZWQgVUkgY29tcG9uZW50cyBmcm9tIFRlbGVyaWsgYW5kIEtlbmRvIFVJLCB5b3Ugd2lsbCBiZSBhcm1lZCB3aXRoIGV2ZXJ5dGhpbmcgeW91IG5lZWQgdG8gZGVsaXZlciBvdXRzdGFuZGluZyB3ZWIsIG1vYmlsZSBhbmQgZGVza3RvcCBleHBlcmllbmNlcyBpbiBsZXNzIHRpbWUuIFdpdGggdGhlIGJhY2tpbmcgb2Ygb3VyIGxlZ2VuZGFyeSB0ZWNobmljYWwgc3VwcG9ydCwgcHJvdmlkZWQgZGlyZWN0bHkgYnkgdGhlIGRldmVsb3BlcnMgd2hvIGJ1aWxkIHRoZSBwcm9kdWN0cywgeW91IGNhbiBiZSBjb25maWRlbnQgdGhhdCB5b3UgaGF2ZSB0aGUgYmVzdCBwYXJ0bmVyIHRvIHJlbHkgb24gaW4geW91ciBqb3VybmV5LgotIGxpbmsgIlBhdXNlIjoKICAtIGltZyAiU3RvcCBBbmltYXRpb24iCi0gbGluayAiRXhwbG9yZSBvdXIgUG9ydGZvbGlvIgotIGxpbmsgIlNlZSBwcmljaW5nIgotIGhlYWRpbmcgIkF3YXJkcyIgW2xldmVsPTJdCi0gcGFyYWdyYXBoOiBHcmVhdG5lc3PigJRpdOKAmXMgb25lIHRoaW5nIHRvIHNheSB5b3UgaGF2ZSBpdCwgYnV0IGl0IG1lYW5zIG1vcmUgd2hlbiBvdGhlcnMgcmVjb2duaXplIGl0LiBQcm9ncmVzcyBUZWxlcmlrIGlzIHByb3VkIHRvIGhvbGQgdGhlIGZvbGxvd2luZyBpbmR1c3RyeSBhd2FyZHMuCi0gbGluayAiVGVsZXJpayAmIEtlbmRvIFVJIC0gLk5FVCAmIEphdmFTY3JpcHQgVUkgY29tcG9uZW50cyAtIFRydXN0UmFkaXVzIE1vc3QgTG92ZWQgQXdhcmQgRzIgTGVhZGVyIFdpbnRlciAyMDI1IjoKICAtIGltZyAiVGVsZXJpayAmIEtlbmRvIFVJIC0gLk5FVCAmIEphdmFTY3JpcHQgVUkgY29tcG9uZW50cyAtIFRydXN0UmFkaXVzIE1vc3QgTG92ZWQgQXdhcmQiCiAgLSBwYXJhZ3JhcGg6IEcyIExlYWRlciBXaW50ZXIgMjAyNQotIGxpbmsgIlRlbGVyaWsgJiBLZW5kbyBVSSAtIC5ORVQgJiBKYXZhU2NyaXB0IFVJIGNvbXBvbmVudHMgLSBUcnVzdFJhZGl1cyBCZXN0IEZlYXR1cmUgU2V0IEF3YXJkIEcyIEhpZ2ggUGVyZm9ybWVyIGluIEVNRUEgV2ludGVyIDIwMjUiOgogIC0gaW1nICJUZWxlcmlrICYgS2VuZG8gVUkgLSAuTkVUICYgSmF2YVNjcmlwdCBVSSBjb21wb25lbnRzIC0gVHJ1c3RSYWRpdXMgQmVzdCBGZWF0dXJlIFNldCBBd2FyZCIKICAtIHBhcmFncmFwaDogRzIgSGlnaCBQZXJmb3JtZXIgaW4gRU1FQSBXaW50ZXIgMjAyNQotIGxpbmsgIlRlbGVyaWsgJiBLZW5kbyBVSSAtIC5ORVQgJiBKYXZhU2NyaXB0IFVJIGNvbXBvbmVudHMgLSBUcnVzdFJhZGl1cyBCZXN0IFVzYWJpbGl0eSBBd2FyZCBHMiBMZWFkZXIgRW50ZXJwcmlzZSBGYWxsIDIwMjQiOgogIC0gaW1nICJUZWxlcmlrICYgS2VuZG8gVUkgLSAuTkVUICYgSmF2YVNjcmlwdCBVSSBjb21wb25lbnRzIC0gVHJ1c3RSYWRpdXMgQmVzdCBVc2FiaWxpdHkgQXdhcmQiCiAgLSBwYXJhZ3JhcGg6IEcyIExlYWRlciBFbnRlcnByaXNlIEZhbGwgMjAyNAotIGxpbmsgIlRlbGVyaWsgJiBLZW5kbyBVSSAtIC5ORVQgJiBKYXZhU2NyaXB0IFVJIGNvbXBvbmVudHMgLSBUcnVzdFJhZGl1cyBCZXN0IEN1c3RvbWVyIFN1cHBvcnQgQXdhcmQgRzIgVXNlcnMgTG92ZSBVcyBGYWxsIDIwMjUiOgogIC0gaW1nICJUZWxlcmlrICYgS2VuZG8gVUkgLSAuTkVUICYgSmF2YVNjcmlwdCBVSSBjb21wb25lbnRzIC0gVHJ1c3RSYWRpdXMgQmVzdCBDdXN0b21lciBTdXBwb3J0IEF3YXJkIgogIC0gcGFyYWdyYXBoOiBHMiBVc2VycyBMb3ZlIFVzIEZhbGwgMjAyNQotIGxpbmsgIlRlbGVyaWsgJiBLZW5kbyBVSSAtIC5ORVQgJiBKYXZhU2NyaXB0IFVJIGNvbXBvbmVudHMgLSBHMiBMZWFkZXJzIEZhbGwgQXdhcmQgRzIgRWFzaWVzdCBUbyBEbyBCdXNpbmVzcyBXaXRoIE1pZC1NYXJrZXQgRmFsbCAyMDI0IjoKICAtIGltZyAiVGVsZXJpayAmIEtlbmRvIFVJIC0gLk5FVCAmIEphdmFTY3JpcHQgVUkgY29tcG9uZW50cyAtIEcyIExlYWRlcnMgRmFsbCBBd2FyZCIKICAtIHBhcmFncmFwaDogRzIgRWFzaWVzdCBUbyBEbyBCdXNpbmVzcyBXaXRoIE1pZC1NYXJrZXQgRmFsbCAyMDI0Ci0gbGluayAiVGVsZXJpayAmIEtlbmRvIFVJIC0gLk5FVCAmIEphdmFTY3JpcHQgVUkgY29tcG9uZW50cyAtIFRydXN0UmFkaXVzIE1vc3QgTG92ZWQgQXdhcmQgVHJ1c3RSYWRpdXMgTW9zdCBMb3ZlZCBBd2FyZCI6CiAgLSBpbWcgIlRlbGVyaWsgJiBLZW5kbyBVSSAtIC5ORVQgJiBKYXZhU2NyaXB0IFVJIGNvbXBvbmVudHMgLSBUcnVzdFJhZGl1cyBNb3N0IExvdmVkIEF3YXJkIgogIC0gcGFyYWdyYXBoOiBUcnVzdFJhZGl1cyBNb3N0IExvdmVkIEF3YXJkCi0gaW1nICJQcm9ncmVzcyBpbmNsdWRlZCBpbiBUaHJlZSBHYXJ0bmVyIE1hZ2ljIFF1YWRyYW50cyIKLSBwYXJhZ3JhcGg6IFByb2dyZXNzIGluY2x1ZGVkIGluIFRocmVlIEdhcnRuZXIgTWFnaWMgUXVhZHJhbnRzCi0gaW1nICJUZWxlcmlrIGlzIHRoZSBXaW5uZXIgb2YgMiBGb3JiZXMgQnVzaW5lc3MgQXdhcmRzIgotIHBhcmFncmFwaDogVGVsZXJpayBpcyB0aGUgV2lubmVyIG9mIDIgRm9yYmVzIEJ1c2luZXNzIEF3YXJkcwotIHRleHQ6IDI3NUsrIGN1c3RvbWVycyAzLjVNKyBkZXZlbG9wZXJzIDQwMCsgYXdhcmRzCi0gaGVhZGluZyAiV2hhdCBEZXZlbG9wZXJzIFNheSIgW2xldmVsPTJdCi0gYmxvY2txdW90ZSAic2VsZWN0ZWQiOgogIC0gcGFyYWdyYXBoOiBVc2luZyBUZWxlcmlrIFVJLCB3ZSB3ZXJlIGFibGUgdG8gYm9vc3Qgb3VyIHNwZWVkIHRvIHByb2R1Y3Rpb24gYnkgb3ZlciA1MCUuIFRoZSBhYmlsaXR5IHRvIGNyZWF0ZSByaWNoLCBpbnRlcmFjdGl2ZSBVSSdzIHdpdGhvdXQgdGhlIGhhc3NsZSBvZiByb2xsaW5nIG91ciBvd24gY29udHJvbHMgaGFzIGJlZW4gaW5jcmVkaWJseSB2YWx1YWJsZS4gSXQgc2hvdWxkIGFsc28gYmUgbm90ZWQgdGhhdCBUZWxlcmlrJ3Mgb25saW5lIGRvY3VtZW50YXRpb24gaXMgcmljaCB3aXRoIGV4YW1wbGVzLCB0dXRvcmlhbHMsIGFuZCByZWFsLXdvcmtpbmcgZGVtb3MuIFdoZW4gdXNpbmcgY29tcGV0aW5nIHByb2R1Y3RzLCBJIGZvdW5kIHRoZWlyIGV4YW1wbGUncyB0byBiZSBkZW1vLXdhcmUsIGFuZCBub3QgYXMgZWFzaWx5IGNvbnZlcnRlZCB0byBhY3R1YWwgcHJvZHVjdGlvbi1yZWFkeSBzb2x1dGlvbnMuCiAgLSB0ZXh0OiBKZXJyeSBTZXZpZXIgRW50ZXJwcmlzZSBBcmNoaXRlY3QsIENoYXBhcnJhbCBFbmVyZ3kKLSBidXR0b24gIu6YhCIKLSBidXR0b24gIu6YhiIKLSBsaW5rICJzZWxlY3RlZCIKLSBsaW5rICJnbyB0byB0ZXN0aW1vbmlhbCAyIgotIGxpbmsgImdvIHRvIHRlc3RpbW9uaWFsIDMiCi0gaGVhZGluZyAiTmV3cyAmIFVwZGF0ZXMiIFtsZXZlbD0yXQotIGltZyAiTmV3cyAmIFVwZGF0ZXMiCi0gaGVhZGluZyAiUkVMRUFTRSIgW2xldmVsPTNdCi0gaGVhZGluZyAiVGhlIFRlbGVyaWsgYW5kIEtlbmRvIFVJIDIwMjUgUTEgUmVsZWFzZSBJcyBIZXJl4oCUU2VlIFdoYXTigJlzIE5ldyEiIFtsZXZlbD00XToKICAtIGxpbmsgIlRoZSBUZWxlcmlrIGFuZCBLZW5kbyBVSSAyMDI1IFExIFJlbGVhc2UgSXMgSGVyZeKAlFNlZSBXaGF04oCZcyBOZXchIgotIGhlYWRpbmcgIlN1cnZleSBSZXBvcnQiIFtsZXZlbD0zXQotIGhlYWRpbmcgIlRoZSBTdGF0ZSBvZiBEZXNpZ25lci1EZXZlbG9wZXIgQ29sbGFib3JhdGlvbiAyMDI0IFN1cnZleSBSZXBvcnQgaXMgb3V0ISIgW2xldmVsPTRdOgogIC0gbGluayAiVGhlIFN0YXRlIG9mIERlc2lnbmVyLURldmVsb3BlciBDb2xsYWJvcmF0aW9uIDIwMjQgU3VydmV5IFJlcG9ydCBpcyBvdXQhIgotIGhlYWRpbmcgIkJMT0dQT1NUIiBbbGV2ZWw9M10KLSBoZWFkaW5nICJVc2luZyBGaWRkbGVyIEV2ZXJ5d2hlcmUgd2l0aCBnUlBDIGFuZCAuTkVUIENvcmUgQ2xpZW50cyIgW2xldmVsPTRdOgogIC0gbGluayAiVXNpbmcgRmlkZGxlciBFdmVyeXdoZXJlIHdpdGggZ1JQQyBhbmQgLk5FVCBDb3JlIENsaWVudHMiCi0gbGluayAiQ2hlY2sgb3V0IG91ciBCbG9ncyIKLSBjb250ZW50aW5mbzoKICAtIHRleHQ6IENvbXBsZXRlIC5ORVQgVG9vbGJveAogIC0gbGluayAiVGVsZXJpayBEZXZDcmFmdCIKICAtIHRleHQ6IENvbXBsZXRlIEphdmFTY3JpcHQgVG9vbGJveAogIC0gbGluayAiS2VuZG8gVUkiCiAgLSB0ZXh0OiBHZXQgUHJvZHVjdHMKICAtIGxpc3Q6CiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkZyZWUgVHJpYWxzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJQcmljaW5nIgogIC0gdGV4dDogUmVzb3VyY2VzCiAgLSBsaXN0OgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJEZW1vcyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiRG9jdW1lbnRhdGlvbiIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiUmVsZWFzZSBIaXN0b3J5IgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJGb3J1bXMiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkJsb2dzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJXZWJpbmFycyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiVmlkZW9zIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJQcm9mZXNzaW9uYWwgU2VydmljZXMiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlBhcnRuZXJzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJWaXJ0dWFsIENsYXNzcm9vbSIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiRXZlbnRzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJGQVFzIgogIC0gdGV4dDogUmVjb2duaXRpb24KICAtIGxpc3Q6CiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlN1Y2Nlc3MgU3RvcmllcyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiVGVzdGltb25pYWxzIgogIC0gdGV4dDogR2V0IGluIHRvdWNoCiAgLSBsaXN0OgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJDb250YWN0IFVzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaXN0OgogICAgICAgIC0gbGlzdGl0ZW06CiAgICAgICAgICAtICdsaW5rICJVU0E6ICsxIDg4OCA2NzkgMDQ0MiInCiAgICAgICAgLSBsaXN0aXRlbToKICAgICAgICAgIC0gJ2xpbmsgIlVLOiArNDQgMTMgNDQ4MyA4MTg2IicKICAgICAgICAtIGxpc3RpdGVtOgogICAgICAgICAgLSAnbGluayAiSW5kaWE6ICs5MSA0MDYgOTAxOTQ0NyInCiAgICAgICAgLSBsaXN0aXRlbToKICAgICAgICAgIC0gJ2xpbmsgIkJ1bGdhcmlhOiArMzU5IDIgODA5OTg1MCInCiAgICAgICAgLSBsaXN0aXRlbToKICAgICAgICAgIC0gJ2xpbmsgIkF1c3RyYWxpYTogKzYxIDMgNzA2OCA4NjEwIicKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGlzdDoKICAgICAgICAtIGxpc3RpdGVtOgogICAgICAgICAgLSBsaW5rICIxNjVrKyI6CiAgICAgICAgICAgIC0gaW1nCiAgICAgICAgICAgIC0gdGV4dDogMTY1aysKICAgICAgICAtIGxpc3RpdGVtOgogICAgICAgICAgLSBsaW5rICI1MGsrIjoKICAgICAgICAgICAgLSBpbWcKICAgICAgICAgICAgLSB0ZXh0OiA1MGsrCiAgICAgICAgLSBsaXN0aXRlbToKICAgICAgICAgIC0gbGluayAiMTdrKyI6CiAgICAgICAgICAgIC0gaW1nCiAgICAgICAgICAgIC0gdGV4dDogMTdrKwogICAgICAgIC0gbGlzdGl0ZW06CiAgICAgICAgICAtIGxpbmsgIjRrKyI6CiAgICAgICAgICAgIC0gaW1nCiAgICAgICAgICAgIC0gdGV4dDogNGsrCiAgICAgICAgLSBsaXN0aXRlbToKICAgICAgICAgIC0gbGluayAiMTRrKyI6CiAgICAgICAgICAgIC0gaW1nCiAgICAgICAgICAgIC0gdGV4dDogMTRrKwogICAgICAgIC0gbGlzdGl0ZW06CiAgICAgICAgICAtIGxpbmsgIkdpdEh1YiI6CiAgICAgICAgICAgIC0gaW1nCiAgLSBsaW5rICJHbyB0byBQcm9ncmVzcy5jb20iOgogICAgLSBpbWcKICAtIHBhcmFncmFwaDogVGVsZXJpayBhbmQgS2VuZG8gVUkgYXJlIHBhcnQgb2YgUHJvZ3Jlc3MgcHJvZHVjdCBwb3J0Zm9saW8uIFByb2dyZXNzIGlzIHRoZSBsZWFkaW5nIHByb3ZpZGVyIG9mIGFwcGxpY2F0aW9uIGRldmVsb3BtZW50IGFuZCBkaWdpdGFsIGV4cGVyaWVuY2UgdGVjaG5vbG9naWVzLgogIC0gbGlzdDoKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiQ29tcGFueSIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiVGVjaG5vbG9neSIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiQXdhcmRzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJQcmVzcyBSZWxlYXNlcyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiTWVkaWEgQ292ZXJhZ2UiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkNhcmVlcnMiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIk9mZmljZXMiCiAgLSBwYXJhZ3JhcGg6IENvcHlyaWdodCDCqSAyMDI1IFByb2dyZXNzIFNvZnR3YXJlIENvcnBvcmF0aW9uIGFuZC9vciBpdHMgc3Vic2lkaWFyaWVzIG9yIGFmZmlsaWF0ZXMuIEFsbCBSaWdodHMgUmVzZXJ2ZWQuCiAgLSBwYXJhZ3JhcGg6CiAgICAtIHRleHQ6IFByb2dyZXNzIGFuZCBjZXJ0YWluIHByb2R1Y3QgbmFtZXMgdXNlZCBoZXJlaW4gYXJlIHRyYWRlbWFya3Mgb3IgcmVnaXN0ZXJlZCB0cmFkZW1hcmtzIG9mIFByb2dyZXNzIFNvZnR3YXJlIENvcnBvcmF0aW9uIGFuZC9vciBvbmUgb2YgaXRzIHN1YnNpZGlhcmllcyBvciBhZmZpbGlhdGVzIGluIHRoZSBVLlMuIGFuZC9vciBvdGhlciBjb3VudHJpZXMuIFNlZQogICAgLSBsaW5rICJUcmFkZW1hcmtzIgogICAgLSB0ZXh0OiBmb3IgYXBwcm9wcmlhdGUgbWFya2luZ3MuCiAgLSBsaXN0OgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJUZXJtcyBvZiBVc2UiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlNpdGUgRmVlZGJhY2siCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlByaXZhY3kgQ2VudGVyIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJUcnVzdCBDZW50ZXIiCiAgLSBsaW5rICJEbyBOb3QgU2VsbCBvciBTaGFyZSBNeSBQZXJzb25hbCBJbmZvcm1hdGlvbiIKICAtIHBhcmFncmFwaDoKICAgIC0gdGV4dDogUG93ZXJlZCBieQogICAgLSBsaW5rICJQcm9ncmVzcyBTaXRlZmluaXR5IgpgYGAKCiMgVGVzdCBzb3VyY2UKCmBgYHRzCiAgIDEgfCBpbXBvcnQgeyBQYWdlLCBleHBlY3QgfSBmcm9tICJAcGxheXdyaWdodC90ZXN0IjsKICAgMiB8CiAgIDMgfAogICA0IHwgZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGJyb2tlbkxpbmtDaGVja2VyKHBhZ2U6IFBhZ2UpIHsKICAgNSB8ICAgICBjb25zdCBiYXNlVVJMID0gImh0dHBzOi8vd3d3LnRlbGVyaWsuY29tIjsKICAgNiB8CiAgIDcgfCAgICAgY29uc3QgbGlua3MgPSBwYWdlLmxvY2F0b3IoImEiKTsKICAgOCB8CiAgIDkgfCAgICAgY29uc3QgYWxsTGlua3MgPSBhd2FpdCBsaW5rcy5hbGwoKTsKICAxMCB8CiAgMTEgfCAgICAgY29uc3QgYWxsSHJlZnMgPSBhd2FpdCBQcm9taXNlLmFsbCgKICAxMiB8ICAgICAgICAgYWxsTGlua3MubWFwKChsaW5rKSA9PiBsaW5rLmdldEF0dHJpYnV0ZSgiaHJlZiIpKQogIDEzIHwgICAgICkKICAxNCB8CiAgMTUgfCAgICAgY29uc3QgYWxsVmFsaWRIcmVmcyA9IGFsbEhyZWZzLnJlZHVjZSgobGlua3MsIGxpbmspID0+IHsKPiAxNiB8ICAgICAgICAgZXhwZWN0LnNvZnQobGluaywgYCR7bGlua30gaXMgbm90IGEgdmFsaWQgaHJlZmApLnRvQmVUcnV0aHkoKTsKICAgICB8ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF4gRXJyb3I6IG51bGwgaXMgbm90IGEgdmFsaWQgaHJlZgogIDE3IHwgICAgICAgICBpZiAobGluayAmJiAhbGluaz8uc3RhcnRzV2l0aCgibWFpbHRvIikpIHsKICAxOCB8ICAgICAgICAgICAgIGlmIChsaW5rLmNoYXJBdCgwKSA9PT0gIi8iIHx8IGxpbmsuY2hhckF0KDApID09PSAiIyIpIGxpbmsgPSBiYXNlVVJMICsgbGluazsKICAxOSB8ICAgICAgICAgICAgIGlmIChsaW5rLmluY2x1ZGVzKGJhc2VVUkwpKSBsaW5rcy5hZGQobGluayk7CiAgMjAgfCAgICAgICAgIH0KICAyMSB8ICAgICAgICAgICAgIHJldHVybiBsaW5rcwogIDIyIHwgICAgICAgICB9LCBuZXcgU2V0PHN0cmluZz4oKSkKICAyMyB8CiAgMjQgfCAgICAgICAgIGZvciAobGV0IHVybCBvZiBhbGxWYWxpZEhyZWZzKSB7CiAgMjUgfCAgICAgICAgICAgICB0cnkgewogIDI2IHwgICAgICAgICAgICAgICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgcGFnZS5yZXF1ZXN0LmdldCh1cmwpOwogIDI3IHwgICAgICAgICAgICAgICAgIGV4cGVjdC5zb2Z0KHJlc3BvbnNlLm9rKCksIGAke3VybH0gaXMgbm90IHZhbGlkYCkudG9CZVRydXRoeSgpOwogIDI4IHwgICAgICAgICAgICAgfSBjYXRjaChlcnIpIHsKICAyOSB8ICAgICAgICAgICAgICAgICBleHBlY3Quc29mdChudWxsLCBgJHt1cmx9IGlzIG5vdCB2YWxpZGApLnRvQmVUcnV0aHkoKTsKICAzMCB8ICAgICAgICAgICAgICAgICBleHBlY3Quc29mdChudWxsLCAiIiArIGVycikudG9CZVRydXRoeSgpOwogIDMxIHwgICAgICAgICAgICAgfQogIDMyIHwgICAgIH0KICAzMyB8IH0KYGBg"
+                          "body": "IyBJbnN0cnVjdGlvbnMKCi0gRm9sbG93aW5nIFBsYXl3cmlnaHQgdGVzdCBmYWlsZWQuCi0gRXhwbGFpbiB3aHksIGJlIGNvbmNpc2UsIHJlc3BlY3QgUGxheXdyaWdodCBiZXN0IHByYWN0aWNlcy4KLSBQcm92aWRlIGEgc25pcHBldCBvZiBjb2RlIHdpdGggdGhlIGZpeCwgaWYgcG9zc2libGUuCgojIFRlc3QgaW5mbwoKLSBOYW1lOiBIb21lIFBhZ2UgVGVzdHMgPj4gQnJva2VuIExpbmsgQ2hlY2tlcgotIExvY2F0aW9uOiBDOlxVc2Vyc1xEcmV3XERvY3VtZW50c1xWU2NvZGUtd29ya3NwYWNlXHBsYXl3cmlnaHQtdHlwZXNjcmlwdFx0ZXN0XHVpXHRlc3RzXGhvbWVQYWdlVGVzdHMuc3BlYy50czoyMzo1CgojIEVycm9yIGRldGFpbHMKCmBgYApFcnJvcjogbnVsbCBpcyBub3QgYSB2YWxpZCBocmVmCgpleHBlY3QocmVjZWl2ZWQpLnRvQmVUcnV0aHkoKQoKUmVjZWl2ZWQ6IG51bGwKICAgIGF0IHJlZHVjZSAoQzpcVXNlcnNcRHJld1xEb2N1bWVudHNcVlNjb2RlLXdvcmtzcGFjZVxwbGF5d3JpZ2h0LXR5cGVzY3JpcHRcdGVzdFx1aVx1dGlsc1xicm9rZW5MaW5rQ2hlY2tlci50czoxNjo1OCkKICAgIGF0IGJyb2tlbkxpbmtDaGVja2VyIChDOlxVc2Vyc1xEcmV3XERvY3VtZW50c1xWU2NvZGUtd29ya3NwYWNlXHBsYXl3cmlnaHQtdHlwZXNjcmlwdFx0ZXN0XHVpXHV0aWxzXGJyb2tlbkxpbmtDaGVja2VyLnRzOjE1OjM2KQogICAgYXQgSG9tZVBhZ2UuY2hlY2tGb3JCcm9rZW5MaW5rcyAoQzpcVXNlcnNcRHJld1xEb2N1bWVudHNcVlNjb2RlLXdvcmtzcGFjZVxwbGF5d3JpZ2h0LXR5cGVzY3JpcHRcdGVzdFx1aVxwYWdlc1xob21lUGFnZS50czoyNjo5KQogICAgYXQgQzpcVXNlcnNcRHJld1xEb2N1bWVudHNcVlNjb2RlLXdvcmtzcGFjZVxwbGF5d3JpZ2h0LXR5cGVzY3JpcHRcdGVzdFx1aVx0ZXN0c1xob21lUGFnZVRlc3RzLnNwZWMudHM6MjU6OQpgYGAKCiMgUGFnZSBzbmFwc2hvdAoKYGBgeWFtbAotIG5hdmlnYXRpb246CiAgLSBmaWd1cmU6CiAgICAtIGxpbmsgInNraXAgbmF2aWdhdGlvbiIKICAgIC0gbGluayAiR28gdG8gSG9tZXBhZ2UiOgogICAgICAtIGltZwogIC0gbGlzdDoKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gYnV0dG9uICJQcm9kdWN0IE5hdmlnYXRpb24iOiBBbGwgUHJvZHVjdHMKICAtIGxpc3Q6CiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkRlbW9zIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJTZXJ2aWNlcyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiQmxvZ3MiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkRvY3MgJiBTdXBwb3J0IgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJQcmljaW5nIgogIC0gbGlzdDoKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiU2VhcmNoIjoKICAgICAgICAtIGltZwogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJTaG9wcGluZyBjYXJ0IjoKICAgICAgICAtIGltZwogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJZb3VyIEFjY291bnQiOgogICAgICAgIC0gaW1nCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkNvbnRhY3QgVXMiOgogICAgICAgIC0gaW1nCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkdldCBBIEZyZWUgVHJpYWwiCi0gaW1nICJIZXJvIEJhbm5lciBIb21lIFBhZ2UiCi0gaGVhZGluZyAiTW9kZXJuIFVJIE1hZGUgRWFzeSIgW2xldmVsPTFdCi0gdGV4dDogQnVpbGQgZmVhdHVyZS1yaWNoLCBtb2Rlcm4gZXhwZXJpZW5jZXMgZm9yIFdlYiwgQ3Jvc3MtUGxhdGZvcm0sIE1vYmlsZSBhbmQgRGVza3RvcCwgZmFzdGVyIHRoYW4gZXZlciB3aXRoIFRlbGVyaWsgYW5kIEtlbmRvIFVJIGNvbXBvbmVudHMuCi0gbGluayAiRG93bmxvYWQgRGV2Q3JhZnQgVHJpYWwiCi0gcGFyYWdyYXBoOiBEZXZDcmFmdCBpbmNsdWRlcyBhbGwgVGVsZXJpayAuTkVUIGFuZCBLZW5kbyBVSSBKYXZhU2NyaXB0IGNvbXBvbmVudHMsIEVtYmVkZGVkIFJlcG9ydGluZyBhbmQgcHJvZHVjdGl2aXR5IHRvb2xzLgotIGhlYWRpbmcgIlVJIENvbXBvbmVudHMiIFtsZXZlbD0yXQotIGJ1dHRvbiAiZXhwYW5kIFdlYiBDb21wb25lbnRzIjoKICAtIGltZyAiV2ViIGNvbXBvbmVudHMgc21hbGwgaW1hZ2UiCiAgLSBoZWFkaW5nICJXZWIgQ29tcG9uZW50cyIgW2xldmVsPTNdCiAgLSBpbWcgIk5pbmphIGFuZCBLZW5kb2thIFdlYiBDb21wb25lbnRzIgotIGJ1dHRvbiAiZXhwYW5kIERlc2t0b3AgQ29tcG9uZW50cyI6CiAgLSBpbWcgIkRlc2t0b3AgQ29tcG9uZW50cyBzbWFsbCBJbWFnZSIKICAtIGhlYWRpbmcgIkRlc2t0b3AgQ29tcG9uZW50cyIgW2xldmVsPTNdCiAgLSBpbWcgIk5pbmphIERlc2t0b3AgQ29tcG9uZW50cyIKLSBidXR0b24gImV4cGFuZCBNb2JpbGUgQ29tcG9uZW50cyI6CiAgLSBpbWcgIk1vYmlsZSBDb21wb25lbnRzIHNtYWxsIGltYWdlIgogIC0gaGVhZGluZyAiTW9iaWxlIENvbXBvbmVudHMiIFtsZXZlbD0zXQogIC0gaW1nICJOaW5qYSBNb2JpbGUgQ29tcG9uZW50cyBEZXNrdG9wIgotIGhlYWRpbmcgIkRldmVsb3BlciBTb2x1dGlvbnMiIFtsZXZlbD0yXQotIGJ1dHRvbiAiZXhwYW5kIFJlcG9ydGluZyAmIERhc2hib2FyZHMiOgogIC0gaW1nICJSZXBvcnRpbmcgJiBEYXNoYm9hcmRzIHNtYWxsIGltYWdlIgogIC0gaGVhZGluZyAiUmVwb3J0aW5nICYgRGFzaGJvYXJkcyIgW2xldmVsPTNdCiAgLSBpbWcgIk5pbmphIFJlcG9ydGluZyAmIERhc2hib2FyZHMiCi0gYnV0dG9uICJleHBhbmQgVGVzdGluZyAmIERlYnVnZ2luZyI6CiAgLSBpbWcgIlRlc3RpbmcgJiBEZWJ1Z2dpbmcgc21hbGwgaW1hZ2UiCiAgLSBoZWFkaW5nICJUZXN0aW5nICYgRGVidWdnaW5nIiBbbGV2ZWw9M10KICAtIGltZyAiVGVzdGluZyAmIERlYnVnZ2luZyBjb2xsYXBzZWQiCi0gYnV0dG9uICJleHBhbmQgVUkvVVggVG9vbHMiOgogIC0gaW1nICJVSS9VWCBUb29scyBzbWFsbCBJbWFnZSIKICAtIGhlYWRpbmcgIlVJL1VYIFRvb2xzIiBbbGV2ZWw9M10KICAtIGltZyAiVUkvVVggVG9vbHMgY29sbGFwc2VkIGltYWdlIgotIGhlYWRpbmcgIlByb2R1Y3QgQnVuZGxlcyIgW2xldmVsPTJdCi0gaW1nICJEZXZDcmFmdCBCdW5kbGUiCi0gaGVhZGluZyAiVGVsZXJpa8KuIERldkNyYWZ0IiBbbGV2ZWw9M10KLSBwYXJhZ3JhcGg6IC5ORVQgY29udHJvbHMsIEtlbmRvIFVJIEphdmFTY3JpcHQgY29tcG9uZW50cywgZW1iZWRkZWQgcmVwb3J0aW5nLCBhdXRvbWF0ZWQgdGVzdGluZyBhbmQgcHJvZHVjdGl2aXR5IHRvb2xzLgotIGxpbmsgIk1vcmUgYWJvdXQgRGV2Q3JhZnQiCi0gaW1nICJLZW5kbyBVSSIKLSBoZWFkaW5nICJLZW5kbyBVScKuIiBbbGV2ZWw9M10KLSBwYXJhZ3JhcGg6IFVJIGNvbXBvbmVudHMgZm9yIEphdmFTY3JpcHQgZnJhbWV3b3JrcyBpbmNsdWRpbmcgalF1ZXJ5LCBBbmd1bGFyLCBSZWFjdCwgYW5kIFZ1ZS4KLSBsaW5rICJNb3JlIGFib3V0IEtlbmRvIFVJIgotIHRleHQ6ICJMYXRlc3QgTmV3cyBDaGVjayBvdXQgb3VyIGxhdGVzdCByZWxlYXNlOiIKLSBsaW5rICIyMDI1IFExIGhhcyBhIGxvdCB0byBvZmZlciIKLSB0ZXh0OiAiLCBleHBhbmRlZCBkZXNpZ24gc3lzdGVtIHRvb2xpbmcsIG1vZGVybml6YXRpb24gb3B0aW9ucywgcHJvZHVjdGl2aXR5IGJvb3N0cyBhbmQgdHdvIGltcG9ydGFudCB0ZWNobmljYWwgYW5ub3VuY2VtZW50czogYSBuZXcgbGljZW5zaW5nIHByb2Nlc3MgYW5kIHRoZSBlbmQgb2YgbGlmZSBmb3IgVGVsZXJpayBVSSBmb3IgWGFtYXJpbi4iCi0gbGluayAiR28gdG8gc2xpZGUgMSIKLSBsaW5rICJzZWxlY3RlZCIKLSB0ZXh0OiDumIQg7piGCi0gbGlzdDoKICAtIGxpc3RpdGVtOiBGZWF0dXJlLXJpY2ggVUkgY29tcG9uZW50cyBmb3IgYWxsIC5ORVQgYW5kIEphdmFTY3JpcHQgZnJhbWV3b3JrcwotIGxpc3Q6CiAgLSBsaXN0aXRlbTogUHJvZmVzc2lvbmFsbHkgZGVzaWduZWQgY29tcG9uZW50cyBhbmQgdGhlbWVzIGZvciBiZWF1dGlmdWwsIGVuZ2FnaW5nIGFuZCBhbHdheXMgbW9kZXJuIGFwcHMKLSBsaXN0OgogIC0gbGlzdGl0ZW06IEluZHVzdHJ5IGxlYWRpbmcgc3VwcG9ydCBkZWxpdmVyZWQgZnJvbSB0aGUgZW5naW5lZXJzIHdobyBidWlsdCB0aGUgcHJvZHVjdAotIGxpc3Q6CiAgLSBsaXN0aXRlbTogT24gZGVtYW5kIHRlY2huaWNhbCBwcm9kdWN0IHRyYWluaW5nCi0gbGlzdDoKICAtIGxpc3RpdGVtOiBQZXJmb3JtYW5jZSwgYWNjZXNzaWJpbGl0eSwgbG9jYWxpemF0aW9uIGFuZCBzZWN1cml0eSBndWFyYW50ZWVkCi0gbGlzdDoKICAtIGxpc3RpdGVtOiBDb250aW51b3VzIGlubm92YXRpb24gdG8gY292ZXIgeW91ciBuZWVkcyB0b2RheSBhbmQgdG9tb3Jyb3cKLSBsaW5rICJTZWUgU3RhbmRhcmRpemF0aW9uIEJlbmVmaXRzIgotIGltZyAiTmFzYSIKLSBpbWcgIk1pY3Jvc29mdCIKLSBpbWcgIkZveCIKLSBpbWcgIlNhbXN1bmciCi0gaW1nICJJQk0iCi0gaW1nICJXb3JsZCBCYW5rIEdyb3VwIgotIGltZyAiVm9sdm8iCi0gaW1nICJzdG9yeS1kZWNvciIKLSBoZWFkaW5nICJZb3VyIFN1Y2Nlc3MgaXMgT3VyIFN1Y2Nlc3MiIFtsZXZlbD0yXQotIGhlYWRpbmcgIkNoYWxsZW5nZSIgW2xldmVsPTNdOgogIC0gYnV0dG9uICJDaGFsbGVuZ2UiCi0gcGFyYWdyYXBoOiBUaGUgZGVtYW5kIGZvciBiZXR0ZXIgdXNlciBleHBlcmllbmNlcyBjb250aW51ZXMgdG8gZ3Jvdywgd2hpbGUgdGhlIHRpbWUgeW91IGhhdmUgdG8gZGV2ZWxvcCBhIGhpZ2ggcXVhbGl0eSwgbW9kZXJuIGFuZCBlbmdhZ2luZyBhcHBsaWNhdGlvbiBjb250aW51ZXMgdG8gc2hyaW5rLiBTdG9wIHN3ZWF0aW5nIG92ZXIgVUkgYW5kIGZvY3VzIG9uIHRoZSBwYXJ0cyBvZiB0aGUgYXBwbGljYXRpb24gd2hlcmUgeW91IGNhbiB0cnVseSBtYWtlIGEgZGlmZmVyZW5jZS4KLSBoZWFkaW5nICJQYXJ0bmVyc2hpcCBhbmQgQ29tbXVuaXR5IiBbbGV2ZWw9M106CiAgLSBidXR0b24gIlBhcnRuZXJzaGlwIGFuZCBDb21tdW5pdHkiCi0gcGFyYWdyYXBoOiBMaWtlIHlvdSwgd2UgYXJlIGRldmVsb3BlcnMuIE91ciBwdXJwb3NlIGluIGxpZmUgaXMgdG8gbWFrZSBkZXZlbG9wZXJzIHN1cGVyaGVyb2VzIGJ5IGVuYWJsaW5nIHlvdSB0byBkZWxpdmVyIG1vcmUgdGhhbiBleHBlY3RlZCwgZmFzdGVyIHRoYW4gZXhwZWN0ZWQuIEZvciBuZWFybHkgdHdvIGRlY2FkZXMsIHdlIGhhdmUgYmVlbiBwYXJ0bmVyaW5nIHdpdGggb3VyIGNvbW11bml0eSBvZiBvdmVyIGZvdXIgbWlsbGlvbiBkZXZlbG9wZXJzIHRvIGhlbHAgY3V0IGRvd24gb24gZGV2ZWxvcG1lbnQgdGltZSwgaW5jcmVhc2UgcHJvZHVjdGl2aXR5LCBhbmQgbWFrZSBpdCBlYXN5IHRvIGVtYnJhY2UgdGhlIGxhdGVzdCB0ZWNobm9sb2dpZXMgYW5kIHVzZXIgZXhwZXJpZW5jZSB0cmVuZHMuCi0gaGVhZGluZyAiRGVsaXZlciBNb3JlIFRoYW4gRXhwZWN0ZWQiIFtsZXZlbD0zXToKICAtIGJ1dHRvbiAiRGVsaXZlciBNb3JlIFRoYW4gRXhwZWN0ZWQiCi0gcGFyYWdyYXBoOiBCeSB1c2luZyB0aGUgbW9kZXJuLCBmZWF0dXJlLXJpY2ggYW5kIHByb2Zlc3Npb25hbGx5IGRlc2lnbmVkIFVJIGNvbXBvbmVudHMgZnJvbSBUZWxlcmlrIGFuZCBLZW5kbyBVSSwgeW91IHdpbGwgYmUgYXJtZWQgd2l0aCBldmVyeXRoaW5nIHlvdSBuZWVkIHRvIGRlbGl2ZXIgb3V0c3RhbmRpbmcgd2ViLCBtb2JpbGUgYW5kIGRlc2t0b3AgZXhwZXJpZW5jZXMgaW4gbGVzcyB0aW1lLiBXaXRoIHRoZSBiYWNraW5nIG9mIG91ciBsZWdlbmRhcnkgdGVjaG5pY2FsIHN1cHBvcnQsIHByb3ZpZGVkIGRpcmVjdGx5IGJ5IHRoZSBkZXZlbG9wZXJzIHdobyBidWlsZCB0aGUgcHJvZHVjdHMsIHlvdSBjYW4gYmUgY29uZmlkZW50IHRoYXQgeW91IGhhdmUgdGhlIGJlc3QgcGFydG5lciB0byByZWx5IG9uIGluIHlvdXIgam91cm5leS4KLSBsaW5rICJQYXVzZSI6CiAgLSBpbWcgIlN0b3AgQW5pbWF0aW9uIgotIGxpbmsgIkV4cGxvcmUgb3VyIFBvcnRmb2xpbyIKLSBsaW5rICJTZWUgcHJpY2luZyIKLSBoZWFkaW5nICJBd2FyZHMiIFtsZXZlbD0yXQotIHBhcmFncmFwaDogR3JlYXRuZXNz4oCUaXTigJlzIG9uZSB0aGluZyB0byBzYXkgeW91IGhhdmUgaXQsIGJ1dCBpdCBtZWFucyBtb3JlIHdoZW4gb3RoZXJzIHJlY29nbml6ZSBpdC4gUHJvZ3Jlc3MgVGVsZXJpayBpcyBwcm91ZCB0byBob2xkIHRoZSBmb2xsb3dpbmcgaW5kdXN0cnkgYXdhcmRzLgotIGxpbmsgIlRlbGVyaWsgJiBLZW5kbyBVSSAtIC5ORVQgJiBKYXZhU2NyaXB0IFVJIGNvbXBvbmVudHMgLSBUcnVzdFJhZGl1cyBNb3N0IExvdmVkIEF3YXJkIEcyIExlYWRlciBXaW50ZXIgMjAyNSI6CiAgLSBpbWcgIlRlbGVyaWsgJiBLZW5kbyBVSSAtIC5ORVQgJiBKYXZhU2NyaXB0IFVJIGNvbXBvbmVudHMgLSBUcnVzdFJhZGl1cyBNb3N0IExvdmVkIEF3YXJkIgogIC0gcGFyYWdyYXBoOiBHMiBMZWFkZXIgV2ludGVyIDIwMjUKLSBsaW5rICJUZWxlcmlrICYgS2VuZG8gVUkgLSAuTkVUICYgSmF2YVNjcmlwdCBVSSBjb21wb25lbnRzIC0gVHJ1c3RSYWRpdXMgQmVzdCBGZWF0dXJlIFNldCBBd2FyZCBHMiBIaWdoIFBlcmZvcm1lciBpbiBFTUVBIFdpbnRlciAyMDI1IjoKICAtIGltZyAiVGVsZXJpayAmIEtlbmRvIFVJIC0gLk5FVCAmIEphdmFTY3JpcHQgVUkgY29tcG9uZW50cyAtIFRydXN0UmFkaXVzIEJlc3QgRmVhdHVyZSBTZXQgQXdhcmQiCiAgLSBwYXJhZ3JhcGg6IEcyIEhpZ2ggUGVyZm9ybWVyIGluIEVNRUEgV2ludGVyIDIwMjUKLSBsaW5rICJUZWxlcmlrICYgS2VuZG8gVUkgLSAuTkVUICYgSmF2YVNjcmlwdCBVSSBjb21wb25lbnRzIC0gVHJ1c3RSYWRpdXMgQmVzdCBVc2FiaWxpdHkgQXdhcmQgRzIgTGVhZGVyIEVudGVycHJpc2UgRmFsbCAyMDI0IjoKICAtIGltZyAiVGVsZXJpayAmIEtlbmRvIFVJIC0gLk5FVCAmIEphdmFTY3JpcHQgVUkgY29tcG9uZW50cyAtIFRydXN0UmFkaXVzIEJlc3QgVXNhYmlsaXR5IEF3YXJkIgogIC0gcGFyYWdyYXBoOiBHMiBMZWFkZXIgRW50ZXJwcmlzZSBGYWxsIDIwMjQKLSBsaW5rICJUZWxlcmlrICYgS2VuZG8gVUkgLSAuTkVUICYgSmF2YVNjcmlwdCBVSSBjb21wb25lbnRzIC0gVHJ1c3RSYWRpdXMgQmVzdCBDdXN0b21lciBTdXBwb3J0IEF3YXJkIEcyIFVzZXJzIExvdmUgVXMgRmFsbCAyMDI1IjoKICAtIGltZyAiVGVsZXJpayAmIEtlbmRvIFVJIC0gLk5FVCAmIEphdmFTY3JpcHQgVUkgY29tcG9uZW50cyAtIFRydXN0UmFkaXVzIEJlc3QgQ3VzdG9tZXIgU3VwcG9ydCBBd2FyZCIKICAtIHBhcmFncmFwaDogRzIgVXNlcnMgTG92ZSBVcyBGYWxsIDIwMjUKLSBsaW5rICJUZWxlcmlrICYgS2VuZG8gVUkgLSAuTkVUICYgSmF2YVNjcmlwdCBVSSBjb21wb25lbnRzIC0gRzIgTGVhZGVycyBGYWxsIEF3YXJkIEcyIEVhc2llc3QgVG8gRG8gQnVzaW5lc3MgV2l0aCBNaWQtTWFya2V0IEZhbGwgMjAyNCI6CiAgLSBpbWcgIlRlbGVyaWsgJiBLZW5kbyBVSSAtIC5ORVQgJiBKYXZhU2NyaXB0IFVJIGNvbXBvbmVudHMgLSBHMiBMZWFkZXJzIEZhbGwgQXdhcmQiCiAgLSBwYXJhZ3JhcGg6IEcyIEVhc2llc3QgVG8gRG8gQnVzaW5lc3MgV2l0aCBNaWQtTWFya2V0IEZhbGwgMjAyNAotIGxpbmsgIlRlbGVyaWsgJiBLZW5kbyBVSSAtIC5ORVQgJiBKYXZhU2NyaXB0IFVJIGNvbXBvbmVudHMgLSBUcnVzdFJhZGl1cyBNb3N0IExvdmVkIEF3YXJkIFRydXN0UmFkaXVzIE1vc3QgTG92ZWQgQXdhcmQiOgogIC0gaW1nICJUZWxlcmlrICYgS2VuZG8gVUkgLSAuTkVUICYgSmF2YVNjcmlwdCBVSSBjb21wb25lbnRzIC0gVHJ1c3RSYWRpdXMgTW9zdCBMb3ZlZCBBd2FyZCIKICAtIHBhcmFncmFwaDogVHJ1c3RSYWRpdXMgTW9zdCBMb3ZlZCBBd2FyZAotIGltZyAiUHJvZ3Jlc3MgaW5jbHVkZWQgaW4gVGhyZWUgR2FydG5lciBNYWdpYyBRdWFkcmFudHMiCi0gcGFyYWdyYXBoOiBQcm9ncmVzcyBpbmNsdWRlZCBpbiBUaHJlZSBHYXJ0bmVyIE1hZ2ljIFF1YWRyYW50cwotIGltZyAiVGVsZXJpayBpcyB0aGUgV2lubmVyIG9mIDIgRm9yYmVzIEJ1c2luZXNzIEF3YXJkcyIKLSBwYXJhZ3JhcGg6IFRlbGVyaWsgaXMgdGhlIFdpbm5lciBvZiAyIEZvcmJlcyBCdXNpbmVzcyBBd2FyZHMKLSB0ZXh0OiAyNzVLKyBjdXN0b21lcnMgMy41TSsgZGV2ZWxvcGVycyA0MDArIGF3YXJkcwotIGhlYWRpbmcgIldoYXQgRGV2ZWxvcGVycyBTYXkiIFtsZXZlbD0yXQotIGJsb2NrcXVvdGUgInNlbGVjdGVkIjoKICAtIHBhcmFncmFwaDogVGVsZXJpayBoYXMgcmljaCBjb2xsZWN0aW9uIG9mIGNvbXBvbmVudHMgdGhhdCBlbmFibGVzIGRldmVsb3BlcnMgdG8gYnVpbGQgZnVsbHkgZnVuY3Rpb25hbCBhbmQgZ3JlYXQgbG9va2luZyB3ZWIgYXBwbGljYXRpb25zIGluIGEgbWF0dGVyIG9mIGRheXMsIHdoaWNoIHVzZWQgdG8gYmUgd2Vla3MgYW5kIG1vbnRocyB3aXRob3V0IFRlbGVyaWsuIE9uIHRvcCBvZiB0aGF0LCBhbiBhZ2dyZXNzaXZlIHJlbGVhc2UgY3ljbGUgYW5kIHZlcnkgcmVzcG9uc2l2ZSBzdXBwb3J0IG1ha2VzIGl0IG9uZSBvZiB0aGUgYmVzdCBpbnZlc3RtZW50cyB3ZSd2ZSBtYWRlLgogIC0gdGV4dDogTmlzaGFudCBBZ2Fyd2FsIExlYWQgRGV2ZWxvcGVyLCBBbWVyaWNhbiBFeHByZXNzCi0gYnV0dG9uICLumIQiCi0gYnV0dG9uICLumIYiCi0gbGluayAic2VsZWN0ZWQiCi0gbGluayAiZ28gdG8gdGVzdGltb25pYWwgMiIKLSBsaW5rICJnbyB0byB0ZXN0aW1vbmlhbCAzIgotIGhlYWRpbmcgIk5ld3MgJiBVcGRhdGVzIiBbbGV2ZWw9Ml0KLSBpbWcgIk5ld3MgJiBVcGRhdGVzIgotIGhlYWRpbmcgIlJFTEVBU0UiIFtsZXZlbD0zXQotIGhlYWRpbmcgIlRoZSBUZWxlcmlrIGFuZCBLZW5kbyBVSSAyMDI1IFExIFJlbGVhc2UgSXMgSGVyZeKAlFNlZSBXaGF04oCZcyBOZXchIiBbbGV2ZWw9NF06CiAgLSBsaW5rICJUaGUgVGVsZXJpayBhbmQgS2VuZG8gVUkgMjAyNSBRMSBSZWxlYXNlIElzIEhlcmXigJRTZWUgV2hhdOKAmXMgTmV3ISIKLSBoZWFkaW5nICJTdXJ2ZXkgUmVwb3J0IiBbbGV2ZWw9M10KLSBoZWFkaW5nICJUaGUgU3RhdGUgb2YgRGVzaWduZXItRGV2ZWxvcGVyIENvbGxhYm9yYXRpb24gMjAyNCBTdXJ2ZXkgUmVwb3J0IGlzIG91dCEiIFtsZXZlbD00XToKICAtIGxpbmsgIlRoZSBTdGF0ZSBvZiBEZXNpZ25lci1EZXZlbG9wZXIgQ29sbGFib3JhdGlvbiAyMDI0IFN1cnZleSBSZXBvcnQgaXMgb3V0ISIKLSBoZWFkaW5nICJCTE9HUE9TVCIgW2xldmVsPTNdCi0gaGVhZGluZyAiVXNpbmcgRmlkZGxlciBFdmVyeXdoZXJlIHdpdGggZ1JQQyBhbmQgLk5FVCBDb3JlIENsaWVudHMiIFtsZXZlbD00XToKICAtIGxpbmsgIlVzaW5nIEZpZGRsZXIgRXZlcnl3aGVyZSB3aXRoIGdSUEMgYW5kIC5ORVQgQ29yZSBDbGllbnRzIgotIGxpbmsgIkNoZWNrIG91dCBvdXIgQmxvZ3MiCi0gY29udGVudGluZm86CiAgLSB0ZXh0OiBDb21wbGV0ZSAuTkVUIFRvb2xib3gKICAtIGxpbmsgIlRlbGVyaWsgRGV2Q3JhZnQiCiAgLSB0ZXh0OiBDb21wbGV0ZSBKYXZhU2NyaXB0IFRvb2xib3gKICAtIGxpbmsgIktlbmRvIFVJIgogIC0gdGV4dDogR2V0IFByb2R1Y3RzCiAgLSBsaXN0OgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJGcmVlIFRyaWFscyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiUHJpY2luZyIKICAtIHRleHQ6IFJlc291cmNlcwogIC0gbGlzdDoKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiRGVtb3MiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkRvY3VtZW50YXRpb24iCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlJlbGVhc2UgSGlzdG9yeSIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiRm9ydW1zIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJCbG9ncyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiV2ViaW5hcnMiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlZpZGVvcyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiUHJvZmVzc2lvbmFsIFNlcnZpY2VzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJQYXJ0bmVycyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiVmlydHVhbCBDbGFzc3Jvb20iCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkV2ZW50cyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiRkFRcyIKICAtIHRleHQ6IFJlY29nbml0aW9uCiAgLSBsaXN0OgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJTdWNjZXNzIFN0b3JpZXMiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlRlc3RpbW9uaWFscyIKICAtIHRleHQ6IEdldCBpbiB0b3VjaAogIC0gbGlzdDoKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiQ29udGFjdCBVcyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGlzdDoKICAgICAgICAtIGxpc3RpdGVtOgogICAgICAgICAgLSAnbGluayAiVVNBOiArMSA4ODggNjc5IDA0NDIiJwogICAgICAgIC0gbGlzdGl0ZW06CiAgICAgICAgICAtICdsaW5rICJVSzogKzQ0IDEzIDQ0ODMgODE4NiInCiAgICAgICAgLSBsaXN0aXRlbToKICAgICAgICAgIC0gJ2xpbmsgIkluZGlhOiArOTEgNDA2IDkwMTk0NDciJwogICAgICAgIC0gbGlzdGl0ZW06CiAgICAgICAgICAtICdsaW5rICJCdWxnYXJpYTogKzM1OSAyIDgwOTk4NTAiJwogICAgICAgIC0gbGlzdGl0ZW06CiAgICAgICAgICAtICdsaW5rICJBdXN0cmFsaWE6ICs2MSAzIDcwNjggODYxMCInCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpc3Q6CiAgICAgICAgLSBsaXN0aXRlbToKICAgICAgICAgIC0gbGluayAiMTY1aysiOgogICAgICAgICAgICAtIGltZwogICAgICAgICAgICAtIHRleHQ6IDE2NWsrCiAgICAgICAgLSBsaXN0aXRlbToKICAgICAgICAgIC0gbGluayAiNTBrKyI6CiAgICAgICAgICAgIC0gaW1nCiAgICAgICAgICAgIC0gdGV4dDogNTBrKwogICAgICAgIC0gbGlzdGl0ZW06CiAgICAgICAgICAtIGxpbmsgIjE3aysiOgogICAgICAgICAgICAtIGltZwogICAgICAgICAgICAtIHRleHQ6IDE3aysKICAgICAgICAtIGxpc3RpdGVtOgogICAgICAgICAgLSBsaW5rICI0aysiOgogICAgICAgICAgICAtIGltZwogICAgICAgICAgICAtIHRleHQ6IDRrKwogICAgICAgIC0gbGlzdGl0ZW06CiAgICAgICAgICAtIGxpbmsgIjE0aysiOgogICAgICAgICAgICAtIGltZwogICAgICAgICAgICAtIHRleHQ6IDE0aysKICAgICAgICAtIGxpc3RpdGVtOgogICAgICAgICAgLSBsaW5rICJHaXRIdWIiOgogICAgICAgICAgICAtIGltZwogIC0gbGluayAiR28gdG8gUHJvZ3Jlc3MuY29tIjoKICAgIC0gaW1nCiAgLSBwYXJhZ3JhcGg6IFRlbGVyaWsgYW5kIEtlbmRvIFVJIGFyZSBwYXJ0IG9mIFByb2dyZXNzIHByb2R1Y3QgcG9ydGZvbGlvLiBQcm9ncmVzcyBpcyB0aGUgbGVhZGluZyBwcm92aWRlciBvZiBhcHBsaWNhdGlvbiBkZXZlbG9wbWVudCBhbmQgZGlnaXRhbCBleHBlcmllbmNlIHRlY2hub2xvZ2llcy4KICAtIGxpc3Q6CiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkNvbXBhbnkiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlRlY2hub2xvZ3kiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkF3YXJkcyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiUHJlc3MgUmVsZWFzZXMiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIk1lZGlhIENvdmVyYWdlIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJDYXJlZXJzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJPZmZpY2VzIgogIC0gcGFyYWdyYXBoOiBDb3B5cmlnaHQgwqkgMjAyNSBQcm9ncmVzcyBTb2Z0d2FyZSBDb3Jwb3JhdGlvbiBhbmQvb3IgaXRzIHN1YnNpZGlhcmllcyBvciBhZmZpbGlhdGVzLiBBbGwgUmlnaHRzIFJlc2VydmVkLgogIC0gcGFyYWdyYXBoOgogICAgLSB0ZXh0OiBQcm9ncmVzcyBhbmQgY2VydGFpbiBwcm9kdWN0IG5hbWVzIHVzZWQgaGVyZWluIGFyZSB0cmFkZW1hcmtzIG9yIHJlZ2lzdGVyZWQgdHJhZGVtYXJrcyBvZiBQcm9ncmVzcyBTb2Z0d2FyZSBDb3Jwb3JhdGlvbiBhbmQvb3Igb25lIG9mIGl0cyBzdWJzaWRpYXJpZXMgb3IgYWZmaWxpYXRlcyBpbiB0aGUgVS5TLiBhbmQvb3Igb3RoZXIgY291bnRyaWVzLiBTZWUKICAgIC0gbGluayAiVHJhZGVtYXJrcyIKICAgIC0gdGV4dDogZm9yIGFwcHJvcHJpYXRlIG1hcmtpbmdzLgogIC0gbGlzdDoKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiVGVybXMgb2YgVXNlIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJTaXRlIEZlZWRiYWNrIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJQcml2YWN5IENlbnRlciIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiVHJ1c3QgQ2VudGVyIgogIC0gbGluayAiRG8gTm90IFNlbGwgb3IgU2hhcmUgTXkgUGVyc29uYWwgSW5mb3JtYXRpb24iCiAgLSBwYXJhZ3JhcGg6CiAgICAtIHRleHQ6IFBvd2VyZWQgYnkKICAgIC0gbGluayAiUHJvZ3Jlc3MgU2l0ZWZpbml0eSIKYGBgCgojIFRlc3Qgc291cmNlCgpgYGB0cwogICAxIHwgaW1wb3J0IHsgUGFnZSwgZXhwZWN0IH0gZnJvbSAiQHBsYXl3cmlnaHQvdGVzdCI7CiAgIDIgfAogICAzIHwKICAgNCB8IGV4cG9ydCBhc3luYyBmdW5jdGlvbiBicm9rZW5MaW5rQ2hlY2tlcihwYWdlOiBQYWdlKSB7CiAgIDUgfCAgICAgY29uc3QgYmFzZVVSTCA9ICJodHRwczovL3d3dy50ZWxlcmlrLmNvbSI7CiAgIDYgfAogICA3IHwgICAgIGNvbnN0IGxpbmtzID0gcGFnZS5sb2NhdG9yKCJhIik7CiAgIDggfAogICA5IHwgICAgIGNvbnN0IGFsbExpbmtzID0gYXdhaXQgbGlua3MuYWxsKCk7CiAgMTAgfAogIDExIHwgICAgIGNvbnN0IGFsbEhyZWZzID0gYXdhaXQgUHJvbWlzZS5hbGwoCiAgMTIgfCAgICAgICAgIGFsbExpbmtzLm1hcCgobGluaykgPT4gbGluay5nZXRBdHRyaWJ1dGUoImhyZWYiKSkKICAxMyB8ICAgICApCiAgMTQgfAogIDE1IHwgICAgIGNvbnN0IGFsbFZhbGlkSHJlZnMgPSBhbGxIcmVmcy5yZWR1Y2UoKGxpbmtzLCBsaW5rKSA9PiB7Cj4gMTYgfCAgICAgICAgIGV4cGVjdC5zb2Z0KGxpbmssIGAke2xpbmt9IGlzIG5vdCBhIHZhbGlkIGhyZWZgKS50b0JlVHJ1dGh5KCk7CiAgICAgfCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBeIEVycm9yOiBudWxsIGlzIG5vdCBhIHZhbGlkIGhyZWYKICAxNyB8ICAgICAgICAgaWYgKGxpbmsgJiYgIWxpbms/LnN0YXJ0c1dpdGgoIm1haWx0byIpKSB7CiAgMTggfCAgICAgICAgICAgICBpZiAobGluay5jaGFyQXQoMCkgPT09ICIvIiB8fCBsaW5rLmNoYXJBdCgwKSA9PT0gIiMiKSBsaW5rID0gYmFzZVVSTCArIGxpbms7CiAgMTkgfCAgICAgICAgICAgICBpZiAobGluay5pbmNsdWRlcyhiYXNlVVJMKSkgbGlua3MuYWRkKGxpbmspOwogIDIwIHwgICAgICAgICB9CiAgMjEgfCAgICAgICAgICAgICByZXR1cm4gbGlua3MKICAyMiB8ICAgICAgICAgfSwgbmV3IFNldDxzdHJpbmc+KCkpCiAgMjMgfAogIDI0IHwgICAgICAgICBmb3IgKGxldCB1cmwgb2YgYWxsVmFsaWRIcmVmcykgewogIDI1IHwgICAgICAgICAgICAgdHJ5IHsKICAyNiB8ICAgICAgICAgICAgICAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IHBhZ2UucmVxdWVzdC5nZXQodXJsKTsKICAyNyB8ICAgICAgICAgICAgICAgICBleHBlY3Quc29mdChyZXNwb25zZS5vaygpLCBgJHt1cmx9IGlzIG5vdCB2YWxpZGApLnRvQmVUcnV0aHkoKTsKICAyOCB8ICAgICAgICAgICAgIH0gY2F0Y2goZXJyKSB7CiAgMjkgfCAgICAgICAgICAgICAgICAgZXhwZWN0LnNvZnQobnVsbCwgYCR7dXJsfSBpcyBub3QgdmFsaWRgKS50b0JlVHJ1dGh5KCk7CiAgMzAgfCAgICAgICAgICAgICAgICAgZXhwZWN0LnNvZnQobnVsbCwgIiIgKyBlcnIpLnRvQmVUcnV0aHkoKTsKICAzMSB8ICAgICAgICAgICAgIH0KICAzMiB8ICAgICB9CiAgMzMgfCB9CmBgYA=="
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-homePageTests-Home-Page-Tests-Broken-Link-Checker-chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\ui-tests-homePageTests-Home-Page-Tests-Broken-Link-Checker-chromium\\trace.zip"
                         }
                       ],
                       "errorLocation": {
-                        "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\utils\\brokenLinkChecker.ts",
+                        "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\utils\\brokenLinkChecker.ts",
                         "column": 58,
                         "line": 16
                       }
@@ -832,25 +966,25 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 32,
-                      "parallelIndex": 3,
+                      "workerIndex": 9,
+                      "parallelIndex": 5,
                       "status": "passed",
-                      "duration": 15900,
+                      "duration": 18600,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-21T10:48:47.934Z",
+                      "startTime": "2025-03-21T16:57:41.983Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-homePageTests-Home-Page-Tests-Contact-Us-Link-chromium\\test-finished-1.png"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\ui-tests-homePageTests-Home-Page-Tests-Contact-Us-Link-chromium\\test-finished-1.png"
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-homePageTests-Home-Page-Tests-Contact-Us-Link-chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\ui-tests-homePageTests-Home-Page-Tests-Contact-Us-Link-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -876,25 +1010,25 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 29,
+                      "workerIndex": 4,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 18922,
+                      "duration": 21629,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-21T10:48:48.187Z",
+                      "startTime": "2025-03-21T16:57:42.066Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-homePageTests-Home-Page-Tests-Pricing-Link-chromium\\test-finished-1.png"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\ui-tests-homePageTests-Home-Page-Tests-Pricing-Link-chromium\\test-finished-1.png"
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-homePageTests-Home-Page-Tests-Pricing-Link-chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\ui-tests-homePageTests-Home-Page-Tests-Pricing-Link-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -920,25 +1054,25 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 30,
+                      "workerIndex": 5,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 15342,
+                      "duration": 21260,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-21T10:48:48.303Z",
+                      "startTime": "2025-03-21T16:57:42.097Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-homePageTests-Home-Page-Tests-Search-Link-chromium\\test-finished-1.png"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\ui-tests-homePageTests-Home-Page-Tests-Search-Link-chromium\\test-finished-1.png"
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-homePageTests-Home-Page-Tests-Search-Link-chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\ui-tests-homePageTests-Home-Page-Tests-Search-Link-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -981,19 +1115,19 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 30,
-                      "parallelIndex": 1,
+                      "workerIndex": 9,
+                      "parallelIndex": 5,
                       "status": "failed",
-                      "duration": 72557,
+                      "duration": 68084,
                       "error": {
                         "message": "Error: null is not a valid href\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m",
-                        "stack": "Error: null is not a valid href\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n    at reduce (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\utils\\brokenLinkChecker.ts:16:58)\n    at brokenLinkChecker (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\utils\\brokenLinkChecker.ts:15:36)\n    at PricingPage.checkForBrokenLinks (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\pages\\pricingPage.ts:21:9)\n    at C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\tests\\pricingPageTests.spec.ts:15:9",
+                        "stack": "Error: null is not a valid href\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n    at reduce (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\utils\\brokenLinkChecker.ts:16:58)\n    at brokenLinkChecker (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\utils\\brokenLinkChecker.ts:15:36)\n    at PricingPage.checkForBrokenLinks (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\pages\\pricingPage.ts:21:9)\n    at C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\tests\\pricingPageTests.spec.ts:15:9",
                         "matcherResult": {
                           "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m",
                           "pass": false
                         },
                         "location": {
-                          "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\utils\\brokenLinkChecker.ts",
+                          "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\utils\\brokenLinkChecker.ts",
                           "column": 58,
                           "line": 16
                         },
@@ -1002,36 +1136,36 @@
                       "errors": [
                         {
                           "location": {
-                            "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\utils\\brokenLinkChecker.ts",
+                            "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\utils\\brokenLinkChecker.ts",
                             "column": 58,
                             "line": 16
                           },
-                          "message": "Error: null is not a valid href\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n\n\u001b[90m   at \u001b[39mui\\utils\\brokenLinkChecker.ts:16\n\n\u001b[0m \u001b[90m 14 |\u001b[39m\n \u001b[90m 15 |\u001b[39m     \u001b[36mconst\u001b[39m allValidHrefs \u001b[33m=\u001b[39m allHrefs\u001b[33m.\u001b[39mreduce((links\u001b[33m,\u001b[39m link) \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 16 |\u001b[39m         expect\u001b[33m.\u001b[39msoft(link\u001b[33m,\u001b[39m \u001b[32m`${link} is not a valid href`\u001b[39m)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 17 |\u001b[39m         \u001b[36mif\u001b[39m (link \u001b[33m&&\u001b[39m \u001b[33m!\u001b[39mlink\u001b[33m?\u001b[39m\u001b[33m.\u001b[39mstartsWith(\u001b[32m\"mailto\"\u001b[39m)) {\n \u001b[90m 18 |\u001b[39m             \u001b[36mif\u001b[39m (link\u001b[33m.\u001b[39mcharAt(\u001b[35m0\u001b[39m) \u001b[33m===\u001b[39m \u001b[32m\"/\"\u001b[39m \u001b[33m||\u001b[39m link\u001b[33m.\u001b[39mcharAt(\u001b[35m0\u001b[39m) \u001b[33m===\u001b[39m \u001b[32m\"#\"\u001b[39m) link \u001b[33m=\u001b[39m baseURL \u001b[33m+\u001b[39m link\u001b[33m;\u001b[39m\n \u001b[90m 19 |\u001b[39m             \u001b[36mif\u001b[39m (link\u001b[33m.\u001b[39mincludes(baseURL)) links\u001b[33m.\u001b[39madd(link)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at reduce (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\utils\\brokenLinkChecker.ts:16:58)\u001b[22m\n\u001b[2m    at brokenLinkChecker (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\utils\\brokenLinkChecker.ts:15:36)\u001b[22m\n\u001b[2m    at PricingPage.checkForBrokenLinks (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\pages\\pricingPage.ts:21:9)\u001b[22m\n\u001b[2m    at C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\tests\\pricingPageTests.spec.ts:15:9\u001b[22m"
+                          "message": "Error: null is not a valid href\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n\n\u001b[90m   at \u001b[39mui\\utils\\brokenLinkChecker.ts:16\n\n\u001b[0m \u001b[90m 14 |\u001b[39m\n \u001b[90m 15 |\u001b[39m     \u001b[36mconst\u001b[39m allValidHrefs \u001b[33m=\u001b[39m allHrefs\u001b[33m.\u001b[39mreduce((links\u001b[33m,\u001b[39m link) \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 16 |\u001b[39m         expect\u001b[33m.\u001b[39msoft(link\u001b[33m,\u001b[39m \u001b[32m`${link} is not a valid href`\u001b[39m)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 17 |\u001b[39m         \u001b[36mif\u001b[39m (link \u001b[33m&&\u001b[39m \u001b[33m!\u001b[39mlink\u001b[33m?\u001b[39m\u001b[33m.\u001b[39mstartsWith(\u001b[32m\"mailto\"\u001b[39m)) {\n \u001b[90m 18 |\u001b[39m             \u001b[36mif\u001b[39m (link\u001b[33m.\u001b[39mcharAt(\u001b[35m0\u001b[39m) \u001b[33m===\u001b[39m \u001b[32m\"/\"\u001b[39m \u001b[33m||\u001b[39m link\u001b[33m.\u001b[39mcharAt(\u001b[35m0\u001b[39m) \u001b[33m===\u001b[39m \u001b[32m\"#\"\u001b[39m) link \u001b[33m=\u001b[39m baseURL \u001b[33m+\u001b[39m link\u001b[33m;\u001b[39m\n \u001b[90m 19 |\u001b[39m             \u001b[36mif\u001b[39m (link\u001b[33m.\u001b[39mincludes(baseURL)) links\u001b[33m.\u001b[39madd(link)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at reduce (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\utils\\brokenLinkChecker.ts:16:58)\u001b[22m\n\u001b[2m    at brokenLinkChecker (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\utils\\brokenLinkChecker.ts:15:36)\u001b[22m\n\u001b[2m    at PricingPage.checkForBrokenLinks (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\pages\\pricingPage.ts:21:9)\u001b[22m\n\u001b[2m    at C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\tests\\pricingPageTests.spec.ts:15:9\u001b[22m"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-21T10:49:04.361Z",
+                      "startTime": "2025-03-21T16:58:01.673Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-pricingPageTests--530f4-e-Tests-Broken-Link-Checker-chromium\\test-failed-1.png"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\ui-tests-pricingPageTests--530f4-e-Tests-Broken-Link-Checker-chromium\\test-failed-1.png"
                         },
                         {
                           "name": "_prompt-0",
                           "contentType": "text/markdown",
-                          "body": "IyBJbnN0cnVjdGlvbnMKCi0gRm9sbG93aW5nIFBsYXl3cmlnaHQgdGVzdCBmYWlsZWQuCi0gRXhwbGFpbiB3aHksIGJlIGNvbmNpc2UsIHJlc3BlY3QgUGxheXdyaWdodCBiZXN0IHByYWN0aWNlcy4KLSBQcm92aWRlIGEgc25pcHBldCBvZiBjb2RlIHdpdGggdGhlIGZpeCwgaWYgcG9zc2libGUuCgojIFRlc3QgaW5mbwoKLSBOYW1lOiBQcmljaW5nIFBhZ2UgVGVzdHMgPj4gQnJva2VuIExpbmsgQ2hlY2tlcgotIExvY2F0aW9uOiBDOlxVc2Vyc1xEcmV3XERvY3VtZW50c1xWU2NvZGUtd29ya3NwYWNlXHBsYXl3cmlnaHQtaW5mcmFzdHJ1Y3R1cmVcdGVzdFx1aVx0ZXN0c1xwcmljaW5nUGFnZVRlc3RzLnNwZWMudHM6MTM6NQoKIyBFcnJvciBkZXRhaWxzCgpgYGAKRXJyb3I6IG51bGwgaXMgbm90IGEgdmFsaWQgaHJlZgoKZXhwZWN0KHJlY2VpdmVkKS50b0JlVHJ1dGh5KCkKClJlY2VpdmVkOiBudWxsCiAgICBhdCByZWR1Y2UgKEM6XFVzZXJzXERyZXdcRG9jdW1lbnRzXFZTY29kZS13b3Jrc3BhY2VccGxheXdyaWdodC1pbmZyYXN0cnVjdHVyZVx0ZXN0XHVpXHV0aWxzXGJyb2tlbkxpbmtDaGVja2VyLnRzOjE2OjU4KQogICAgYXQgYnJva2VuTGlua0NoZWNrZXIgKEM6XFVzZXJzXERyZXdcRG9jdW1lbnRzXFZTY29kZS13b3Jrc3BhY2VccGxheXdyaWdodC1pbmZyYXN0cnVjdHVyZVx0ZXN0XHVpXHV0aWxzXGJyb2tlbkxpbmtDaGVja2VyLnRzOjE1OjM2KQogICAgYXQgUHJpY2luZ1BhZ2UuY2hlY2tGb3JCcm9rZW5MaW5rcyAoQzpcVXNlcnNcRHJld1xEb2N1bWVudHNcVlNjb2RlLXdvcmtzcGFjZVxwbGF5d3JpZ2h0LWluZnJhc3RydWN0dXJlXHRlc3RcdWlccGFnZXNccHJpY2luZ1BhZ2UudHM6MjE6OSkKICAgIGF0IEM6XFVzZXJzXERyZXdcRG9jdW1lbnRzXFZTY29kZS13b3Jrc3BhY2VccGxheXdyaWdodC1pbmZyYXN0cnVjdHVyZVx0ZXN0XHVpXHRlc3RzXHByaWNpbmdQYWdlVGVzdHMuc3BlYy50czoxNTo5CmBgYAoKIyBQYWdlIHNuYXBzaG90CgpgYGB5YW1sCi0gbmF2aWdhdGlvbjoKICAtIGZpZ3VyZToKICAgIC0gbGluayAic2tpcCBuYXZpZ2F0aW9uIgogICAgLSBsaW5rICJHbyB0byBIb21lcGFnZSI6CiAgICAgIC0gaW1nCiAgLSBsaXN0OgogICAgLSBsaXN0aXRlbToKICAgICAgLSBidXR0b24gIlByb2R1Y3QgTmF2aWdhdGlvbiI6IEFsbCBQcm9kdWN0cwogIC0gbGlzdDoKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiRGVtb3MiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlNlcnZpY2VzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJCbG9ncyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiRG9jcyAmIFN1cHBvcnQiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlByaWNpbmciCiAgLSBsaXN0OgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJTZWFyY2giOgogICAgICAgIC0gaW1nCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlNob3BwaW5nIGNhcnQiOgogICAgICAgIC0gaW1nCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIllvdXIgQWNjb3VudCI6CiAgICAgICAgLSBpbWcKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiQ29udGFjdCBVcyI6CiAgICAgICAgLSBpbWcKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiR2V0IEEgRnJlZSBUcmlhbCIKLSBoZWFkaW5nICJQcmljaW5nIiBbbGV2ZWw9MV0KLSBidXR0b24gIkJlc3QgVmFsdWUgUHJvZHVjdCBCdW5kbGVzIgotIGJ1dHRvbiAiSW5kaXZpZHVhbCBQcm9kdWN0cyIKLSB0ZXh0OiAiTGljZW5zZSBUeXBlOiIKLSBwYXJhZ3JhcGg6CiAgLSBzdHJvbmc6IFNhdmUgYXQgbGVhc3QgMjUlCiAgLSB0ZXh0OiBvZiB5b3VyIGluaXRpYWwgaW52ZXN0bWVudC4gRmxhdCBhbm51YWwgZmVlIGluY2x1ZGluZyBwcm9kdWN0IHVwZGF0ZXMsIHRlY2huaWNhbCBzdXBwb3J0LCBhbmQgYW55IGZvcnRoY29taW5nIGV4Y2x1c2l2ZSBiZW5lZml0cy4KLSBidXR0b24gIlN1YnNjcmlwdGlvbiIKLSBidXR0b24gIlBlcnBldHVhbCIKLSBwYXJhZ3JhcGg6IE9uZS10aW1lIHB1cmNoYXNlIGdyYW50aW5nIGFjY2VzcyB0byB0aGUgY3VycmVudCByZWxlYXNlZCB2ZXJzaW9ucy4gMSB5ZWFyIG9mIHByb2R1Y3QgdXBkYXRlcyBhbmQgdGVjaG5pY2FsIHN1cHBvcnQgaW5jbHVkZWQuCi0gdGV4dDogRnJlZQotIGxpc3Q6CiAgLSBsaXN0aXRlbToKICAgIC0gaGVhZGluZyAi7piJIEFsbCBTdWJzY3JpcHRpb24gUGxhbnMgSW5jbHVkZToiIFtsZXZlbD01XQogICAgLSBsaXN0OgogICAgICAtIGxpc3RpdGVtOgogICAgICAgIC0gbGluayAiUGFnZSBUZW1wbGF0ZXMiCiAgICAgIC0gbGlzdGl0ZW06CiAgICAgICAgLSBsaW5rICJCdWlsZGluZyBCbG9ja3MiCiAgICAgIC0gbGlzdGl0ZW06CiAgICAgICAgLSBsaW5rICJUaGVtZUJ1aWxkZXIgVG9vbCIKICAgIC0gc2VwYXJhdG9yCiAgICAtIHBhcmFncmFwaDogQXZhaWxhYmxlIGZvciBLZW5kbyBVSSBmb3IgQW5ndWxhciwgS2VuZG9SZWFjdCBhbmQgVGVsZXJpayBVSSBmb3IgQmxhem9yCi0gaGVhZGluZyAiRGV2Q3JhZnQgVUkiIFtsZXZlbD01XQotIHN1cGVyc2NyaXB0OiAkCi0gdGV4dDogMSwxNDkKLSBwYXJhZ3JhcGg6IHBlciBkZXZlbG9wZXIsIHBlciB5ZWFyCi0gYnV0dG9uICJMaXRlIHN1cHBvcnQgPyIKLSBsaW5rICJMZWFybiBNb3JlIgotIGxpbmsgIkJ1eSBOb3ciCi0gbGlzdDoKICAtIGxpc3RpdGVtOiDumIkgLk5FVCBhbmQgSmF2YVNjcmlwdCBVSSBjb21wb25lbnRzIGZvciB3ZWIsIGRlc2t0b3AgYW5kIG1vYmlsZQogIC0gbGlzdGl0ZW06IO6YiSBQYWdlIFRlbXBsYXRlcywgQnVpZGxpbmcgQmxvY2tzICYgVGhlbWVCdWlsZGVyIFVsdGltYXRlCiAgLSBsaXN0aXRlbTog7piJIERvY3VtZW50IHByb2Nlc3NpbmcgbGlicmFyaWVzCiAgLSBsaXN0aXRlbTog7piJIFRlbGVyaWsgYW5kIEtlbmRvIFVJIEtpdHMgZm9yIEZpZ21hCi0gdGV4dDogTW9zdCBQb3B1bGFyCi0gaGVhZGluZyAiRGV2Q3JhZnQgQ29tcGxldGUiIFtsZXZlbD01XQotIHN1cGVyc2NyaXB0OiAkCi0gdGV4dDogMSwyOTkKLSBwYXJhZ3JhcGg6IHBlciBkZXZlbG9wZXIsIHBlciB5ZWFyCi0gYnV0dG9uICJQcmlvcml0eSBzdXBwb3J0ID8iCi0gbGluayAiTGVhcm4gTW9yZSIKLSBsaW5rICJCdXkgTm93IgotIGxpc3Q6CiAgLSBsaXN0aXRlbTog7piJIEV2ZXJ5dGhpbmcgaW4gRGV2Q3JhZnQgVUkKICAtIGxpc3RpdGVtOiDumJsgRW1iZWRkZWQgcmVwb3J0aW5nIGZvciB3ZWIgYW5kIGRlc2t0b3AKICAtIGxpc3RpdGVtOiDumJsgTW9ja2luZyBzb2x1dGlvbiBmb3IgcmFwaWQgdW5pdCB0ZXN0aW5nCi0gaGVhZGluZyAiRGV2Q3JhZnQgVWx0aW1hdGUiIFtsZXZlbD01XQotIHN1cGVyc2NyaXB0OiAkCi0gdGV4dDogMSw2NDkKLSBwYXJhZ3JhcGg6IHBlciBkZXZlbG9wZXIsIHBlciB5ZWFyCi0gYnV0dG9uICJVbHRpbWF0ZSBzdXBwb3J0ID8iCi0gbGluayAiTGVhcm4gTW9yZSIKLSBsaW5rICJCdXkgTm93IgotIGxpc3Q6CiAgLSBsaXN0aXRlbTog7piJIEV2ZXJ5dGhpbmcgaW4gRGV2Q3JhZnQgQ29tcGxldGUKICAtIGxpc3RpdGVtOiDumJsgRW5kLXRvLWVuZCByZXBvcnQgbWFuYWdlbWVudCBzb2x1dGlvbgogIC0gbGlzdGl0ZW06IO6YmyBUaGVtZUJ1aWxkZXIgRW50ZXJwcmlzZQotIHRleHQ6IFByb2R1Y3RzIEluY2x1ZGVkCi0gdGVybTogUGFnZSBUZW1wbGF0ZXMgJiBCdWlsZGluZyBCbG9ja3MKLSBkZWZpbml0aW9uOiDil48KLSBkZWZpbml0aW9uOiDil48KLSBkZWZpbml0aW9uOiDil48KLSB0ZXJtOiBUaGVtZUJ1aWxkZXIKLSBkZWZpbml0aW9uOiBVbHRpbWF0ZQotIGRlZmluaXRpb246IFVsdGltYXRlCi0gZGVmaW5pdGlvbjogRW50ZXJwcmlzZQotIHRlcm06IEtlbmRvIFVJIGZvciBBbmd1bGFyCi0gZGVmaW5pdGlvbjog4pePCi0gZGVmaW5pdGlvbjog4pePCi0gZGVmaW5pdGlvbjog4pePCi0gdGVybTogS2VuZG9SZWFjdAotIGRlZmluaXRpb246IOKXjwotIGRlZmluaXRpb246IOKXjwotIGRlZmluaXRpb246IOKXjwotIHRlcm06IEtlbmRvIFVJIGZvciBWdWUKLSBkZWZpbml0aW9uOiDil48KLSBkZWZpbml0aW9uOiDil48KLSBkZWZpbml0aW9uOiDil48KLSB0ZXJtOiBLZW5kbyBVSSBmb3IgalF1ZXJ5Ci0gZGVmaW5pdGlvbjog4pePCi0gZGVmaW5pdGlvbjog4pePCi0gZGVmaW5pdGlvbjog4pePCi0gdGVybTogVGVsZXJpayBVSSBmb3IgQVNQLk5FVCBBSkFYCi0gZGVmaW5pdGlvbjog4pePCi0gZGVmaW5pdGlvbjog4pePCi0gZGVmaW5pdGlvbjog4pePCi0gdGVybTogVGVsZXJpayBVSSBmb3IgQVNQLk5FVCBNVkMKLSBkZWZpbml0aW9uOiDil48KLSBkZWZpbml0aW9uOiDil48KLSBkZWZpbml0aW9uOiDil48KLSB0ZXJtOiBUZWxlcmlrIFVJIGZvciBBU1AuTkVUIENvcmUKLSBkZWZpbml0aW9uOiDil48KLSBkZWZpbml0aW9uOiDil48KLSBkZWZpbml0aW9uOiDil48KLSBidXR0b24gIu6YhyBTaG93IGRldGFpbGVkIGNvbXBhcmlzb24iCi0gaGVhZGluZyAiVHJhbnNwYXJlbnQgTGljZW5zaW5nLiBObyBIaWRkZW4gRmVlcy4iIFtsZXZlbD0yXQotIHBhcmFncmFwaDogSGF2aW5nIGNsZWFyIGFuZCBwcmVkaWN0YWJsZSBjb3N0cyBtYWtlcyBvdXIgbGljZW5zZXMgZGV2ZWxvcGVyIGFuZCBidWRnZXQtZnJpZW5kbHkuCi0gaW1nICJMaWNlbnNpbmcgUG9saWN5IgotIGhlYWRpbmcgIkZsZXhpYmxlIExpY2Vuc2luZyBQb2xpY3kiIFtsZXZlbD0zXQotIHBhcmFncmFwaDogQ2hvb3NlIGEgcHJlZmVycmVkIGxpY2Vuc2UgbW9kZWwgYmFzZWQgb24geW91ciBidWRnZXQgYW5kIGJ1c2luZXNzIG5lZWRzLiBUaGUgbmV3IHN1YnNjcmlwdGlvbiBwbGFucyBvZmZlciBhIGxvd2VyIGluaXRpYWwgaW52ZXN0bWVudCwgc2NhbGFiaWxpdHkgYW5kIGV4Y2x1c2l2ZSBiZW5lZml0cyBmb3IgbGljZW5zZSBob2xkZXJzLgotIGxpbmsgIu6YiCBTZWUgTGljZW5zaW5nIFBvbGljeSIKLSBsaW5rICLumIggU2VlIExpY2Vuc2UgUmVhc3NpZ25tZW50IgotIGltZyAiTWFpbnRlbmFuY2UgJiBTdXBwb3J0IgotIGhlYWRpbmcgIk1haW50ZW5hbmNlICYgU3VwcG9ydCIgW2xldmVsPTNdCi0gcGFyYWdyYXBoOiBFYWNoIGxpY2Vuc2UgY29tZXMgd2l0aCAxIHllYXIgb2YgcHJvZHVjdCB1cGRhdGVzIGFuZCB0ZWNobmljYWwgc3VwcG9ydC4gUGVycGV0dWFsIGxpY2Vuc2UgaG9sZGVycyBuZWVkIHRvIHJlbmV3IHRoZWlyIHN1cHBvcnQgcGxhbiB1cG9uIGV4cGlyYXRpb24uCi0gbGluayAi7piIIFNlZSBSZW5ld2FscyBQcmljaW5ncyIKLSBsaW5rICLumIggU2VlIFVwZ3JhZGVzIFByaWNpbmciCi0gbGluayAi7piIIEV4cGxvcmUgU3VwcG9ydCBQbGFucyIKLSBpbWcgIlJlbmV3YWxzICYgVXBncmFkZXMiCi0gaGVhZGluZyAiVG90YWwgQ29zdCBvZiBPd25lcnNoaXAiIFtsZXZlbD0zXQotIHBhcmFncmFwaDogTm8gZGVwbG95bWVudCBvciBoaWRkZW4gZmVlcywgb25seSBkZXZlbG9wZXJzIHVzaW5nIFRlbGVyaWsgYW5kL29yIEtlbmRvIFVJIG5lZWQgbGljZW5zZXMuCi0gbGluayAi7piIIENvbnRhY3QgUHJvZHVjdCBTcGVjaWFsaXN0IgotIGltZyAiTGljZW5zZSBSZWFzc2lnbm1lbnQiCi0gaGVhZGluZyAiRW50ZXJwcmlzZS1SZWFkeSBPZmZlcmluZ3MiIFtsZXZlbD0zXQotIHBhcmFncmFwaDogVW5sb2NrIHRvb2xzZXQgc3RhbmRhcmRpemF0aW9uLCBob3N0IHdvcmtzaG9wcyB3aXRoIHByb2R1Y3QgbWFuYWdlbWVudCwgYWNjZXNzIGhpZ2hlciBsZXZlbHMgb2Ygc3VwcG9ydCwgYW5kIHNjYWxlIHdpdGggZWFzZSBieSBsZXZlcmFnaW5nIG91ciBjbGllbnQtdGFpbG9yZWQgYW5kIGZsZXhpYmxlIHByaWNpbmcuCi0gbGluayAi7piIIFNlZSBTdGFuZGFyZGl6YXRpb24gQmVuZWZpdHMiCi0gbGluayAi7piIIENvbnRhY3QgUHJvZHVjdCBTcGVjaWFsaXN0IgotIGhlYWRpbmcgIkNvbWJpbmUgT3VyIFZvbHVtZSBhbmQgTXVsdGktWWVhciBEaXNjb3VudHMiIFtsZXZlbD0yXQotIHBhcmFncmFwaDogT3VyIGxpY2Vuc2luZyBwb2xpY3kgaW5jbHVkZXMgYWRkaXRpb25hbCBkaXNjb3VudCBwZXIgZGV2ZWxvcGVyIGFuZCBwZXIgYWRkaXRpb25hbCB5ZWFyIG9mIHB1cmNoYXNlLiBUaGUgYmV0dGVyIHlvdXIgcGxhbm5pbmcsIHRoZSBtb3JlIHlvdSBzYXZlLiBEaXNjb3VudHMgd2lsbCBiZSBhcHBsaWVkIGF1dG9tYXRpY2FsbHkgaW4gdGhlIHNob3BwaW5nIGNhcnQuCi0gaGVhZGluZyAiVm9sdW1lIERpc2NvdW50IiBbbGV2ZWw9NF0KLSBwYXJhZ3JhcGg6IFdoZXRoZXIgdGhlcmXigJlzIG1vcmUgdGhhbiBvbmUgZGV2ZWxvcGVyIG9uIHlvdXIgdGVhbSB3b3JraW5nIG9uIHRoZSBhcHAgVUkgb3IgeW914oCZcmUgcGxhbm5pbmcgb24gZW5sYXJnaW5nIHRoZSB0ZWFtIGluIHRoZSBuZWFyIGZ1dHVyZSwgdGhlIHZvbHVtZSBkaXNjb3VudCBlbmFibGVzIHlvdSB0byBzZWN1cmUgdGhlIGJlc3QgcHJpY2UgZHVyaW5nIHRoZSBpbml0aWFsIHB1cmNoYXNlIG9mIGFzIGZldyBhcyAyIGxpY2Vuc2VzIHdpdGggc2F2aW5ncyBvZiB1cCB0byAxMCUuCi0gaGVhZGluZyAiTnVtYmVyIG9mIGxpY2Vuc2VzIDEgeWVhciBTdWJzY3JpcHRpb24iIFtsZXZlbD02XQotIGltZyAiTnVtYmVyIG9mIExpY2Vuc2VzIgotIGltZwotIGhlYWRpbmcgIk11bHRpLVllYXIgRGlzY291bnRzIiBbbGV2ZWw9NF0KLSBwYXJhZ3JhcGg6IExvY2sgaW4gbG93ZXIgc3Vic2NyaXB0aW9uIHJhdGVzLCBzYXZlIHByb2N1cmVtZW50IHRpbWUgYW5kIGVuc3VyZSB1bmludGVycnVwdGVkIGFjY2VzcyB0byBwcm9kdWN0IHVwZGF0ZXMgYW5kIHN1cHBvcnQgYnkgcHVyY2hhc2luZyBhZGRpdGlvbmFsIHllYXJzIG9mIG1haW50ZW5hbmNlIGFuZCBzdXBwb3J0IHVwZnJvbnQuIEdldCBwcm9ncmVzc2l2ZSBkaXNjb3VudHMgb24gdGhlIHN1YnNlcXVlbnQgeWVhcnMgYmFzZWQgb24gdGhlIG51bWJlciBvZiBsaWNlbnNlcyBhbmQgeWVhcnMgeW91IHB1cmNoYXNlLgotIGhlYWRpbmcgIk11bHRpLVllYXIgU3Vic2NyaXB0aW9uIDEgTGljZW5zZSIgW2xldmVsPTZdCi0gaW1nICJGb3IgMSBMaWNlbnNlIgotIGxpbmsgIu6YiCBTZWUgSG93IHRoZSBEaXNjb3VudHMgUGxheSBUb2dldGhlciIKLSBoZWFkaW5nICJBd2FyZHMiIFtsZXZlbD00XQotIHBhcmFncmFwaDogR3JlYXRuZXNz4oCUaXTigJlzIG9uZSB0aGluZyB0byBzYXkgeW91IGhhdmUgaXQsIGJ1dCBpdCBtZWFucyBtb3JlIHdoZW4gb3RoZXJzIHJlY29nbml6ZSBpdC4gVGVsZXJpayBpcyBwcm91ZCB0byBob2xkIHRoZSBmb2xsb3dpbmcgaW5kdXN0cnkgYXdhcmRzLgotIGxpbmsgIlRlbGVyaWsgJiBLZW5kbyBVSSAtIC5ORVQgJiBKYXZhU2NyaXB0IFVJIGNvbXBvbmVudHMgLSBHMiBMZWFkZXJzIFN1bW1lciBBd2FyZCBHMiBMZWFkZXIgV2ludGVyIDIwMjUiOgogIC0gaW1nICJUZWxlcmlrICYgS2VuZG8gVUkgLSAuTkVUICYgSmF2YVNjcmlwdCBVSSBjb21wb25lbnRzIC0gRzIgTGVhZGVycyBTdW1tZXIgQXdhcmQiCiAgLSBwYXJhZ3JhcGg6IEcyIExlYWRlciBXaW50ZXIgMjAyNQotIGxpbmsgIlRlbGVyaWsgJiBLZW5kbyBVSSAtIC5ORVQgJiBKYXZhU2NyaXB0IFVJIGNvbXBvbmVudHMgLSBUcnVzdFJhZGl1cyBNb3N0IExvdmVkIEF3YXJkIEcyIExlYWRlciBNaWQtTWFya2V0IFdpbnRlciAyMDI1IjoKICAtIGltZyAiVGVsZXJpayAmIEtlbmRvIFVJIC0gLk5FVCAmIEphdmFTY3JpcHQgVUkgY29tcG9uZW50cyAtIFRydXN0UmFkaXVzIE1vc3QgTG92ZWQgQXdhcmQiCiAgLSBwYXJhZ3JhcGg6IEcyIExlYWRlciBNaWQtTWFya2V0IFdpbnRlciAyMDI1Ci0gaW1nICJUZWxlcmlrICYgS2VuZG8gVUkgLSAuTkVUICYgSmF2YVNjcmlwdCBVSSBjb21wb25lbnRzIC0gVHJ1c3RSYWRpdXMgQmVzdCBGZWF0dXJlIFNldCBBd2FyZCIKLSBwYXJhZ3JhcGg6IFByb2dyZXNzIGluY2x1ZGVkIGluIFRocmVlIEdhcnRuZXIgTWFnaWMgUXVhZHJhbnRzCi0gaW1nICJUZWxlcmlrICYgS2VuZG8gVUkgLSAuTkVUICYgSmF2YVNjcmlwdCBVSSBjb21wb25lbnRzIC0gVHJ1c3RSYWRpdXMgQmVzdCBDdXN0b21lciBTdXBwb3J0IEF3YXJkIgotIHBhcmFncmFwaDogVHJ1c3RSYWRpdXMgQmVzdCBDdXN0b21lciBTdXBwb3J0IEF3YXJkCi0gaGVhZGluZyAiTmVlZCBNb3JlIEluZm9ybWF0aW9uPyIgW2xldmVsPTJdCi0gaGVhZGluZyAiRkFRcyIgW2xldmVsPTVdCi0gcGFyYWdyYXBoOiBHZXQgbW9yZSBpbmZvcm1hdGlvbiBhYm91dCBvcmRlcmluZywgcGF5bWVudHMgYW5kIHByb2R1Y3QgZGVsaXZlcnkuCi0gbGluayAi7piIIFB1cmNoYXNpbmcgJiBMaWNlbnNpbmcgRkFRcyIKLSBoZWFkaW5nICJDb250YWN0IFVzIiBbbGV2ZWw9NV0KLSBwYXJhZ3JhcGg6ICJDYWxsIHVzIHRvbGwtZnJlZSBhdDoiCi0gbGluayAiKzEtODAwLTQ3Ny02NDczIgotIHBhcmFncmFwaDogIkdldCBpbiB0b3VjaDoiCi0gbGluayAi7piIIENvbnRhY3Qgb3VyIFByb2R1Y3QgU3BlY2lhbGlzdHMiCi0gaGVhZGluZyAiT3RoZXIgV2F5cyB0byBNYWtlIGEgUHVyY2hhc2UiIFtsZXZlbD01XQotIHBhcmFncmFwaDogRmlsbCBpbiB5b3VyIGRldGFpbHMgYW5kIHlvdeKAmWxsIGJlIHNlbnQgYSBxdW90ZS9lc3RpbWF0ZSB0byBzaWduLiBPbmNlIGl04oCZcyBzaWduZWQgYW5kIHJldHVybmVkLCB3ZeKAmWxsIGFjdGl2ZSB5b3VyIGxpY2Vuc2VzIGFuZCBzZW5kIHlvdSBhbiBpbnZvaWNlIHdpdGggTkVUIDMwIHBheW1lbnQgdGVybXMuCi0gbGluayAi7piIIFJlcXVlc3QgYSBRdW90ZSIKLSBjb250ZW50aW5mbzoKICAtIHRleHQ6IENvbXBsZXRlIC5ORVQgVG9vbGJveAogIC0gbGluayAiVGVsZXJpayBEZXZDcmFmdCIKICAtIHRleHQ6IENvbXBsZXRlIEphdmFTY3JpcHQgVG9vbGJveAogIC0gbGluayAiS2VuZG8gVUkiCiAgLSB0ZXh0OiBHZXQgUHJvZHVjdHMKICAtIGxpc3Q6CiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkZyZWUgVHJpYWxzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJQcmljaW5nIgogIC0gdGV4dDogUmVzb3VyY2VzCiAgLSBsaXN0OgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJEZW1vcyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiRG9jdW1lbnRhdGlvbiIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiUmVsZWFzZSBIaXN0b3J5IgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJGb3J1bXMiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkJsb2dzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJXZWJpbmFycyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiVmlkZW9zIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJQcm9mZXNzaW9uYWwgU2VydmljZXMiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlBhcnRuZXJzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJWaXJ0dWFsIENsYXNzcm9vbSIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiRXZlbnRzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJGQVFzIgogIC0gdGV4dDogUmVjb2duaXRpb24KICAtIGxpc3Q6CiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlN1Y2Nlc3MgU3RvcmllcyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiVGVzdGltb25pYWxzIgogIC0gdGV4dDogR2V0IGluIHRvdWNoCiAgLSBsaXN0OgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJDb250YWN0IFVzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaXN0OgogICAgICAgIC0gbGlzdGl0ZW06CiAgICAgICAgICAtICdsaW5rICJVU0E6ICsxIDg4OCA2NzkgMDQ0MiInCiAgICAgICAgLSBsaXN0aXRlbToKICAgICAgICAgIC0gJ2xpbmsgIlVLOiArNDQgMTMgNDQ4MyA4MTg2IicKICAgICAgICAtIGxpc3RpdGVtOgogICAgICAgICAgLSAnbGluayAiSW5kaWE6ICs5MSA0MDYgOTAxOTQ0NyInCiAgICAgICAgLSBsaXN0aXRlbToKICAgICAgICAgIC0gJ2xpbmsgIkJ1bGdhcmlhOiArMzU5IDIgODA5OTg1MCInCiAgICAgICAgLSBsaXN0aXRlbToKICAgICAgICAgIC0gJ2xpbmsgIkF1c3RyYWxpYTogKzYxIDMgNzA2OCA4NjEwIicKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGlzdDoKICAgICAgICAtIGxpc3RpdGVtOgogICAgICAgICAgLSBsaW5rICIxNjVrKyI6CiAgICAgICAgICAgIC0gaW1nCiAgICAgICAgICAgIC0gdGV4dDogMTY1aysKICAgICAgICAtIGxpc3RpdGVtOgogICAgICAgICAgLSBsaW5rICI1MGsrIjoKICAgICAgICAgICAgLSBpbWcKICAgICAgICAgICAgLSB0ZXh0OiA1MGsrCiAgICAgICAgLSBsaXN0aXRlbToKICAgICAgICAgIC0gbGluayAiMTdrKyI6CiAgICAgICAgICAgIC0gaW1nCiAgICAgICAgICAgIC0gdGV4dDogMTdrKwogICAgICAgIC0gbGlzdGl0ZW06CiAgICAgICAgICAtIGxpbmsgIjRrKyI6CiAgICAgICAgICAgIC0gaW1nCiAgICAgICAgICAgIC0gdGV4dDogNGsrCiAgICAgICAgLSBsaXN0aXRlbToKICAgICAgICAgIC0gbGluayAiMTRrKyI6CiAgICAgICAgICAgIC0gaW1nCiAgICAgICAgICAgIC0gdGV4dDogMTRrKwogICAgICAgIC0gbGlzdGl0ZW06CiAgICAgICAgICAtIGxpbmsgIkdpdEh1YiI6CiAgICAgICAgICAgIC0gaW1nCiAgLSBsaW5rICJHbyB0byBQcm9ncmVzcy5jb20iOgogICAgLSBpbWcKICAtIHBhcmFncmFwaDogVGVsZXJpayBhbmQgS2VuZG8gVUkgYXJlIHBhcnQgb2YgUHJvZ3Jlc3MgcHJvZHVjdCBwb3J0Zm9saW8uIFByb2dyZXNzIGlzIHRoZSBsZWFkaW5nIHByb3ZpZGVyIG9mIGFwcGxpY2F0aW9uIGRldmVsb3BtZW50IGFuZCBkaWdpdGFsIGV4cGVyaWVuY2UgdGVjaG5vbG9naWVzLgogIC0gbGlzdDoKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiQ29tcGFueSIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiVGVjaG5vbG9neSIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiQXdhcmRzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJQcmVzcyBSZWxlYXNlcyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiTWVkaWEgQ292ZXJhZ2UiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkNhcmVlcnMiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIk9mZmljZXMiCiAgLSBwYXJhZ3JhcGg6IENvcHlyaWdodCDCqSAyMDI1IFByb2dyZXNzIFNvZnR3YXJlIENvcnBvcmF0aW9uIGFuZC9vciBpdHMgc3Vic2lkaWFyaWVzIG9yIGFmZmlsaWF0ZXMuIEFsbCBSaWdodHMgUmVzZXJ2ZWQuCiAgLSBwYXJhZ3JhcGg6CiAgICAtIHRleHQ6IFByb2dyZXNzIGFuZCBjZXJ0YWluIHByb2R1Y3QgbmFtZXMgdXNlZCBoZXJlaW4gYXJlIHRyYWRlbWFya3Mgb3IgcmVnaXN0ZXJlZCB0cmFkZW1hcmtzIG9mIFByb2dyZXNzIFNvZnR3YXJlIENvcnBvcmF0aW9uIGFuZC9vciBvbmUgb2YgaXRzIHN1YnNpZGlhcmllcyBvciBhZmZpbGlhdGVzIGluIHRoZSBVLlMuIGFuZC9vciBvdGhlciBjb3VudHJpZXMuIFNlZQogICAgLSBsaW5rICJUcmFkZW1hcmtzIgogICAgLSB0ZXh0OiBmb3IgYXBwcm9wcmlhdGUgbWFya2luZ3MuCiAgLSBsaXN0OgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJUZXJtcyBvZiBVc2UiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlNpdGUgRmVlZGJhY2siCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlByaXZhY3kgQ2VudGVyIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJUcnVzdCBDZW50ZXIiCiAgLSBsaW5rICJEbyBOb3QgU2VsbCBvciBTaGFyZSBNeSBQZXJzb25hbCBJbmZvcm1hdGlvbiIKICAtIHBhcmFncmFwaDoKICAgIC0gdGV4dDogUG93ZXJlZCBieQogICAgLSBsaW5rICJQcm9ncmVzcyBTaXRlZmluaXR5IgpgYGAKCiMgVGVzdCBzb3VyY2UKCmBgYHRzCiAgIDEgfCBpbXBvcnQgeyBQYWdlLCBleHBlY3QgfSBmcm9tICJAcGxheXdyaWdodC90ZXN0IjsKICAgMiB8CiAgIDMgfAogICA0IHwgZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGJyb2tlbkxpbmtDaGVja2VyKHBhZ2U6IFBhZ2UpIHsKICAgNSB8ICAgICBjb25zdCBiYXNlVVJMID0gImh0dHBzOi8vd3d3LnRlbGVyaWsuY29tIjsKICAgNiB8CiAgIDcgfCAgICAgY29uc3QgbGlua3MgPSBwYWdlLmxvY2F0b3IoImEiKTsKICAgOCB8CiAgIDkgfCAgICAgY29uc3QgYWxsTGlua3MgPSBhd2FpdCBsaW5rcy5hbGwoKTsKICAxMCB8CiAgMTEgfCAgICAgY29uc3QgYWxsSHJlZnMgPSBhd2FpdCBQcm9taXNlLmFsbCgKICAxMiB8ICAgICAgICAgYWxsTGlua3MubWFwKChsaW5rKSA9PiBsaW5rLmdldEF0dHJpYnV0ZSgiaHJlZiIpKQogIDEzIHwgICAgICkKICAxNCB8CiAgMTUgfCAgICAgY29uc3QgYWxsVmFsaWRIcmVmcyA9IGFsbEhyZWZzLnJlZHVjZSgobGlua3MsIGxpbmspID0+IHsKPiAxNiB8ICAgICAgICAgZXhwZWN0LnNvZnQobGluaywgYCR7bGlua30gaXMgbm90IGEgdmFsaWQgaHJlZmApLnRvQmVUcnV0aHkoKTsKICAgICB8ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF4gRXJyb3I6IG51bGwgaXMgbm90IGEgdmFsaWQgaHJlZgogIDE3IHwgICAgICAgICBpZiAobGluayAmJiAhbGluaz8uc3RhcnRzV2l0aCgibWFpbHRvIikpIHsKICAxOCB8ICAgICAgICAgICAgIGlmIChsaW5rLmNoYXJBdCgwKSA9PT0gIi8iIHx8IGxpbmsuY2hhckF0KDApID09PSAiIyIpIGxpbmsgPSBiYXNlVVJMICsgbGluazsKICAxOSB8ICAgICAgICAgICAgIGlmIChsaW5rLmluY2x1ZGVzKGJhc2VVUkwpKSBsaW5rcy5hZGQobGluayk7CiAgMjAgfCAgICAgICAgIH0KICAyMSB8ICAgICAgICAgICAgIHJldHVybiBsaW5rcwogIDIyIHwgICAgICAgICB9LCBuZXcgU2V0PHN0cmluZz4oKSkKICAyMyB8CiAgMjQgfCAgICAgICAgIGZvciAobGV0IHVybCBvZiBhbGxWYWxpZEhyZWZzKSB7CiAgMjUgfCAgICAgICAgICAgICB0cnkgewogIDI2IHwgICAgICAgICAgICAgICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgcGFnZS5yZXF1ZXN0LmdldCh1cmwpOwogIDI3IHwgICAgICAgICAgICAgICAgIGV4cGVjdC5zb2Z0KHJlc3BvbnNlLm9rKCksIGAke3VybH0gaXMgbm90IHZhbGlkYCkudG9CZVRydXRoeSgpOwogIDI4IHwgICAgICAgICAgICAgfSBjYXRjaChlcnIpIHsKICAyOSB8ICAgICAgICAgICAgICAgICBleHBlY3Quc29mdChudWxsLCBgJHt1cmx9IGlzIG5vdCB2YWxpZGApLnRvQmVUcnV0aHkoKTsKICAzMCB8ICAgICAgICAgICAgICAgICBleHBlY3Quc29mdChudWxsLCAiIiArIGVycikudG9CZVRydXRoeSgpOwogIDMxIHwgICAgICAgICAgICAgfQogIDMyIHwgICAgIH0KICAzMyB8IH0KYGBg"
+                          "body": "IyBJbnN0cnVjdGlvbnMKCi0gRm9sbG93aW5nIFBsYXl3cmlnaHQgdGVzdCBmYWlsZWQuCi0gRXhwbGFpbiB3aHksIGJlIGNvbmNpc2UsIHJlc3BlY3QgUGxheXdyaWdodCBiZXN0IHByYWN0aWNlcy4KLSBQcm92aWRlIGEgc25pcHBldCBvZiBjb2RlIHdpdGggdGhlIGZpeCwgaWYgcG9zc2libGUuCgojIFRlc3QgaW5mbwoKLSBOYW1lOiBQcmljaW5nIFBhZ2UgVGVzdHMgPj4gQnJva2VuIExpbmsgQ2hlY2tlcgotIExvY2F0aW9uOiBDOlxVc2Vyc1xEcmV3XERvY3VtZW50c1xWU2NvZGUtd29ya3NwYWNlXHBsYXl3cmlnaHQtdHlwZXNjcmlwdFx0ZXN0XHVpXHRlc3RzXHByaWNpbmdQYWdlVGVzdHMuc3BlYy50czoxMzo1CgojIEVycm9yIGRldGFpbHMKCmBgYApFcnJvcjogbnVsbCBpcyBub3QgYSB2YWxpZCBocmVmCgpleHBlY3QocmVjZWl2ZWQpLnRvQmVUcnV0aHkoKQoKUmVjZWl2ZWQ6IG51bGwKICAgIGF0IHJlZHVjZSAoQzpcVXNlcnNcRHJld1xEb2N1bWVudHNcVlNjb2RlLXdvcmtzcGFjZVxwbGF5d3JpZ2h0LXR5cGVzY3JpcHRcdGVzdFx1aVx1dGlsc1xicm9rZW5MaW5rQ2hlY2tlci50czoxNjo1OCkKICAgIGF0IGJyb2tlbkxpbmtDaGVja2VyIChDOlxVc2Vyc1xEcmV3XERvY3VtZW50c1xWU2NvZGUtd29ya3NwYWNlXHBsYXl3cmlnaHQtdHlwZXNjcmlwdFx0ZXN0XHVpXHV0aWxzXGJyb2tlbkxpbmtDaGVja2VyLnRzOjE1OjM2KQogICAgYXQgUHJpY2luZ1BhZ2UuY2hlY2tGb3JCcm9rZW5MaW5rcyAoQzpcVXNlcnNcRHJld1xEb2N1bWVudHNcVlNjb2RlLXdvcmtzcGFjZVxwbGF5d3JpZ2h0LXR5cGVzY3JpcHRcdGVzdFx1aVxwYWdlc1xwcmljaW5nUGFnZS50czoyMTo5KQogICAgYXQgQzpcVXNlcnNcRHJld1xEb2N1bWVudHNcVlNjb2RlLXdvcmtzcGFjZVxwbGF5d3JpZ2h0LXR5cGVzY3JpcHRcdGVzdFx1aVx0ZXN0c1xwcmljaW5nUGFnZVRlc3RzLnNwZWMudHM6MTU6OQpgYGAKCiMgUGFnZSBzbmFwc2hvdAoKYGBgeWFtbAotIG5hdmlnYXRpb246CiAgLSBmaWd1cmU6CiAgICAtIGxpbmsgInNraXAgbmF2aWdhdGlvbiIKICAgIC0gbGluayAiR28gdG8gSG9tZXBhZ2UiOgogICAgICAtIGltZwogIC0gbGlzdDoKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gYnV0dG9uICJQcm9kdWN0IE5hdmlnYXRpb24iOiBBbGwgUHJvZHVjdHMKICAtIGxpc3Q6CiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkRlbW9zIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJTZXJ2aWNlcyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiQmxvZ3MiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkRvY3MgJiBTdXBwb3J0IgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJQcmljaW5nIgogIC0gbGlzdDoKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiU2VhcmNoIjoKICAgICAgICAtIGltZwogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJTaG9wcGluZyBjYXJ0IjoKICAgICAgICAtIGltZwogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJZb3VyIEFjY291bnQiOgogICAgICAgIC0gaW1nCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkNvbnRhY3QgVXMiOgogICAgICAgIC0gaW1nCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkdldCBBIEZyZWUgVHJpYWwiCi0gaGVhZGluZyAiUHJpY2luZyIgW2xldmVsPTFdCi0gYnV0dG9uICJCZXN0IFZhbHVlIFByb2R1Y3QgQnVuZGxlcyIKLSBidXR0b24gIkluZGl2aWR1YWwgUHJvZHVjdHMiCi0gdGV4dDogIkxpY2Vuc2UgVHlwZToiCi0gcGFyYWdyYXBoOgogIC0gc3Ryb25nOiBTYXZlIGF0IGxlYXN0IDI1JQogIC0gdGV4dDogb2YgeW91ciBpbml0aWFsIGludmVzdG1lbnQuIEZsYXQgYW5udWFsIGZlZSBpbmNsdWRpbmcgcHJvZHVjdCB1cGRhdGVzLCB0ZWNobmljYWwgc3VwcG9ydCwgYW5kIGFueSBmb3J0aGNvbWluZyBleGNsdXNpdmUgYmVuZWZpdHMuCi0gYnV0dG9uICJTdWJzY3JpcHRpb24iCi0gYnV0dG9uICJQZXJwZXR1YWwiCi0gcGFyYWdyYXBoOiBPbmUtdGltZSBwdXJjaGFzZSBncmFudGluZyBhY2Nlc3MgdG8gdGhlIGN1cnJlbnQgcmVsZWFzZWQgdmVyc2lvbnMuIDEgeWVhciBvZiBwcm9kdWN0IHVwZGF0ZXMgYW5kIHRlY2huaWNhbCBzdXBwb3J0IGluY2x1ZGVkLgotIHRleHQ6IEZyZWUKLSBsaXN0OgogIC0gbGlzdGl0ZW06CiAgICAtIGhlYWRpbmcgIu6YiSBBbGwgU3Vic2NyaXB0aW9uIFBsYW5zIEluY2x1ZGU6IiBbbGV2ZWw9NV0KICAgIC0gbGlzdDoKICAgICAgLSBsaXN0aXRlbToKICAgICAgICAtIGxpbmsgIlBhZ2UgVGVtcGxhdGVzIgogICAgICAtIGxpc3RpdGVtOgogICAgICAgIC0gbGluayAiQnVpbGRpbmcgQmxvY2tzIgogICAgICAtIGxpc3RpdGVtOgogICAgICAgIC0gbGluayAiVGhlbWVCdWlsZGVyIFRvb2wiCiAgICAtIHNlcGFyYXRvcgogICAgLSBwYXJhZ3JhcGg6IEF2YWlsYWJsZSBmb3IgS2VuZG8gVUkgZm9yIEFuZ3VsYXIsIEtlbmRvUmVhY3QgYW5kIFRlbGVyaWsgVUkgZm9yIEJsYXpvcgotIGhlYWRpbmcgIkRldkNyYWZ0IFVJIiBbbGV2ZWw9NV0KLSBzdXBlcnNjcmlwdDogJAotIHRleHQ6IDEsMTQ5Ci0gcGFyYWdyYXBoOiBwZXIgZGV2ZWxvcGVyLCBwZXIgeWVhcgotIGJ1dHRvbiAiTGl0ZSBzdXBwb3J0ID8iCi0gbGluayAiTGVhcm4gTW9yZSIKLSBsaW5rICJCdXkgTm93IgotIGxpc3Q6CiAgLSBsaXN0aXRlbTog7piJIC5ORVQgYW5kIEphdmFTY3JpcHQgVUkgY29tcG9uZW50cyBmb3Igd2ViLCBkZXNrdG9wIGFuZCBtb2JpbGUKICAtIGxpc3RpdGVtOiDumIkgUGFnZSBUZW1wbGF0ZXMsIEJ1aWRsaW5nIEJsb2NrcyAmIFRoZW1lQnVpbGRlciBVbHRpbWF0ZQogIC0gbGlzdGl0ZW06IO6YiSBEb2N1bWVudCBwcm9jZXNzaW5nIGxpYnJhcmllcwogIC0gbGlzdGl0ZW06IO6YiSBUZWxlcmlrIGFuZCBLZW5kbyBVSSBLaXRzIGZvciBGaWdtYQotIHRleHQ6IE1vc3QgUG9wdWxhcgotIGhlYWRpbmcgIkRldkNyYWZ0IENvbXBsZXRlIiBbbGV2ZWw9NV0KLSBzdXBlcnNjcmlwdDogJAotIHRleHQ6IDEsMjk5Ci0gcGFyYWdyYXBoOiBwZXIgZGV2ZWxvcGVyLCBwZXIgeWVhcgotIGJ1dHRvbiAiUHJpb3JpdHkgc3VwcG9ydCA/IgotIGxpbmsgIkxlYXJuIE1vcmUiCi0gbGluayAiQnV5IE5vdyIKLSBsaXN0OgogIC0gbGlzdGl0ZW06IO6YiSBFdmVyeXRoaW5nIGluIERldkNyYWZ0IFVJCiAgLSBsaXN0aXRlbTog7pibIEVtYmVkZGVkIHJlcG9ydGluZyBmb3Igd2ViIGFuZCBkZXNrdG9wCiAgLSBsaXN0aXRlbTog7pibIE1vY2tpbmcgc29sdXRpb24gZm9yIHJhcGlkIHVuaXQgdGVzdGluZwotIGhlYWRpbmcgIkRldkNyYWZ0IFVsdGltYXRlIiBbbGV2ZWw9NV0KLSBzdXBlcnNjcmlwdDogJAotIHRleHQ6IDEsNjQ5Ci0gcGFyYWdyYXBoOiBwZXIgZGV2ZWxvcGVyLCBwZXIgeWVhcgotIGJ1dHRvbiAiVWx0aW1hdGUgc3VwcG9ydCA/IgotIGxpbmsgIkxlYXJuIE1vcmUiCi0gbGluayAiQnV5IE5vdyIKLSBsaXN0OgogIC0gbGlzdGl0ZW06IO6YiSBFdmVyeXRoaW5nIGluIERldkNyYWZ0IENvbXBsZXRlCiAgLSBsaXN0aXRlbTog7pibIEVuZC10by1lbmQgcmVwb3J0IG1hbmFnZW1lbnQgc29sdXRpb24KICAtIGxpc3RpdGVtOiDumJsgVGhlbWVCdWlsZGVyIEVudGVycHJpc2UKLSB0ZXh0OiBQcm9kdWN0cyBJbmNsdWRlZAotIHRlcm06IFBhZ2UgVGVtcGxhdGVzICYgQnVpbGRpbmcgQmxvY2tzCi0gZGVmaW5pdGlvbjog4pePCi0gZGVmaW5pdGlvbjog4pePCi0gZGVmaW5pdGlvbjog4pePCi0gdGVybTogVGhlbWVCdWlsZGVyCi0gZGVmaW5pdGlvbjogVWx0aW1hdGUKLSBkZWZpbml0aW9uOiBVbHRpbWF0ZQotIGRlZmluaXRpb246IEVudGVycHJpc2UKLSB0ZXJtOiBLZW5kbyBVSSBmb3IgQW5ndWxhcgotIGRlZmluaXRpb246IOKXjwotIGRlZmluaXRpb246IOKXjwotIGRlZmluaXRpb246IOKXjwotIHRlcm06IEtlbmRvUmVhY3QKLSBkZWZpbml0aW9uOiDil48KLSBkZWZpbml0aW9uOiDil48KLSBkZWZpbml0aW9uOiDil48KLSB0ZXJtOiBLZW5kbyBVSSBmb3IgVnVlCi0gZGVmaW5pdGlvbjog4pePCi0gZGVmaW5pdGlvbjog4pePCi0gZGVmaW5pdGlvbjog4pePCi0gdGVybTogS2VuZG8gVUkgZm9yIGpRdWVyeQotIGRlZmluaXRpb246IOKXjwotIGRlZmluaXRpb246IOKXjwotIGRlZmluaXRpb246IOKXjwotIHRlcm06IFRlbGVyaWsgVUkgZm9yIEFTUC5ORVQgQUpBWAotIGRlZmluaXRpb246IOKXjwotIGRlZmluaXRpb246IOKXjwotIGRlZmluaXRpb246IOKXjwotIHRlcm06IFRlbGVyaWsgVUkgZm9yIEFTUC5ORVQgTVZDCi0gZGVmaW5pdGlvbjog4pePCi0gZGVmaW5pdGlvbjog4pePCi0gZGVmaW5pdGlvbjog4pePCi0gdGVybTogVGVsZXJpayBVSSBmb3IgQVNQLk5FVCBDb3JlCi0gZGVmaW5pdGlvbjog4pePCi0gZGVmaW5pdGlvbjog4pePCi0gZGVmaW5pdGlvbjog4pePCi0gYnV0dG9uICLumIcgU2hvdyBkZXRhaWxlZCBjb21wYXJpc29uIgotIGhlYWRpbmcgIlRyYW5zcGFyZW50IExpY2Vuc2luZy4gTm8gSGlkZGVuIEZlZXMuIiBbbGV2ZWw9Ml0KLSBwYXJhZ3JhcGg6IEhhdmluZyBjbGVhciBhbmQgcHJlZGljdGFibGUgY29zdHMgbWFrZXMgb3VyIGxpY2Vuc2VzIGRldmVsb3BlciBhbmQgYnVkZ2V0LWZyaWVuZGx5LgotIGltZyAiTGljZW5zaW5nIFBvbGljeSIKLSBoZWFkaW5nICJGbGV4aWJsZSBMaWNlbnNpbmcgUG9saWN5IiBbbGV2ZWw9M10KLSBwYXJhZ3JhcGg6IENob29zZSBhIHByZWZlcnJlZCBsaWNlbnNlIG1vZGVsIGJhc2VkIG9uIHlvdXIgYnVkZ2V0IGFuZCBidXNpbmVzcyBuZWVkcy4gVGhlIG5ldyBzdWJzY3JpcHRpb24gcGxhbnMgb2ZmZXIgYSBsb3dlciBpbml0aWFsIGludmVzdG1lbnQsIHNjYWxhYmlsaXR5IGFuZCBleGNsdXNpdmUgYmVuZWZpdHMgZm9yIGxpY2Vuc2UgaG9sZGVycy4KLSBsaW5rICLumIggU2VlIExpY2Vuc2luZyBQb2xpY3kiCi0gbGluayAi7piIIFNlZSBMaWNlbnNlIFJlYXNzaWdubWVudCIKLSBpbWcgIk1haW50ZW5hbmNlICYgU3VwcG9ydCIKLSBoZWFkaW5nICJNYWludGVuYW5jZSAmIFN1cHBvcnQiIFtsZXZlbD0zXQotIHBhcmFncmFwaDogRWFjaCBsaWNlbnNlIGNvbWVzIHdpdGggMSB5ZWFyIG9mIHByb2R1Y3QgdXBkYXRlcyBhbmQgdGVjaG5pY2FsIHN1cHBvcnQuIFBlcnBldHVhbCBsaWNlbnNlIGhvbGRlcnMgbmVlZCB0byByZW5ldyB0aGVpciBzdXBwb3J0IHBsYW4gdXBvbiBleHBpcmF0aW9uLgotIGxpbmsgIu6YiCBTZWUgUmVuZXdhbHMgUHJpY2luZ3MiCi0gbGluayAi7piIIFNlZSBVcGdyYWRlcyBQcmljaW5nIgotIGxpbmsgIu6YiCBFeHBsb3JlIFN1cHBvcnQgUGxhbnMiCi0gaW1nICJSZW5ld2FscyAmIFVwZ3JhZGVzIgotIGhlYWRpbmcgIlRvdGFsIENvc3Qgb2YgT3duZXJzaGlwIiBbbGV2ZWw9M10KLSBwYXJhZ3JhcGg6IE5vIGRlcGxveW1lbnQgb3IgaGlkZGVuIGZlZXMsIG9ubHkgZGV2ZWxvcGVycyB1c2luZyBUZWxlcmlrIGFuZC9vciBLZW5kbyBVSSBuZWVkIGxpY2Vuc2VzLgotIGxpbmsgIu6YiCBDb250YWN0IFByb2R1Y3QgU3BlY2lhbGlzdCIKLSBpbWcgIkxpY2Vuc2UgUmVhc3NpZ25tZW50IgotIGhlYWRpbmcgIkVudGVycHJpc2UtUmVhZHkgT2ZmZXJpbmdzIiBbbGV2ZWw9M10KLSBwYXJhZ3JhcGg6IFVubG9jayB0b29sc2V0IHN0YW5kYXJkaXphdGlvbiwgaG9zdCB3b3Jrc2hvcHMgd2l0aCBwcm9kdWN0IG1hbmFnZW1lbnQsIGFjY2VzcyBoaWdoZXIgbGV2ZWxzIG9mIHN1cHBvcnQsIGFuZCBzY2FsZSB3aXRoIGVhc2UgYnkgbGV2ZXJhZ2luZyBvdXIgY2xpZW50LXRhaWxvcmVkIGFuZCBmbGV4aWJsZSBwcmljaW5nLgotIGxpbmsgIu6YiCBTZWUgU3RhbmRhcmRpemF0aW9uIEJlbmVmaXRzIgotIGxpbmsgIu6YiCBDb250YWN0IFByb2R1Y3QgU3BlY2lhbGlzdCIKLSBoZWFkaW5nICJDb21iaW5lIE91ciBWb2x1bWUgYW5kIE11bHRpLVllYXIgRGlzY291bnRzIiBbbGV2ZWw9Ml0KLSBwYXJhZ3JhcGg6IE91ciBsaWNlbnNpbmcgcG9saWN5IGluY2x1ZGVzIGFkZGl0aW9uYWwgZGlzY291bnQgcGVyIGRldmVsb3BlciBhbmQgcGVyIGFkZGl0aW9uYWwgeWVhciBvZiBwdXJjaGFzZS4gVGhlIGJldHRlciB5b3VyIHBsYW5uaW5nLCB0aGUgbW9yZSB5b3Ugc2F2ZS4gRGlzY291bnRzIHdpbGwgYmUgYXBwbGllZCBhdXRvbWF0aWNhbGx5IGluIHRoZSBzaG9wcGluZyBjYXJ0LgotIGhlYWRpbmcgIlZvbHVtZSBEaXNjb3VudCIgW2xldmVsPTRdCi0gcGFyYWdyYXBoOiBXaGV0aGVyIHRoZXJl4oCZcyBtb3JlIHRoYW4gb25lIGRldmVsb3BlciBvbiB5b3VyIHRlYW0gd29ya2luZyBvbiB0aGUgYXBwIFVJIG9yIHlvdeKAmXJlIHBsYW5uaW5nIG9uIGVubGFyZ2luZyB0aGUgdGVhbSBpbiB0aGUgbmVhciBmdXR1cmUsIHRoZSB2b2x1bWUgZGlzY291bnQgZW5hYmxlcyB5b3UgdG8gc2VjdXJlIHRoZSBiZXN0IHByaWNlIGR1cmluZyB0aGUgaW5pdGlhbCBwdXJjaGFzZSBvZiBhcyBmZXcgYXMgMiBsaWNlbnNlcyB3aXRoIHNhdmluZ3Mgb2YgdXAgdG8gMTAlLgotIGhlYWRpbmcgIk51bWJlciBvZiBsaWNlbnNlcyAxIHllYXIgU3Vic2NyaXB0aW9uIiBbbGV2ZWw9Nl0KLSBpbWcgIk51bWJlciBvZiBMaWNlbnNlcyIKLSBpbWcKLSBoZWFkaW5nICJNdWx0aS1ZZWFyIERpc2NvdW50cyIgW2xldmVsPTRdCi0gcGFyYWdyYXBoOiBMb2NrIGluIGxvd2VyIHN1YnNjcmlwdGlvbiByYXRlcywgc2F2ZSBwcm9jdXJlbWVudCB0aW1lIGFuZCBlbnN1cmUgdW5pbnRlcnJ1cHRlZCBhY2Nlc3MgdG8gcHJvZHVjdCB1cGRhdGVzIGFuZCBzdXBwb3J0IGJ5IHB1cmNoYXNpbmcgYWRkaXRpb25hbCB5ZWFycyBvZiBtYWludGVuYW5jZSBhbmQgc3VwcG9ydCB1cGZyb250LiBHZXQgcHJvZ3Jlc3NpdmUgZGlzY291bnRzIG9uIHRoZSBzdWJzZXF1ZW50IHllYXJzIGJhc2VkIG9uIHRoZSBudW1iZXIgb2YgbGljZW5zZXMgYW5kIHllYXJzIHlvdSBwdXJjaGFzZS4KLSBoZWFkaW5nICJNdWx0aS1ZZWFyIFN1YnNjcmlwdGlvbiAxIExpY2Vuc2UiIFtsZXZlbD02XQotIGltZyAiRm9yIDEgTGljZW5zZSIKLSBsaW5rICLumIggU2VlIEhvdyB0aGUgRGlzY291bnRzIFBsYXkgVG9nZXRoZXIiCi0gaGVhZGluZyAiQXdhcmRzIiBbbGV2ZWw9NF0KLSBwYXJhZ3JhcGg6IEdyZWF0bmVzc+KAlGl04oCZcyBvbmUgdGhpbmcgdG8gc2F5IHlvdSBoYXZlIGl0LCBidXQgaXQgbWVhbnMgbW9yZSB3aGVuIG90aGVycyByZWNvZ25pemUgaXQuIFRlbGVyaWsgaXMgcHJvdWQgdG8gaG9sZCB0aGUgZm9sbG93aW5nIGluZHVzdHJ5IGF3YXJkcy4KLSBsaW5rICJUZWxlcmlrICYgS2VuZG8gVUkgLSAuTkVUICYgSmF2YVNjcmlwdCBVSSBjb21wb25lbnRzIC0gRzIgTGVhZGVycyBTdW1tZXIgQXdhcmQgRzIgTGVhZGVyIFdpbnRlciAyMDI1IjoKICAtIGltZyAiVGVsZXJpayAmIEtlbmRvIFVJIC0gLk5FVCAmIEphdmFTY3JpcHQgVUkgY29tcG9uZW50cyAtIEcyIExlYWRlcnMgU3VtbWVyIEF3YXJkIgogIC0gcGFyYWdyYXBoOiBHMiBMZWFkZXIgV2ludGVyIDIwMjUKLSBsaW5rICJUZWxlcmlrICYgS2VuZG8gVUkgLSAuTkVUICYgSmF2YVNjcmlwdCBVSSBjb21wb25lbnRzIC0gVHJ1c3RSYWRpdXMgTW9zdCBMb3ZlZCBBd2FyZCBHMiBMZWFkZXIgTWlkLU1hcmtldCBXaW50ZXIgMjAyNSI6CiAgLSBpbWcgIlRlbGVyaWsgJiBLZW5kbyBVSSAtIC5ORVQgJiBKYXZhU2NyaXB0IFVJIGNvbXBvbmVudHMgLSBUcnVzdFJhZGl1cyBNb3N0IExvdmVkIEF3YXJkIgogIC0gcGFyYWdyYXBoOiBHMiBMZWFkZXIgTWlkLU1hcmtldCBXaW50ZXIgMjAyNQotIGltZyAiVGVsZXJpayAmIEtlbmRvIFVJIC0gLk5FVCAmIEphdmFTY3JpcHQgVUkgY29tcG9uZW50cyAtIFRydXN0UmFkaXVzIEJlc3QgRmVhdHVyZSBTZXQgQXdhcmQiCi0gcGFyYWdyYXBoOiBQcm9ncmVzcyBpbmNsdWRlZCBpbiBUaHJlZSBHYXJ0bmVyIE1hZ2ljIFF1YWRyYW50cwotIGltZyAiVGVsZXJpayAmIEtlbmRvIFVJIC0gLk5FVCAmIEphdmFTY3JpcHQgVUkgY29tcG9uZW50cyAtIFRydXN0UmFkaXVzIEJlc3QgQ3VzdG9tZXIgU3VwcG9ydCBBd2FyZCIKLSBwYXJhZ3JhcGg6IFRydXN0UmFkaXVzIEJlc3QgQ3VzdG9tZXIgU3VwcG9ydCBBd2FyZAotIGhlYWRpbmcgIk5lZWQgTW9yZSBJbmZvcm1hdGlvbj8iIFtsZXZlbD0yXQotIGhlYWRpbmcgIkZBUXMiIFtsZXZlbD01XQotIHBhcmFncmFwaDogR2V0IG1vcmUgaW5mb3JtYXRpb24gYWJvdXQgb3JkZXJpbmcsIHBheW1lbnRzIGFuZCBwcm9kdWN0IGRlbGl2ZXJ5LgotIGxpbmsgIu6YiCBQdXJjaGFzaW5nICYgTGljZW5zaW5nIEZBUXMiCi0gaGVhZGluZyAiQ29udGFjdCBVcyIgW2xldmVsPTVdCi0gcGFyYWdyYXBoOiAiQ2FsbCB1cyB0b2xsLWZyZWUgYXQ6IgotIGxpbmsgIisxLTgwMC00NzctNjQ3MyIKLSBwYXJhZ3JhcGg6ICJHZXQgaW4gdG91Y2g6IgotIGxpbmsgIu6YiCBDb250YWN0IG91ciBQcm9kdWN0IFNwZWNpYWxpc3RzIgotIGhlYWRpbmcgIk90aGVyIFdheXMgdG8gTWFrZSBhIFB1cmNoYXNlIiBbbGV2ZWw9NV0KLSBwYXJhZ3JhcGg6IEZpbGwgaW4geW91ciBkZXRhaWxzIGFuZCB5b3XigJlsbCBiZSBzZW50IGEgcXVvdGUvZXN0aW1hdGUgdG8gc2lnbi4gT25jZSBpdOKAmXMgc2lnbmVkIGFuZCByZXR1cm5lZCwgd2XigJlsbCBhY3RpdmUgeW91ciBsaWNlbnNlcyBhbmQgc2VuZCB5b3UgYW4gaW52b2ljZSB3aXRoIE5FVCAzMCBwYXltZW50IHRlcm1zLgotIGxpbmsgIu6YiCBSZXF1ZXN0IGEgUXVvdGUiCi0gY29udGVudGluZm86CiAgLSB0ZXh0OiBDb21wbGV0ZSAuTkVUIFRvb2xib3gKICAtIGxpbmsgIlRlbGVyaWsgRGV2Q3JhZnQiCiAgLSB0ZXh0OiBDb21wbGV0ZSBKYXZhU2NyaXB0IFRvb2xib3gKICAtIGxpbmsgIktlbmRvIFVJIgogIC0gdGV4dDogR2V0IFByb2R1Y3RzCiAgLSBsaXN0OgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJGcmVlIFRyaWFscyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiUHJpY2luZyIKICAtIHRleHQ6IFJlc291cmNlcwogIC0gbGlzdDoKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiRGVtb3MiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkRvY3VtZW50YXRpb24iCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlJlbGVhc2UgSGlzdG9yeSIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiRm9ydW1zIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJCbG9ncyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiV2ViaW5hcnMiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlZpZGVvcyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiUHJvZmVzc2lvbmFsIFNlcnZpY2VzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJQYXJ0bmVycyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiVmlydHVhbCBDbGFzc3Jvb20iCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkV2ZW50cyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiRkFRcyIKICAtIHRleHQ6IFJlY29nbml0aW9uCiAgLSBsaXN0OgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJTdWNjZXNzIFN0b3JpZXMiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlRlc3RpbW9uaWFscyIKICAtIHRleHQ6IEdldCBpbiB0b3VjaAogIC0gbGlzdDoKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiQ29udGFjdCBVcyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGlzdDoKICAgICAgICAtIGxpc3RpdGVtOgogICAgICAgICAgLSAnbGluayAiVVNBOiArMSA4ODggNjc5IDA0NDIiJwogICAgICAgIC0gbGlzdGl0ZW06CiAgICAgICAgICAtICdsaW5rICJVSzogKzQ0IDEzIDQ0ODMgODE4NiInCiAgICAgICAgLSBsaXN0aXRlbToKICAgICAgICAgIC0gJ2xpbmsgIkluZGlhOiArOTEgNDA2IDkwMTk0NDciJwogICAgICAgIC0gbGlzdGl0ZW06CiAgICAgICAgICAtICdsaW5rICJCdWxnYXJpYTogKzM1OSAyIDgwOTk4NTAiJwogICAgICAgIC0gbGlzdGl0ZW06CiAgICAgICAgICAtICdsaW5rICJBdXN0cmFsaWE6ICs2MSAzIDcwNjggODYxMCInCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpc3Q6CiAgICAgICAgLSBsaXN0aXRlbToKICAgICAgICAgIC0gbGluayAiMTY1aysiOgogICAgICAgICAgICAtIGltZwogICAgICAgICAgICAtIHRleHQ6IDE2NWsrCiAgICAgICAgLSBsaXN0aXRlbToKICAgICAgICAgIC0gbGluayAiNTBrKyI6CiAgICAgICAgICAgIC0gaW1nCiAgICAgICAgICAgIC0gdGV4dDogNTBrKwogICAgICAgIC0gbGlzdGl0ZW06CiAgICAgICAgICAtIGxpbmsgIjE3aysiOgogICAgICAgICAgICAtIGltZwogICAgICAgICAgICAtIHRleHQ6IDE3aysKICAgICAgICAtIGxpc3RpdGVtOgogICAgICAgICAgLSBsaW5rICI0aysiOgogICAgICAgICAgICAtIGltZwogICAgICAgICAgICAtIHRleHQ6IDRrKwogICAgICAgIC0gbGlzdGl0ZW06CiAgICAgICAgICAtIGxpbmsgIjE0aysiOgogICAgICAgICAgICAtIGltZwogICAgICAgICAgICAtIHRleHQ6IDE0aysKICAgICAgICAtIGxpc3RpdGVtOgogICAgICAgICAgLSBsaW5rICJHaXRIdWIiOgogICAgICAgICAgICAtIGltZwogIC0gbGluayAiR28gdG8gUHJvZ3Jlc3MuY29tIjoKICAgIC0gaW1nCiAgLSBwYXJhZ3JhcGg6IFRlbGVyaWsgYW5kIEtlbmRvIFVJIGFyZSBwYXJ0IG9mIFByb2dyZXNzIHByb2R1Y3QgcG9ydGZvbGlvLiBQcm9ncmVzcyBpcyB0aGUgbGVhZGluZyBwcm92aWRlciBvZiBhcHBsaWNhdGlvbiBkZXZlbG9wbWVudCBhbmQgZGlnaXRhbCBleHBlcmllbmNlIHRlY2hub2xvZ2llcy4KICAtIGxpc3Q6CiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkNvbXBhbnkiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlRlY2hub2xvZ3kiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkF3YXJkcyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiUHJlc3MgUmVsZWFzZXMiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIk1lZGlhIENvdmVyYWdlIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJDYXJlZXJzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJPZmZpY2VzIgogIC0gcGFyYWdyYXBoOiBDb3B5cmlnaHQgwqkgMjAyNSBQcm9ncmVzcyBTb2Z0d2FyZSBDb3Jwb3JhdGlvbiBhbmQvb3IgaXRzIHN1YnNpZGlhcmllcyBvciBhZmZpbGlhdGVzLiBBbGwgUmlnaHRzIFJlc2VydmVkLgogIC0gcGFyYWdyYXBoOgogICAgLSB0ZXh0OiBQcm9ncmVzcyBhbmQgY2VydGFpbiBwcm9kdWN0IG5hbWVzIHVzZWQgaGVyZWluIGFyZSB0cmFkZW1hcmtzIG9yIHJlZ2lzdGVyZWQgdHJhZGVtYXJrcyBvZiBQcm9ncmVzcyBTb2Z0d2FyZSBDb3Jwb3JhdGlvbiBhbmQvb3Igb25lIG9mIGl0cyBzdWJzaWRpYXJpZXMgb3IgYWZmaWxpYXRlcyBpbiB0aGUgVS5TLiBhbmQvb3Igb3RoZXIgY291bnRyaWVzLiBTZWUKICAgIC0gbGluayAiVHJhZGVtYXJrcyIKICAgIC0gdGV4dDogZm9yIGFwcHJvcHJpYXRlIG1hcmtpbmdzLgogIC0gbGlzdDoKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiVGVybXMgb2YgVXNlIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJTaXRlIEZlZWRiYWNrIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJQcml2YWN5IENlbnRlciIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiVHJ1c3QgQ2VudGVyIgogIC0gbGluayAiRG8gTm90IFNlbGwgb3IgU2hhcmUgTXkgUGVyc29uYWwgSW5mb3JtYXRpb24iCiAgLSBwYXJhZ3JhcGg6CiAgICAtIHRleHQ6IFBvd2VyZWQgYnkKICAgIC0gbGluayAiUHJvZ3Jlc3MgU2l0ZWZpbml0eSIKYGBgCgojIFRlc3Qgc291cmNlCgpgYGB0cwogICAxIHwgaW1wb3J0IHsgUGFnZSwgZXhwZWN0IH0gZnJvbSAiQHBsYXl3cmlnaHQvdGVzdCI7CiAgIDIgfAogICAzIHwKICAgNCB8IGV4cG9ydCBhc3luYyBmdW5jdGlvbiBicm9rZW5MaW5rQ2hlY2tlcihwYWdlOiBQYWdlKSB7CiAgIDUgfCAgICAgY29uc3QgYmFzZVVSTCA9ICJodHRwczovL3d3dy50ZWxlcmlrLmNvbSI7CiAgIDYgfAogICA3IHwgICAgIGNvbnN0IGxpbmtzID0gcGFnZS5sb2NhdG9yKCJhIik7CiAgIDggfAogICA5IHwgICAgIGNvbnN0IGFsbExpbmtzID0gYXdhaXQgbGlua3MuYWxsKCk7CiAgMTAgfAogIDExIHwgICAgIGNvbnN0IGFsbEhyZWZzID0gYXdhaXQgUHJvbWlzZS5hbGwoCiAgMTIgfCAgICAgICAgIGFsbExpbmtzLm1hcCgobGluaykgPT4gbGluay5nZXRBdHRyaWJ1dGUoImhyZWYiKSkKICAxMyB8ICAgICApCiAgMTQgfAogIDE1IHwgICAgIGNvbnN0IGFsbFZhbGlkSHJlZnMgPSBhbGxIcmVmcy5yZWR1Y2UoKGxpbmtzLCBsaW5rKSA9PiB7Cj4gMTYgfCAgICAgICAgIGV4cGVjdC5zb2Z0KGxpbmssIGAke2xpbmt9IGlzIG5vdCBhIHZhbGlkIGhyZWZgKS50b0JlVHJ1dGh5KCk7CiAgICAgfCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBeIEVycm9yOiBudWxsIGlzIG5vdCBhIHZhbGlkIGhyZWYKICAxNyB8ICAgICAgICAgaWYgKGxpbmsgJiYgIWxpbms/LnN0YXJ0c1dpdGgoIm1haWx0byIpKSB7CiAgMTggfCAgICAgICAgICAgICBpZiAobGluay5jaGFyQXQoMCkgPT09ICIvIiB8fCBsaW5rLmNoYXJBdCgwKSA9PT0gIiMiKSBsaW5rID0gYmFzZVVSTCArIGxpbms7CiAgMTkgfCAgICAgICAgICAgICBpZiAobGluay5pbmNsdWRlcyhiYXNlVVJMKSkgbGlua3MuYWRkKGxpbmspOwogIDIwIHwgICAgICAgICB9CiAgMjEgfCAgICAgICAgICAgICByZXR1cm4gbGlua3MKICAyMiB8ICAgICAgICAgfSwgbmV3IFNldDxzdHJpbmc+KCkpCiAgMjMgfAogIDI0IHwgICAgICAgICBmb3IgKGxldCB1cmwgb2YgYWxsVmFsaWRIcmVmcykgewogIDI1IHwgICAgICAgICAgICAgdHJ5IHsKICAyNiB8ICAgICAgICAgICAgICAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IHBhZ2UucmVxdWVzdC5nZXQodXJsKTsKICAyNyB8ICAgICAgICAgICAgICAgICBleHBlY3Quc29mdChyZXNwb25zZS5vaygpLCBgJHt1cmx9IGlzIG5vdCB2YWxpZGApLnRvQmVUcnV0aHkoKTsKICAyOCB8ICAgICAgICAgICAgIH0gY2F0Y2goZXJyKSB7CiAgMjkgfCAgICAgICAgICAgICAgICAgZXhwZWN0LnNvZnQobnVsbCwgYCR7dXJsfSBpcyBub3QgdmFsaWRgKS50b0JlVHJ1dGh5KCk7CiAgMzAgfCAgICAgICAgICAgICAgICAgZXhwZWN0LnNvZnQobnVsbCwgIiIgKyBlcnIpLnRvQmVUcnV0aHkoKTsKICAzMSB8ICAgICAgICAgICAgIH0KICAzMiB8ICAgICB9CiAgMzMgfCB9CmBgYA=="
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-pricingPageTests--530f4-e-Tests-Broken-Link-Checker-chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\ui-tests-pricingPageTests--530f4-e-Tests-Broken-Link-Checker-chromium\\trace.zip"
                         }
                       ],
                       "errorLocation": {
-                        "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\utils\\brokenLinkChecker.ts",
+                        "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\utils\\brokenLinkChecker.ts",
                         "column": 58,
                         "line": 16
                       }
@@ -1058,25 +1192,25 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 32,
-                      "parallelIndex": 3,
+                      "workerIndex": 10,
+                      "parallelIndex": 4,
                       "status": "passed",
-                      "duration": 7401,
+                      "duration": 6614,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-21T10:49:04.779Z",
+                      "startTime": "2025-03-21T16:58:01.898Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-pricingPageTests--1a332-Page-Tests-Featured-Pricing-chromium\\test-finished-1.png"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\ui-tests-pricingPageTests--1a332-Page-Tests-Featured-Pricing-chromium\\test-finished-1.png"
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-pricingPageTests--1a332-Page-Tests-Featured-Pricing-chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\ui-tests-pricingPageTests--1a332-Page-Tests-Featured-Pricing-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -1119,19 +1253,19 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 34,
-                      "parallelIndex": 5,
+                      "workerIndex": 7,
+                      "parallelIndex": 3,
                       "status": "failed",
-                      "duration": 23144,
+                      "duration": 23822,
                       "error": {
                         "message": "Error: null is not a valid href\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m",
-                        "stack": "Error: null is not a valid href\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n    at reduce (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\utils\\brokenLinkChecker.ts:16:58)\n    at brokenLinkChecker (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\utils\\brokenLinkChecker.ts:15:36)\n    at SearchPage.checkForBrokenLinks (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\pages\\searchPage.ts:25:9)\n    at C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\tests\\searchPageTests.spec.ts:14:9",
+                        "stack": "Error: null is not a valid href\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n    at reduce (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\utils\\brokenLinkChecker.ts:16:58)\n    at brokenLinkChecker (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\utils\\brokenLinkChecker.ts:15:36)\n    at SearchPage.checkForBrokenLinks (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\pages\\searchPage.ts:25:9)\n    at C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\tests\\searchPageTests.spec.ts:14:9",
                         "matcherResult": {
                           "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m",
                           "pass": false
                         },
                         "location": {
-                          "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\utils\\brokenLinkChecker.ts",
+                          "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\utils\\brokenLinkChecker.ts",
                           "column": 58,
                           "line": 16
                         },
@@ -1140,36 +1274,36 @@
                       "errors": [
                         {
                           "location": {
-                            "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\utils\\brokenLinkChecker.ts",
+                            "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\utils\\brokenLinkChecker.ts",
                             "column": 58,
                             "line": 16
                           },
-                          "message": "Error: null is not a valid href\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n\n\u001b[90m   at \u001b[39mui\\utils\\brokenLinkChecker.ts:16\n\n\u001b[0m \u001b[90m 14 |\u001b[39m\n \u001b[90m 15 |\u001b[39m     \u001b[36mconst\u001b[39m allValidHrefs \u001b[33m=\u001b[39m allHrefs\u001b[33m.\u001b[39mreduce((links\u001b[33m,\u001b[39m link) \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 16 |\u001b[39m         expect\u001b[33m.\u001b[39msoft(link\u001b[33m,\u001b[39m \u001b[32m`${link} is not a valid href`\u001b[39m)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 17 |\u001b[39m         \u001b[36mif\u001b[39m (link \u001b[33m&&\u001b[39m \u001b[33m!\u001b[39mlink\u001b[33m?\u001b[39m\u001b[33m.\u001b[39mstartsWith(\u001b[32m\"mailto\"\u001b[39m)) {\n \u001b[90m 18 |\u001b[39m             \u001b[36mif\u001b[39m (link\u001b[33m.\u001b[39mcharAt(\u001b[35m0\u001b[39m) \u001b[33m===\u001b[39m \u001b[32m\"/\"\u001b[39m \u001b[33m||\u001b[39m link\u001b[33m.\u001b[39mcharAt(\u001b[35m0\u001b[39m) \u001b[33m===\u001b[39m \u001b[32m\"#\"\u001b[39m) link \u001b[33m=\u001b[39m baseURL \u001b[33m+\u001b[39m link\u001b[33m;\u001b[39m\n \u001b[90m 19 |\u001b[39m             \u001b[36mif\u001b[39m (link\u001b[33m.\u001b[39mincludes(baseURL)) links\u001b[33m.\u001b[39madd(link)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at reduce (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\utils\\brokenLinkChecker.ts:16:58)\u001b[22m\n\u001b[2m    at brokenLinkChecker (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\utils\\brokenLinkChecker.ts:15:36)\u001b[22m\n\u001b[2m    at SearchPage.checkForBrokenLinks (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\pages\\searchPage.ts:25:9)\u001b[22m\n\u001b[2m    at C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\tests\\searchPageTests.spec.ts:14:9\u001b[22m"
+                          "message": "Error: null is not a valid href\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n\n\u001b[90m   at \u001b[39mui\\utils\\brokenLinkChecker.ts:16\n\n\u001b[0m \u001b[90m 14 |\u001b[39m\n \u001b[90m 15 |\u001b[39m     \u001b[36mconst\u001b[39m allValidHrefs \u001b[33m=\u001b[39m allHrefs\u001b[33m.\u001b[39mreduce((links\u001b[33m,\u001b[39m link) \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 16 |\u001b[39m         expect\u001b[33m.\u001b[39msoft(link\u001b[33m,\u001b[39m \u001b[32m`${link} is not a valid href`\u001b[39m)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 17 |\u001b[39m         \u001b[36mif\u001b[39m (link \u001b[33m&&\u001b[39m \u001b[33m!\u001b[39mlink\u001b[33m?\u001b[39m\u001b[33m.\u001b[39mstartsWith(\u001b[32m\"mailto\"\u001b[39m)) {\n \u001b[90m 18 |\u001b[39m             \u001b[36mif\u001b[39m (link\u001b[33m.\u001b[39mcharAt(\u001b[35m0\u001b[39m) \u001b[33m===\u001b[39m \u001b[32m\"/\"\u001b[39m \u001b[33m||\u001b[39m link\u001b[33m.\u001b[39mcharAt(\u001b[35m0\u001b[39m) \u001b[33m===\u001b[39m \u001b[32m\"#\"\u001b[39m) link \u001b[33m=\u001b[39m baseURL \u001b[33m+\u001b[39m link\u001b[33m;\u001b[39m\n \u001b[90m 19 |\u001b[39m             \u001b[36mif\u001b[39m (link\u001b[33m.\u001b[39mincludes(baseURL)) links\u001b[33m.\u001b[39madd(link)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at reduce (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\utils\\brokenLinkChecker.ts:16:58)\u001b[22m\n\u001b[2m    at brokenLinkChecker (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\utils\\brokenLinkChecker.ts:15:36)\u001b[22m\n\u001b[2m    at SearchPage.checkForBrokenLinks (C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\pages\\searchPage.ts:25:9)\u001b[22m\n\u001b[2m    at C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\tests\\searchPageTests.spec.ts:14:9\u001b[22m"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-21T10:49:05.977Z",
+                      "startTime": "2025-03-21T16:58:02.626Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-searchPageTests-S-8dad9-e-Tests-Broken-Link-Checker-chromium\\test-failed-1.png"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\ui-tests-searchPageTests-S-8dad9-e-Tests-Broken-Link-Checker-chromium\\test-failed-1.png"
                         },
                         {
                           "name": "_prompt-0",
                           "contentType": "text/markdown",
-                          "body": "IyBJbnN0cnVjdGlvbnMKCi0gRm9sbG93aW5nIFBsYXl3cmlnaHQgdGVzdCBmYWlsZWQuCi0gRXhwbGFpbiB3aHksIGJlIGNvbmNpc2UsIHJlc3BlY3QgUGxheXdyaWdodCBiZXN0IHByYWN0aWNlcy4KLSBQcm92aWRlIGEgc25pcHBldCBvZiBjb2RlIHdpdGggdGhlIGZpeCwgaWYgcG9zc2libGUuCgojIFRlc3QgaW5mbwoKLSBOYW1lOiBTZWFyY2ggUGFnZSBUZXN0cyA+PiBCcm9rZW4gTGluayBDaGVja2VyCi0gTG9jYXRpb246IEM6XFVzZXJzXERyZXdcRG9jdW1lbnRzXFZTY29kZS13b3Jrc3BhY2VccGxheXdyaWdodC1pbmZyYXN0cnVjdHVyZVx0ZXN0XHVpXHRlc3RzXHNlYXJjaFBhZ2VUZXN0cy5zcGVjLnRzOjEyOjUKCiMgRXJyb3IgZGV0YWlscwoKYGBgCkVycm9yOiBudWxsIGlzIG5vdCBhIHZhbGlkIGhyZWYKCmV4cGVjdChyZWNlaXZlZCkudG9CZVRydXRoeSgpCgpSZWNlaXZlZDogbnVsbAogICAgYXQgcmVkdWNlIChDOlxVc2Vyc1xEcmV3XERvY3VtZW50c1xWU2NvZGUtd29ya3NwYWNlXHBsYXl3cmlnaHQtaW5mcmFzdHJ1Y3R1cmVcdGVzdFx1aVx1dGlsc1xicm9rZW5MaW5rQ2hlY2tlci50czoxNjo1OCkKICAgIGF0IGJyb2tlbkxpbmtDaGVja2VyIChDOlxVc2Vyc1xEcmV3XERvY3VtZW50c1xWU2NvZGUtd29ya3NwYWNlXHBsYXl3cmlnaHQtaW5mcmFzdHJ1Y3R1cmVcdGVzdFx1aVx1dGlsc1xicm9rZW5MaW5rQ2hlY2tlci50czoxNTozNikKICAgIGF0IFNlYXJjaFBhZ2UuY2hlY2tGb3JCcm9rZW5MaW5rcyAoQzpcVXNlcnNcRHJld1xEb2N1bWVudHNcVlNjb2RlLXdvcmtzcGFjZVxwbGF5d3JpZ2h0LWluZnJhc3RydWN0dXJlXHRlc3RcdWlccGFnZXNcc2VhcmNoUGFnZS50czoyNTo5KQogICAgYXQgQzpcVXNlcnNcRHJld1xEb2N1bWVudHNcVlNjb2RlLXdvcmtzcGFjZVxwbGF5d3JpZ2h0LWluZnJhc3RydWN0dXJlXHRlc3RcdWlcdGVzdHNcc2VhcmNoUGFnZVRlc3RzLnNwZWMudHM6MTQ6OQpgYGAKCiMgUGFnZSBzbmFwc2hvdAoKYGBgeWFtbAotIG5hdmlnYXRpb246CiAgLSBmaWd1cmU6CiAgICAtIGxpbmsgInNraXAgbmF2aWdhdGlvbiIKICAgIC0gbGluayAiR28gdG8gSG9tZXBhZ2UiOgogICAgICAtIGltZwogIC0gbGlzdDoKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gYnV0dG9uICJQcm9kdWN0IE5hdmlnYXRpb24iOiBBbGwgUHJvZHVjdHMKICAtIGxpc3Q6CiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkRlbW9zIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJTZXJ2aWNlcyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiQmxvZ3MiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkRvY3MgJiBTdXBwb3J0IgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJQcmljaW5nIgogIC0gbGlzdDoKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiU2VhcmNoIjoKICAgICAgICAtIGltZwogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJTaG9wcGluZyBjYXJ0IjoKICAgICAgICAtIGltZwogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJZb3VyIEFjY291bnQiOgogICAgICAgIC0gaW1nCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkNvbnRhY3QgVXMiOgogICAgICAgIC0gaW1nCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkdldCBBIEZyZWUgVHJpYWwiCi0gaGVhZGluZyAiU2VhcmNoIiBbbGV2ZWw9Ml0KLSBwYXJhZ3JhcGg6CiAgLSB0ZXh0OiBTZWFyY2ggb3VyIGVudGlyZSB3ZWJzaXRlLiBGb3IgbW9yZSBzcGVjaWZpYyByZXN1bHRzLCBpbmNsdWRlIHlvdXIgcHJvZHVjdCdzIG5hbWUgaW4gYSBzaW5nbGUgc2VudGVuY2UuIEZvciBleGFtcGxlLCB1c2UKICAtIGVtcGhhc2lzOiAiXCJUeXBlcyBvZiBUZXN0IFN0dWRpbyBsb2FkIHRlc3RzXCIiCiAgLSB0ZXh0OiBpbnN0ZWFkIG9mCiAgLSBlbXBoYXNpczogIlwibG9hZCB0ZXN0aW5nXCIiCiAgLSB0ZXh0OiAuCi0gc2VhcmNoYm94ICJzZWFyY2giCi0gYnV0dG9uICJDbGljayB0byBzZWFyY2giOgogIC0gaW1nICJTZWFyY2ggaWNvbiIKICAtIHRleHQ6IFNlYXJjaAotIGxpc3Q6CiAgLSBsaXN0aXRlbToKICAgIC0gaGVhZGluZyAiVGVsZXJpayBEZXZDcmFmdCIgW2xldmVsPTNdOgogICAgICAtIGxpbmsgIlRlbGVyaWsgRGV2Q3JhZnQiOgogICAgICAgIC0gdGV4dDogVGVsZXJpawogICAgICAgIC0gc3Ryb25nOiBEZXZDcmFmdAogICAgLSBwYXJhZ3JhcGg6CiAgICAgIC0gdGV4dDogVGVsZXJpawogICAgICAtIHN0cm9uZzogRGV2Q3JhZnQKICAgICAgLSB0ZXh0OiAuIFRoZSBVbHRpbWF0ZSBUb29sa2l0IGZvciBCdWlsZGluZyBNb2Rlcm4gQXBwcyBXaXRoIFNsZWVrIFVJLiBPdXIgLk5FVCBhbmQgSmF2YVNjcmlwdCB0b29saW5nIGVuYWJsZXMgeW91IHRvIGJ1aWxkIG1vZGVybiwgaGlnaC1wZXJmb3JtYW50CiAgICAtIGxpbmsgImh0dHBzOi8vd3d3LnRlbGVyaWsuY29tL2RldmNyYWZ0IgogIC0gbGlzdGl0ZW06CiAgICAtIGhlYWRpbmcgIktlbmRvIFVJIiBbbGV2ZWw9M106CiAgICAgIC0gbGluayAiS2VuZG8gVUkiOgogICAgICAgIC0gc3Ryb25nOiBLZW5kbwogICAgICAgIC0gdGV4dDogVUkKICAgIC0gcGFyYWdyYXBoOgogICAgICAtIHRleHQ6IEl0ZW1zIDEgLSAyMCBvZiA5MQogICAgICAtIHN0cm9uZzogLi4uCiAgICAgIC0gdGV4dDogUXVpY2tseSBidWlsZCBleWUtY2F0Y2hpbmcgd2ViIGFwcHMgdXNpbmcKICAgICAgLSBzdHJvbmc6IEtlbmRvCiAgICAgIC0gdGV4dDogVUkncyB1bHRpbWF0ZSBjb2xsZWN0aW9uIG9mIEphdmFTY3JpcHQgVUkgY29tcG9uZW50cyB3aXRoIGxpYnJhcmllcyBmb3IgalF1ZXJ5LCBBbmd1bGFyLCBSZWFjdCwgLi4uCiAgICAtIGxpbmsgImh0dHBzOi8vd3d3LnRlbGVyaWsuY29tL2tlbmRvLXVpIgogIC0gbGlzdGl0ZW06CiAgICAtIGhlYWRpbmcgIlB1cmNoYXNlIFRlbGVyaWsgU29mdHdhcmUgRGV2ZWxvcG1lbnQgVG9vbHMiIFtsZXZlbD0zXToKICAgICAgLSBsaW5rICJQdXJjaGFzZSBUZWxlcmlrIFNvZnR3YXJlIERldmVsb3BtZW50IFRvb2xzIjoKICAgICAgICAtIHN0cm9uZzogUHVyY2hhc2UKICAgICAgICAtIHRleHQ6IFRlbGVyaWsgU29mdHdhcmUgRGV2ZWxvcG1lbnQgVG9vbHMKICAgIC0gcGFyYWdyYXBoOgogICAgICAtIHN0cm9uZzogUHVyY2hhc2UKICAgICAgLSB0ZXh0OiBUZWxlcmlrIHNvZnR3YXJlIGRldmVsb3BtZW50IHRvb2xzIGZvciBldmVyeSB0eXBlIG9mIHByb2plY3QgYWNyb3NzIG1ham9yIGRldmVsb3BtZW50IHBsYXRmb3Jtcy4gRHluYW1pYyByZWxlYXNlIGN5Y2xlIGFuZCBiZXN0IHN1cHBvcnQgc2VydmljZS4KICAgIC0gbGluayAiaHR0cHM6Ly93d3cudGVsZXJpay5jb20vcHVyY2hhc2UuYXNweCIKLSBjb250ZW50aW5mbzoKICAtIHRleHQ6IENvbXBsZXRlIC5ORVQgVG9vbGJveAogIC0gbGluayAiVGVsZXJpayBEZXZDcmFmdCIKICAtIHRleHQ6IENvbXBsZXRlIEphdmFTY3JpcHQgVG9vbGJveAogIC0gbGluayAiS2VuZG8gVUkiCiAgLSB0ZXh0OiBHZXQgUHJvZHVjdHMKICAtIGxpc3Q6CiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkZyZWUgVHJpYWxzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJQcmljaW5nIgogIC0gdGV4dDogUmVzb3VyY2VzCiAgLSBsaXN0OgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJEZW1vcyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiRG9jdW1lbnRhdGlvbiIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiUmVsZWFzZSBIaXN0b3J5IgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJGb3J1bXMiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkJsb2dzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJXZWJpbmFycyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiVmlkZW9zIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJQcm9mZXNzaW9uYWwgU2VydmljZXMiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlBhcnRuZXJzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJWaXJ0dWFsIENsYXNzcm9vbSIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiRXZlbnRzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJGQVFzIgogIC0gdGV4dDogUmVjb2duaXRpb24KICAtIGxpc3Q6CiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlN1Y2Nlc3MgU3RvcmllcyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiVGVzdGltb25pYWxzIgogIC0gdGV4dDogR2V0IGluIHRvdWNoCiAgLSBsaXN0OgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJDb250YWN0IFVzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaXN0OgogICAgICAgIC0gbGlzdGl0ZW06CiAgICAgICAgICAtICdsaW5rICJVU0E6ICsxIDg4OCA2NzkgMDQ0MiInCiAgICAgICAgLSBsaXN0aXRlbToKICAgICAgICAgIC0gJ2xpbmsgIlVLOiArNDQgMTMgNDQ4MyA4MTg2IicKICAgICAgICAtIGxpc3RpdGVtOgogICAgICAgICAgLSAnbGluayAiSW5kaWE6ICs5MSA0MDYgOTAxOTQ0NyInCiAgICAgICAgLSBsaXN0aXRlbToKICAgICAgICAgIC0gJ2xpbmsgIkJ1bGdhcmlhOiArMzU5IDIgODA5OTg1MCInCiAgICAgICAgLSBsaXN0aXRlbToKICAgICAgICAgIC0gJ2xpbmsgIkF1c3RyYWxpYTogKzYxIDMgNzA2OCA4NjEwIicKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGlzdDoKICAgICAgICAtIGxpc3RpdGVtOgogICAgICAgICAgLSBsaW5rICIxNjVrKyI6CiAgICAgICAgICAgIC0gaW1nCiAgICAgICAgICAgIC0gdGV4dDogMTY1aysKICAgICAgICAtIGxpc3RpdGVtOgogICAgICAgICAgLSBsaW5rICI1MGsrIjoKICAgICAgICAgICAgLSBpbWcKICAgICAgICAgICAgLSB0ZXh0OiA1MGsrCiAgICAgICAgLSBsaXN0aXRlbToKICAgICAgICAgIC0gbGluayAiMTdrKyI6CiAgICAgICAgICAgIC0gaW1nCiAgICAgICAgICAgIC0gdGV4dDogMTdrKwogICAgICAgIC0gbGlzdGl0ZW06CiAgICAgICAgICAtIGxpbmsgIjRrKyI6CiAgICAgICAgICAgIC0gaW1nCiAgICAgICAgICAgIC0gdGV4dDogNGsrCiAgICAgICAgLSBsaXN0aXRlbToKICAgICAgICAgIC0gbGluayAiMTRrKyI6CiAgICAgICAgICAgIC0gaW1nCiAgICAgICAgICAgIC0gdGV4dDogMTRrKwogICAgICAgIC0gbGlzdGl0ZW06CiAgICAgICAgICAtIGxpbmsgIkdpdEh1YiI6CiAgICAgICAgICAgIC0gaW1nCiAgLSBsaW5rICJHbyB0byBQcm9ncmVzcy5jb20iOgogICAgLSBpbWcKICAtIHBhcmFncmFwaDogVGVsZXJpayBhbmQgS2VuZG8gVUkgYXJlIHBhcnQgb2YgUHJvZ3Jlc3MgcHJvZHVjdCBwb3J0Zm9saW8uIFByb2dyZXNzIGlzIHRoZSBsZWFkaW5nIHByb3ZpZGVyIG9mIGFwcGxpY2F0aW9uIGRldmVsb3BtZW50IGFuZCBkaWdpdGFsIGV4cGVyaWVuY2UgdGVjaG5vbG9naWVzLgogIC0gbGlzdDoKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiQ29tcGFueSIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiVGVjaG5vbG9neSIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiQXdhcmRzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJQcmVzcyBSZWxlYXNlcyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiTWVkaWEgQ292ZXJhZ2UiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkNhcmVlcnMiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIk9mZmljZXMiCiAgLSBwYXJhZ3JhcGg6IENvcHlyaWdodCDCqSAyMDI1IFByb2dyZXNzIFNvZnR3YXJlIENvcnBvcmF0aW9uIGFuZC9vciBpdHMgc3Vic2lkaWFyaWVzIG9yIGFmZmlsaWF0ZXMuIEFsbCBSaWdodHMgUmVzZXJ2ZWQuCiAgLSBwYXJhZ3JhcGg6CiAgICAtIHRleHQ6IFByb2dyZXNzIGFuZCBjZXJ0YWluIHByb2R1Y3QgbmFtZXMgdXNlZCBoZXJlaW4gYXJlIHRyYWRlbWFya3Mgb3IgcmVnaXN0ZXJlZCB0cmFkZW1hcmtzIG9mIFByb2dyZXNzIFNvZnR3YXJlIENvcnBvcmF0aW9uIGFuZC9vciBvbmUgb2YgaXRzIHN1YnNpZGlhcmllcyBvciBhZmZpbGlhdGVzIGluIHRoZSBVLlMuIGFuZC9vciBvdGhlciBjb3VudHJpZXMuIFNlZQogICAgLSBsaW5rICJUcmFkZW1hcmtzIgogICAgLSB0ZXh0OiBmb3IgYXBwcm9wcmlhdGUgbWFya2luZ3MuCiAgLSBsaXN0OgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJUZXJtcyBvZiBVc2UiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlNpdGUgRmVlZGJhY2siCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlByaXZhY3kgQ2VudGVyIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJUcnVzdCBDZW50ZXIiCiAgLSBsaW5rICJEbyBOb3QgU2VsbCBvciBTaGFyZSBNeSBQZXJzb25hbCBJbmZvcm1hdGlvbiIKICAtIHBhcmFncmFwaDoKICAgIC0gdGV4dDogUG93ZXJlZCBieQogICAgLSBsaW5rICJQcm9ncmVzcyBTaXRlZmluaXR5IgpgYGAKCiMgVGVzdCBzb3VyY2UKCmBgYHRzCiAgIDEgfCBpbXBvcnQgeyBQYWdlLCBleHBlY3QgfSBmcm9tICJAcGxheXdyaWdodC90ZXN0IjsKICAgMiB8CiAgIDMgfAogICA0IHwgZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGJyb2tlbkxpbmtDaGVja2VyKHBhZ2U6IFBhZ2UpIHsKICAgNSB8ICAgICBjb25zdCBiYXNlVVJMID0gImh0dHBzOi8vd3d3LnRlbGVyaWsuY29tIjsKICAgNiB8CiAgIDcgfCAgICAgY29uc3QgbGlua3MgPSBwYWdlLmxvY2F0b3IoImEiKTsKICAgOCB8CiAgIDkgfCAgICAgY29uc3QgYWxsTGlua3MgPSBhd2FpdCBsaW5rcy5hbGwoKTsKICAxMCB8CiAgMTEgfCAgICAgY29uc3QgYWxsSHJlZnMgPSBhd2FpdCBQcm9taXNlLmFsbCgKICAxMiB8ICAgICAgICAgYWxsTGlua3MubWFwKChsaW5rKSA9PiBsaW5rLmdldEF0dHJpYnV0ZSgiaHJlZiIpKQogIDEzIHwgICAgICkKICAxNCB8CiAgMTUgfCAgICAgY29uc3QgYWxsVmFsaWRIcmVmcyA9IGFsbEhyZWZzLnJlZHVjZSgobGlua3MsIGxpbmspID0+IHsKPiAxNiB8ICAgICAgICAgZXhwZWN0LnNvZnQobGluaywgYCR7bGlua30gaXMgbm90IGEgdmFsaWQgaHJlZmApLnRvQmVUcnV0aHkoKTsKICAgICB8ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF4gRXJyb3I6IG51bGwgaXMgbm90IGEgdmFsaWQgaHJlZgogIDE3IHwgICAgICAgICBpZiAobGluayAmJiAhbGluaz8uc3RhcnRzV2l0aCgibWFpbHRvIikpIHsKICAxOCB8ICAgICAgICAgICAgIGlmIChsaW5rLmNoYXJBdCgwKSA9PT0gIi8iIHx8IGxpbmsuY2hhckF0KDApID09PSAiIyIpIGxpbmsgPSBiYXNlVVJMICsgbGluazsKICAxOSB8ICAgICAgICAgICAgIGlmIChsaW5rLmluY2x1ZGVzKGJhc2VVUkwpKSBsaW5rcy5hZGQobGluayk7CiAgMjAgfCAgICAgICAgIH0KICAyMSB8ICAgICAgICAgICAgIHJldHVybiBsaW5rcwogIDIyIHwgICAgICAgICB9LCBuZXcgU2V0PHN0cmluZz4oKSkKICAyMyB8CiAgMjQgfCAgICAgICAgIGZvciAobGV0IHVybCBvZiBhbGxWYWxpZEhyZWZzKSB7CiAgMjUgfCAgICAgICAgICAgICB0cnkgewogIDI2IHwgICAgICAgICAgICAgICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgcGFnZS5yZXF1ZXN0LmdldCh1cmwpOwogIDI3IHwgICAgICAgICAgICAgICAgIGV4cGVjdC5zb2Z0KHJlc3BvbnNlLm9rKCksIGAke3VybH0gaXMgbm90IHZhbGlkYCkudG9CZVRydXRoeSgpOwogIDI4IHwgICAgICAgICAgICAgfSBjYXRjaChlcnIpIHsKICAyOSB8ICAgICAgICAgICAgICAgICBleHBlY3Quc29mdChudWxsLCBgJHt1cmx9IGlzIG5vdCB2YWxpZGApLnRvQmVUcnV0aHkoKTsKICAzMCB8ICAgICAgICAgICAgICAgICBleHBlY3Quc29mdChudWxsLCAiIiArIGVycikudG9CZVRydXRoeSgpOwogIDMxIHwgICAgICAgICAgICAgfQogIDMyIHwgICAgIH0KICAzMyB8IH0KYGBg"
+                          "body": "IyBJbnN0cnVjdGlvbnMKCi0gRm9sbG93aW5nIFBsYXl3cmlnaHQgdGVzdCBmYWlsZWQuCi0gRXhwbGFpbiB3aHksIGJlIGNvbmNpc2UsIHJlc3BlY3QgUGxheXdyaWdodCBiZXN0IHByYWN0aWNlcy4KLSBQcm92aWRlIGEgc25pcHBldCBvZiBjb2RlIHdpdGggdGhlIGZpeCwgaWYgcG9zc2libGUuCgojIFRlc3QgaW5mbwoKLSBOYW1lOiBTZWFyY2ggUGFnZSBUZXN0cyA+PiBCcm9rZW4gTGluayBDaGVja2VyCi0gTG9jYXRpb246IEM6XFVzZXJzXERyZXdcRG9jdW1lbnRzXFZTY29kZS13b3Jrc3BhY2VccGxheXdyaWdodC10eXBlc2NyaXB0XHRlc3RcdWlcdGVzdHNcc2VhcmNoUGFnZVRlc3RzLnNwZWMudHM6MTI6NQoKIyBFcnJvciBkZXRhaWxzCgpgYGAKRXJyb3I6IG51bGwgaXMgbm90IGEgdmFsaWQgaHJlZgoKZXhwZWN0KHJlY2VpdmVkKS50b0JlVHJ1dGh5KCkKClJlY2VpdmVkOiBudWxsCiAgICBhdCByZWR1Y2UgKEM6XFVzZXJzXERyZXdcRG9jdW1lbnRzXFZTY29kZS13b3Jrc3BhY2VccGxheXdyaWdodC10eXBlc2NyaXB0XHRlc3RcdWlcdXRpbHNcYnJva2VuTGlua0NoZWNrZXIudHM6MTY6NTgpCiAgICBhdCBicm9rZW5MaW5rQ2hlY2tlciAoQzpcVXNlcnNcRHJld1xEb2N1bWVudHNcVlNjb2RlLXdvcmtzcGFjZVxwbGF5d3JpZ2h0LXR5cGVzY3JpcHRcdGVzdFx1aVx1dGlsc1xicm9rZW5MaW5rQ2hlY2tlci50czoxNTozNikKICAgIGF0IFNlYXJjaFBhZ2UuY2hlY2tGb3JCcm9rZW5MaW5rcyAoQzpcVXNlcnNcRHJld1xEb2N1bWVudHNcVlNjb2RlLXdvcmtzcGFjZVxwbGF5d3JpZ2h0LXR5cGVzY3JpcHRcdGVzdFx1aVxwYWdlc1xzZWFyY2hQYWdlLnRzOjI1OjkpCiAgICBhdCBDOlxVc2Vyc1xEcmV3XERvY3VtZW50c1xWU2NvZGUtd29ya3NwYWNlXHBsYXl3cmlnaHQtdHlwZXNjcmlwdFx0ZXN0XHVpXHRlc3RzXHNlYXJjaFBhZ2VUZXN0cy5zcGVjLnRzOjE0OjkKYGBgCgojIFBhZ2Ugc25hcHNob3QKCmBgYHlhbWwKLSBuYXZpZ2F0aW9uOgogIC0gZmlndXJlOgogICAgLSBsaW5rICJza2lwIG5hdmlnYXRpb24iCiAgICAtIGxpbmsgIkdvIHRvIEhvbWVwYWdlIjoKICAgICAgLSBpbWcKICAtIGxpc3Q6CiAgICAtIGxpc3RpdGVtOgogICAgICAtIGJ1dHRvbiAiUHJvZHVjdCBOYXZpZ2F0aW9uIjogQWxsIFByb2R1Y3RzCiAgLSBsaXN0OgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJEZW1vcyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiU2VydmljZXMiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkJsb2dzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJEb2NzICYgU3VwcG9ydCIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiUHJpY2luZyIKICAtIGxpc3Q6CiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlNlYXJjaCI6CiAgICAgICAgLSBpbWcKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiU2hvcHBpbmcgY2FydCI6CiAgICAgICAgLSBpbWcKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiWW91ciBBY2NvdW50IjoKICAgICAgICAtIGltZwogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJDb250YWN0IFVzIjoKICAgICAgICAtIGltZwogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJHZXQgQSBGcmVlIFRyaWFsIgotIGhlYWRpbmcgIlNlYXJjaCIgW2xldmVsPTJdCi0gcGFyYWdyYXBoOgogIC0gdGV4dDogU2VhcmNoIG91ciBlbnRpcmUgd2Vic2l0ZS4gRm9yIG1vcmUgc3BlY2lmaWMgcmVzdWx0cywgaW5jbHVkZSB5b3VyIHByb2R1Y3QncyBuYW1lIGluIGEgc2luZ2xlIHNlbnRlbmNlLiBGb3IgZXhhbXBsZSwgdXNlCiAgLSBlbXBoYXNpczogIlwiVHlwZXMgb2YgVGVzdCBTdHVkaW8gbG9hZCB0ZXN0c1wiIgogIC0gdGV4dDogaW5zdGVhZCBvZgogIC0gZW1waGFzaXM6ICJcImxvYWQgdGVzdGluZ1wiIgogIC0gdGV4dDogLgotIHNlYXJjaGJveCAic2VhcmNoIgotIGJ1dHRvbiAiQ2xpY2sgdG8gc2VhcmNoIjoKICAtIGltZyAiU2VhcmNoIGljb24iCiAgLSB0ZXh0OiBTZWFyY2gKLSBsaXN0OgogIC0gbGlzdGl0ZW06CiAgICAtIGhlYWRpbmcgIlRlbGVyaWsgRGV2Q3JhZnQiIFtsZXZlbD0zXToKICAgICAgLSBsaW5rICJUZWxlcmlrIERldkNyYWZ0IjoKICAgICAgICAtIHRleHQ6IFRlbGVyaWsKICAgICAgICAtIHN0cm9uZzogRGV2Q3JhZnQKICAgIC0gcGFyYWdyYXBoOgogICAgICAtIHRleHQ6IFRlbGVyaWsKICAgICAgLSBzdHJvbmc6IERldkNyYWZ0CiAgICAgIC0gdGV4dDogLiBUaGUgVWx0aW1hdGUgVG9vbGtpdCBmb3IgQnVpbGRpbmcgTW9kZXJuIEFwcHMgV2l0aCBTbGVlayBVSS4gT3VyIC5ORVQgYW5kIEphdmFTY3JpcHQgdG9vbGluZyBlbmFibGVzIHlvdSB0byBidWlsZCBtb2Rlcm4sIGhpZ2gtcGVyZm9ybWFudAogICAgLSBsaW5rICJodHRwczovL3d3dy50ZWxlcmlrLmNvbS9kZXZjcmFmdCIKICAtIGxpc3RpdGVtOgogICAgLSBoZWFkaW5nICJLZW5kbyBVSSIgW2xldmVsPTNdOgogICAgICAtIGxpbmsgIktlbmRvIFVJIjoKICAgICAgICAtIHN0cm9uZzogS2VuZG8KICAgICAgICAtIHRleHQ6IFVJCiAgICAtIHBhcmFncmFwaDoKICAgICAgLSB0ZXh0OiBJdGVtcyAxIC0gMjAgb2YgOTEKICAgICAgLSBzdHJvbmc6IC4uLgogICAgICAtIHRleHQ6IFF1aWNrbHkgYnVpbGQgZXllLWNhdGNoaW5nIHdlYiBhcHBzIHVzaW5nCiAgICAgIC0gc3Ryb25nOiBLZW5kbwogICAgICAtIHRleHQ6IFVJJ3MgdWx0aW1hdGUgY29sbGVjdGlvbiBvZiBKYXZhU2NyaXB0IFVJIGNvbXBvbmVudHMgd2l0aCBsaWJyYXJpZXMgZm9yIGpRdWVyeSwgQW5ndWxhciwgUmVhY3QsIC4uLgogICAgLSBsaW5rICJodHRwczovL3d3dy50ZWxlcmlrLmNvbS9rZW5kby11aSIKICAtIGxpc3RpdGVtOgogICAgLSBoZWFkaW5nICJQdXJjaGFzZSBUZWxlcmlrIFNvZnR3YXJlIERldmVsb3BtZW50IFRvb2xzIiBbbGV2ZWw9M106CiAgICAgIC0gbGluayAiUHVyY2hhc2UgVGVsZXJpayBTb2Z0d2FyZSBEZXZlbG9wbWVudCBUb29scyI6CiAgICAgICAgLSBzdHJvbmc6IFB1cmNoYXNlCiAgICAgICAgLSB0ZXh0OiBUZWxlcmlrIFNvZnR3YXJlIERldmVsb3BtZW50IFRvb2xzCiAgICAtIHBhcmFncmFwaDoKICAgICAgLSBzdHJvbmc6IFB1cmNoYXNlCiAgICAgIC0gdGV4dDogVGVsZXJpayBzb2Z0d2FyZSBkZXZlbG9wbWVudCB0b29scyBmb3IgZXZlcnkgdHlwZSBvZiBwcm9qZWN0IGFjcm9zcyBtYWpvciBkZXZlbG9wbWVudCBwbGF0Zm9ybXMuIER5bmFtaWMgcmVsZWFzZSBjeWNsZSBhbmQgYmVzdCBzdXBwb3J0IHNlcnZpY2UuCiAgICAtIGxpbmsgImh0dHBzOi8vd3d3LnRlbGVyaWsuY29tL3B1cmNoYXNlLmFzcHgiCi0gY29udGVudGluZm86CiAgLSB0ZXh0OiBDb21wbGV0ZSAuTkVUIFRvb2xib3gKICAtIGxpbmsgIlRlbGVyaWsgRGV2Q3JhZnQiCiAgLSB0ZXh0OiBDb21wbGV0ZSBKYXZhU2NyaXB0IFRvb2xib3gKICAtIGxpbmsgIktlbmRvIFVJIgogIC0gdGV4dDogR2V0IFByb2R1Y3RzCiAgLSBsaXN0OgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJGcmVlIFRyaWFscyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiUHJpY2luZyIKICAtIHRleHQ6IFJlc291cmNlcwogIC0gbGlzdDoKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiRGVtb3MiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkRvY3VtZW50YXRpb24iCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlJlbGVhc2UgSGlzdG9yeSIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiRm9ydW1zIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJCbG9ncyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiV2ViaW5hcnMiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlZpZGVvcyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiUHJvZmVzc2lvbmFsIFNlcnZpY2VzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJQYXJ0bmVycyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiVmlydHVhbCBDbGFzc3Jvb20iCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkV2ZW50cyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiRkFRcyIKICAtIHRleHQ6IFJlY29nbml0aW9uCiAgLSBsaXN0OgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJTdWNjZXNzIFN0b3JpZXMiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlRlc3RpbW9uaWFscyIKICAtIHRleHQ6IEdldCBpbiB0b3VjaAogIC0gbGlzdDoKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiQ29udGFjdCBVcyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGlzdDoKICAgICAgICAtIGxpc3RpdGVtOgogICAgICAgICAgLSAnbGluayAiVVNBOiArMSA4ODggNjc5IDA0NDIiJwogICAgICAgIC0gbGlzdGl0ZW06CiAgICAgICAgICAtICdsaW5rICJVSzogKzQ0IDEzIDQ0ODMgODE4NiInCiAgICAgICAgLSBsaXN0aXRlbToKICAgICAgICAgIC0gJ2xpbmsgIkluZGlhOiArOTEgNDA2IDkwMTk0NDciJwogICAgICAgIC0gbGlzdGl0ZW06CiAgICAgICAgICAtICdsaW5rICJCdWxnYXJpYTogKzM1OSAyIDgwOTk4NTAiJwogICAgICAgIC0gbGlzdGl0ZW06CiAgICAgICAgICAtICdsaW5rICJBdXN0cmFsaWE6ICs2MSAzIDcwNjggODYxMCInCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpc3Q6CiAgICAgICAgLSBsaXN0aXRlbToKICAgICAgICAgIC0gbGluayAiMTY1aysiOgogICAgICAgICAgICAtIGltZwogICAgICAgICAgICAtIHRleHQ6IDE2NWsrCiAgICAgICAgLSBsaXN0aXRlbToKICAgICAgICAgIC0gbGluayAiNTBrKyI6CiAgICAgICAgICAgIC0gaW1nCiAgICAgICAgICAgIC0gdGV4dDogNTBrKwogICAgICAgIC0gbGlzdGl0ZW06CiAgICAgICAgICAtIGxpbmsgIjE3aysiOgogICAgICAgICAgICAtIGltZwogICAgICAgICAgICAtIHRleHQ6IDE3aysKICAgICAgICAtIGxpc3RpdGVtOgogICAgICAgICAgLSBsaW5rICI0aysiOgogICAgICAgICAgICAtIGltZwogICAgICAgICAgICAtIHRleHQ6IDRrKwogICAgICAgIC0gbGlzdGl0ZW06CiAgICAgICAgICAtIGxpbmsgIjE0aysiOgogICAgICAgICAgICAtIGltZwogICAgICAgICAgICAtIHRleHQ6IDE0aysKICAgICAgICAtIGxpc3RpdGVtOgogICAgICAgICAgLSBsaW5rICJHaXRIdWIiOgogICAgICAgICAgICAtIGltZwogIC0gbGluayAiR28gdG8gUHJvZ3Jlc3MuY29tIjoKICAgIC0gaW1nCiAgLSBwYXJhZ3JhcGg6IFRlbGVyaWsgYW5kIEtlbmRvIFVJIGFyZSBwYXJ0IG9mIFByb2dyZXNzIHByb2R1Y3QgcG9ydGZvbGlvLiBQcm9ncmVzcyBpcyB0aGUgbGVhZGluZyBwcm92aWRlciBvZiBhcHBsaWNhdGlvbiBkZXZlbG9wbWVudCBhbmQgZGlnaXRhbCBleHBlcmllbmNlIHRlY2hub2xvZ2llcy4KICAtIGxpc3Q6CiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkNvbXBhbnkiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIlRlY2hub2xvZ3kiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIkF3YXJkcyIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiUHJlc3MgUmVsZWFzZXMiCiAgICAtIGxpc3RpdGVtOgogICAgICAtIGxpbmsgIk1lZGlhIENvdmVyYWdlIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJDYXJlZXJzIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJPZmZpY2VzIgogIC0gcGFyYWdyYXBoOiBDb3B5cmlnaHQgwqkgMjAyNSBQcm9ncmVzcyBTb2Z0d2FyZSBDb3Jwb3JhdGlvbiBhbmQvb3IgaXRzIHN1YnNpZGlhcmllcyBvciBhZmZpbGlhdGVzLiBBbGwgUmlnaHRzIFJlc2VydmVkLgogIC0gcGFyYWdyYXBoOgogICAgLSB0ZXh0OiBQcm9ncmVzcyBhbmQgY2VydGFpbiBwcm9kdWN0IG5hbWVzIHVzZWQgaGVyZWluIGFyZSB0cmFkZW1hcmtzIG9yIHJlZ2lzdGVyZWQgdHJhZGVtYXJrcyBvZiBQcm9ncmVzcyBTb2Z0d2FyZSBDb3Jwb3JhdGlvbiBhbmQvb3Igb25lIG9mIGl0cyBzdWJzaWRpYXJpZXMgb3IgYWZmaWxpYXRlcyBpbiB0aGUgVS5TLiBhbmQvb3Igb3RoZXIgY291bnRyaWVzLiBTZWUKICAgIC0gbGluayAiVHJhZGVtYXJrcyIKICAgIC0gdGV4dDogZm9yIGFwcHJvcHJpYXRlIG1hcmtpbmdzLgogIC0gbGlzdDoKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiVGVybXMgb2YgVXNlIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJTaXRlIEZlZWRiYWNrIgogICAgLSBsaXN0aXRlbToKICAgICAgLSBsaW5rICJQcml2YWN5IENlbnRlciIKICAgIC0gbGlzdGl0ZW06CiAgICAgIC0gbGluayAiVHJ1c3QgQ2VudGVyIgogIC0gbGluayAiRG8gTm90IFNlbGwgb3IgU2hhcmUgTXkgUGVyc29uYWwgSW5mb3JtYXRpb24iCiAgLSBwYXJhZ3JhcGg6CiAgICAtIHRleHQ6IFBvd2VyZWQgYnkKICAgIC0gbGluayAiUHJvZ3Jlc3MgU2l0ZWZpbml0eSIKYGBgCgojIFRlc3Qgc291cmNlCgpgYGB0cwogICAxIHwgaW1wb3J0IHsgUGFnZSwgZXhwZWN0IH0gZnJvbSAiQHBsYXl3cmlnaHQvdGVzdCI7CiAgIDIgfAogICAzIHwKICAgNCB8IGV4cG9ydCBhc3luYyBmdW5jdGlvbiBicm9rZW5MaW5rQ2hlY2tlcihwYWdlOiBQYWdlKSB7CiAgIDUgfCAgICAgY29uc3QgYmFzZVVSTCA9ICJodHRwczovL3d3dy50ZWxlcmlrLmNvbSI7CiAgIDYgfAogICA3IHwgICAgIGNvbnN0IGxpbmtzID0gcGFnZS5sb2NhdG9yKCJhIik7CiAgIDggfAogICA5IHwgICAgIGNvbnN0IGFsbExpbmtzID0gYXdhaXQgbGlua3MuYWxsKCk7CiAgMTAgfAogIDExIHwgICAgIGNvbnN0IGFsbEhyZWZzID0gYXdhaXQgUHJvbWlzZS5hbGwoCiAgMTIgfCAgICAgICAgIGFsbExpbmtzLm1hcCgobGluaykgPT4gbGluay5nZXRBdHRyaWJ1dGUoImhyZWYiKSkKICAxMyB8ICAgICApCiAgMTQgfAogIDE1IHwgICAgIGNvbnN0IGFsbFZhbGlkSHJlZnMgPSBhbGxIcmVmcy5yZWR1Y2UoKGxpbmtzLCBsaW5rKSA9PiB7Cj4gMTYgfCAgICAgICAgIGV4cGVjdC5zb2Z0KGxpbmssIGAke2xpbmt9IGlzIG5vdCBhIHZhbGlkIGhyZWZgKS50b0JlVHJ1dGh5KCk7CiAgICAgfCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBeIEVycm9yOiBudWxsIGlzIG5vdCBhIHZhbGlkIGhyZWYKICAxNyB8ICAgICAgICAgaWYgKGxpbmsgJiYgIWxpbms/LnN0YXJ0c1dpdGgoIm1haWx0byIpKSB7CiAgMTggfCAgICAgICAgICAgICBpZiAobGluay5jaGFyQXQoMCkgPT09ICIvIiB8fCBsaW5rLmNoYXJBdCgwKSA9PT0gIiMiKSBsaW5rID0gYmFzZVVSTCArIGxpbms7CiAgMTkgfCAgICAgICAgICAgICBpZiAobGluay5pbmNsdWRlcyhiYXNlVVJMKSkgbGlua3MuYWRkKGxpbmspOwogIDIwIHwgICAgICAgICB9CiAgMjEgfCAgICAgICAgICAgICByZXR1cm4gbGlua3MKICAyMiB8ICAgICAgICAgfSwgbmV3IFNldDxzdHJpbmc+KCkpCiAgMjMgfAogIDI0IHwgICAgICAgICBmb3IgKGxldCB1cmwgb2YgYWxsVmFsaWRIcmVmcykgewogIDI1IHwgICAgICAgICAgICAgdHJ5IHsKICAyNiB8ICAgICAgICAgICAgICAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IHBhZ2UucmVxdWVzdC5nZXQodXJsKTsKICAyNyB8ICAgICAgICAgICAgICAgICBleHBlY3Quc29mdChyZXNwb25zZS5vaygpLCBgJHt1cmx9IGlzIG5vdCB2YWxpZGApLnRvQmVUcnV0aHkoKTsKICAyOCB8ICAgICAgICAgICAgIH0gY2F0Y2goZXJyKSB7CiAgMjkgfCAgICAgICAgICAgICAgICAgZXhwZWN0LnNvZnQobnVsbCwgYCR7dXJsfSBpcyBub3QgdmFsaWRgKS50b0JlVHJ1dGh5KCk7CiAgMzAgfCAgICAgICAgICAgICAgICAgZXhwZWN0LnNvZnQobnVsbCwgIiIgKyBlcnIpLnRvQmVUcnV0aHkoKTsKICAzMSB8ICAgICAgICAgICAgIH0KICAzMiB8ICAgICB9CiAgMzMgfCB9CmBgYA=="
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-searchPageTests-S-8dad9-e-Tests-Broken-Link-Checker-chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\ui-tests-searchPageTests-S-8dad9-e-Tests-Broken-Link-Checker-chromium\\trace.zip"
                         }
                       ],
                       "errorLocation": {
-                        "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test\\ui\\utils\\brokenLinkChecker.ts",
+                        "file": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test\\ui\\utils\\brokenLinkChecker.ts",
                         "column": 58,
                         "line": 16
                       }
@@ -1196,25 +1330,25 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 29,
-                      "parallelIndex": 0,
+                      "workerIndex": 5,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 5671,
+                      "duration": 5050,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-03-21T10:49:08.648Z",
+                      "startTime": "2025-03-21T16:58:05.448Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-searchPageTests-Search-Page-Tests-Search-DevCraft-chromium\\test-finished-1.png"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\ui-tests-searchPageTests-Search-Page-Tests-Search-DevCraft-chromium\\test-finished-1.png"
                         },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-infrastructure\\test-results\\ui-tests-searchPageTests-Search-Page-Tests-Search-DevCraft-chromium\\trace.zip"
+                          "path": "C:\\Users\\Drew\\Documents\\VScode-workspace\\playwright-typescript\\test-results\\ui-tests-searchPageTests-Search-Page-Tests-Search-DevCraft-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -1234,9 +1368,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-03-21T10:48:44.136Z",
-    "duration": 93705.72999999998,
-    "expected": 18,
+    "startTime": "2025-03-21T16:57:37.636Z",
+    "duration": 93111.53499999992,
+    "expected": 21,
     "skipped": 0,
     "unexpected": 4,
     "flaky": 0
