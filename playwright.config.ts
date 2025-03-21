@@ -25,9 +25,8 @@ export default defineConfig({
   reporter: [
     ['html', {outputFolder : './test/reports/htmlReport'}],
     ['json', {outputFile: './test/reports/jsonReport.json'}],
-    ["line"], ['allure-playwright', { resultsDir: './test/reports/allureReport'} ]
+    ["line"], ['allure-playwright', { resultsDir: './test/reports/allureReport' } ]
   ],
- // outputDir: './test/reports',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
@@ -42,21 +41,32 @@ export default defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'chromium',
+      name: 'API',
+      testDir: './test/api/tests',
       use: { ...devices['Desktop Chrome'] },
     },
-    /*
     {
-      name: 'firefox',
+      name: 'Functional',
+      testDir: './test/functional/tests',
+      use: { ...devices['Desktop Chrome'] },
+    },
+    {
+      name: 'UI - Chrome',
+      testDir: './test/ui/tests',
+      use: { ...devices['Desktop Chrome'] },
+    },
+    {
+      name: 'UI - Firefox',
+      testDir: './test/ui/tests',
       use: { ...devices['Desktop Firefox'] },
     },
-
     {
-      name: 'webkit',
+      name: 'Ui - Safari',
+      testDir: './test/ui/tests',
       use: { ...devices['Desktop Safari'] },
     },
 
-     Test against mobile viewports. */
+    //Test against mobile viewports. 
     // {
     //   name: 'Mobile Chrome',
     //   use: { ...devices['Pixel 5'] },
