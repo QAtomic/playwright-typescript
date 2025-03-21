@@ -22,14 +22,12 @@ export async function brokenLinkChecker(page: Page) {
         }, new Set<string>())
 
         for (let url of allValidHrefs) {
-            console.log(url);
             try {
                 const response = await page.request.get(url);
-                console.log("Response.ok : " + response.ok());
                 expect.soft(response.ok(), `${url} is not valid`).toBeTruthy();
             } catch(err) {
-                console.log("Error : " + err);
                 expect.soft(null, `${url} is not valid`).toBeTruthy();
+                expect.soft(null, "" + err).toBeTruthy();
             }
     }
 }

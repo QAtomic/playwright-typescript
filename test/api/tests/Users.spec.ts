@@ -1,7 +1,17 @@
 import { test, expect } from '@playwright/test';
+import { usersSchema } from '../schema/usersSchema';
+import { schemaValidator } from '../utils/schemaChecker';
 
 test.describe.parallel("API : Users", () => {
     const baseURL = "https://reqres.in";
+
+
+    test("Users Schema Validation", async ({ request }) => {
+        const schema = usersSchema;
+        
+        await schemaValidator(request, 200, `${baseURL}/api/users`, schema);
+    });
+
 
     test("Get User Two", async ({ request }) => {
         const response = await request.get(`${baseURL}/api/users/2`);

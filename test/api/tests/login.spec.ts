@@ -4,6 +4,7 @@ import { test, expect } from '@playwright/test';
 test.describe.parallel("API : Login", () => {
     const baseURL = "https://reqres.in";
 
+
     test("Valid Login", async ({ request }) => {
         const response = await request.post(`${baseURL}/api/login`, {
             data: {
