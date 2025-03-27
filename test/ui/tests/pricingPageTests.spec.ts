@@ -19,4 +19,8 @@ test.describe("Pricing Page Tests", () => {
         await pricingPage.verifyProductPrice("DevCraft Complete", "1299");
     });
 
+    test("Example TDD Todo Test", async () => {
+        test.fixme(true, "Complete this test when code ready.  Dev not complete");
+    });
+
 });
