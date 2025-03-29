@@ -26,8 +26,8 @@ export class SearchPage {
     }
 
     async verifyPageTitle() {
-        let pricingPageTitle = await this.page.title();
-        expect(pricingPageTitle).toBe("Search Results");
+        let pageTitle = await this.page.title();
+        expect(pageTitle).toBe("Search Results");
     }
 
     async search(str: string) {

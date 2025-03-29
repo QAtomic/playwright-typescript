@@ -11,7 +11,7 @@ test.describe("Pricing Page Tests", () => {
     });
 
     test("Broken Link Checker", async () => {
-        test.setTimeout(120000);
+        test.setTimeout(300000);
         await pricingPage.checkForBrokenLinks();
     })
 

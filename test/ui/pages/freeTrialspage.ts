@@ -19,8 +19,8 @@ export class FreeTrialsPage {
     }
 
     async verifyPageTitle() {
-        let pricingPageTitle = await this.page.title();
-        expect(pricingPageTitle).toBe("Download trials and sign up for services | Telerik");
+        let pageTitle = await this.page.title();
+        expect(pageTitle).toBe("Download trials and sign up for services | Telerik");
     }
 
     async checkForBrokenLinks() {

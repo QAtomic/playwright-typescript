@@ -10,7 +10,7 @@ test.describe("Search Page Tests", () => {
     });
 
     test("Broken Link Checker", async () => {
-        test.setTimeout(120000);
+        test.setTimeout(300000);
         await searchPage.checkForBrokenLinks();
     })
 

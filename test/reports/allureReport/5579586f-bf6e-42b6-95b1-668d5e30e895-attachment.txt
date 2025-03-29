@@ -1,0 +1,290 @@
+Log out link was skipped because it's Logout functionality
+USA: +1 888 679 0442 link was skipped because it's a phone number
+UK: +44 13 4483 8186 link was skipped because it's a phone number
+India: +91 406 9019447 link was skipped because it's a phone number
+Bulgaria: +359 2 8099850 link was skipped because it's a phone number
+Australia: +61 3 7068 8610 link was skipped because it's a phone number
+Test : https://www.telerik.com#skip-to-content
+Response Status : 200
+Test : https://www.telerik.com/
+Response Status : 200
+Test : https://www.telerik.com/devcraft
+Response Status : 200
+Test : https://www.telerik.com/kendo-ui
+Response Status : 200
+Test : https://www.telerik.com/kendo-jquery-ui
+Response Status : 200
+Test : https://www.telerik.com/kendo-angular-ui
+Response Status : 200
+Test : https://www.telerik.com/kendo-react-ui
+Response Status : 200
+Test : https://www.telerik.com/kendo-vue-ui
+Response Status : 200
+Test : https://www.telerik.com/blazor-ui
+Response Status : 200
+Test : https://www.telerik.com/aspnet-core-ui
+Response Status : 200
+Test : https://www.telerik.com/aspnet-mvc
+Response Status : 200
+Test : https://www.telerik.com/products/aspnet-ajax.aspx
+Response Status : 200
+Test : https://www.telerik.com/maui-ui
+Response Status : 200
+Test : https://www.telerik.com/document-processing-libraries
+Response Status : 200
+Test : https://www.telerik.com/maui-ui
+Response Status : 200
+Test : https://www.telerik.com/winui
+Response Status : 200
+Test : https://www.telerik.com/products/winforms.aspx
+Response Status : 200
+Test : https://www.telerik.com/products/wpf/overview.aspx
+Response Status : 200
+Test : https://www.telerik.com/products/reporting.aspx
+Response Status : 200
+Test : https://www.telerik.com/report-server
+Response Status : 200
+Test : https://www.telerik.com/teststudio
+Response Status : 200
+Test : https://www.telerik.com/teststudio-dev
+Response Status : 200
+Test : https://www.telerik.com/products/mocking.aspx
+Response Status : 200
+Test : https://www.progress.com/sitefinity-cms
+Response Status : 200
+Test : https://www.telerik.com/themebuilder
+Response Status : 200
+Test : https://www.telerik.com/design-system
+Response Status : 200
+Test : https://www.telerik.com/page-templates-and-ui-blocks
+Response Status : 200
+Test : https://www.telerik.com/fiddler
+Response Status : 200
+Test : https://www.telerik.com/fiddler/fiddler-everywhere
+Response Status : 200
+Test : https://www.telerik.com/fiddler/fiddler-classic
+Response Status : 200
+Test : https://www.telerik.com/fiddler/fiddler-everywhere-reporter
+Response Status : 200
+Test : https://www.telerik.com/fiddlercore
+Response Status : 200
+Test : https://converter.telerik.com
+Response Status : 200
+Test : https://www.telerik.com/teststudio/testing-framework
+Response Status : 200
+Test : https://www.telerik.com/all-products
+Response Status : 200
+Test : https://www.telerik.com/support/demos
+Response Status : 200
+Test : https://www.telerik.com/services
+Response Status : 200
+Test : https://www.telerik.com/blogs
+Response Status : 200
+Test : https://www.telerik.com/support
+Response Status : 200
+Test : https://www.telerik.com/purchase.aspx
+Response Status : 200
+Test : https://www.telerik.com/search
+Response Status : 200
+Test : https://store.progress.com/shopping-cart
+Response Status : 200
+Test : https://www.telerik.com/account/
+Response Status : 200
+Test : https://www.telerik.com/account/your-licenses
+Response Status : 200
+Test : https://www.telerik.com/account/downloads
+Response Status : 200
+Test : https://www.telerik.com/account/support-center
+Response Status : 200
+Test : https://www.telerik.com/forums/profile/mine
+Response Status : 200
+Test : https://www.telerik.com/account/payment-methods
+Response Status : 200
+Test : https://www.telerik.com/account/profile
+Response Status : 200
+Test : https://www.telerik.com/account/
+Response Status : 200
+Test : https://www.telerik.com/contact
+Response Status : 200
+Test : https://www.telerik.com/download
+Response Status : 200
+Test : https://www.telerik.com/search
+Response Status : 200
+Test : https://www.telerik.com#bundles
+Response Status : 200
+Test : https://www.telerik.com#web-ui
+Response Status : 200
+Test : https://www.telerik.com#mobile-ui
+Response Status : 200
+Test : https://www.telerik.com#desktop-ui
+Response Status : 200
+Test : https://www.telerik.com#document-management
+Response Status : 200
+Test : https://www.telerik.com#ui-ux-tools
+Response Status : 200
+Test : https://www.telerik.com#reporting
+Response Status : 200
+Test : https://www.telerik.com#testing-and-mocking
+Response Status : 200
+Test : https://www.telerik.com#debugging
+Response Status : 200
+Test : https://www.telerik.com#cms
+Response Status : 200
+Test : https://www.telerik.com#free-tools
+Response Status : 200
+Test : https://www.telerik.com/try/devcraft-ultimate
+Response Status : 200
+Test : https://www.telerik.com#
+Response Status : 200
+Test : https://www.telerik.com/try/kendo-angular-ui
+Response Status : 200
+Test : https://www.telerik.com/try/kendo-react-ui
+Response Status : 200
+Test : https://www.telerik.com/try/kendo-vue-ui
+Response Status : 200
+Test : https://www.telerik.com/try/kendo-ui
+Response Status : 200
+Test : https://www.telerik.com/try/ui-for-blazor
+Response Status : 200
+Test : https://www.telerik.com/try/aspnet-core-ui
+Response Status : 200
+Test : https://www.telerik.com/try/ui-for-asp.net-mvc
+Response Status : 200
+Test : https://www.telerik.com/try/ui-for-asp.net-ajax
+Response Status : 200
+Test : https://www.telerik.com/try/kendo-angular-ui
+Response Status : 200
+Test : https://www.telerik.com/try/kendo-react-ui
+Response Status : 200
+Test : https://www.telerik.com/try/kendo-ui
+Response Status : 200
+Test : https://www.telerik.com/try/kendo-vue-ui
+Response Status : 200
+Test : https://www.telerik.com/try/ui-for-maui
+Response Status : 200
+Test : https://www.telerik.com/try/ui-for-maui
+Response Status : 200
+Test : https://www.telerik.com/try/ui-for-wpf
+Response Status : 200
+Test : https://www.telerik.com/try/ui-for-winforms
+Response Status : 200
+Test : https://www.telerik.com/try/ui-for-winui
+Response Status : 200
+Test : https://www.telerik.com/try/devcraft-ultimate
+Response Status : 200
+Test : https://docs.telerik.com/themebuilder/get-started/first-steps-theme-builder
+Response Status : 200
+Test : https://www.telerik.com/try/reporting
+Response Status : 200
+Test : https://www.telerik.com/try/report-server
+Response Status : 200
+Test : https://www.telerik.com/try/test-studio-ultimate
+Response Status : 200
+Test : https://www.telerik.com/try/test-studio-dev-edition
+Response Status : 200
+Test :  /try/justmock
+Test : https://www.telerik.com/download/fiddler-everywhere
+Response Status : 200
+Test : https://www.telerik.com/download/fiddler
+Response Status : 200
+Test : https://www.telerik.com/try/fiddlercore
+Response Status : 200
+Test : https://www.telerik.com/fiddler/fiddler-everywhere-reporter
+Response Status : 200
+Test : https://www.progress.com/sitefinity-cms/try-now/get-started
+Response Status : 200
+Test : http://converter.telerik.com/
+Response Status : 200
+Test : https://www.telerik.com/try/telerik-testing-framework
+Response Status : 200
+Test : https://www.telerik.com/devcraft
+Response Status : 200
+Test : https://www.telerik.com/kendo-ui
+Response Status : 200
+Test : https://www.telerik.com/download
+Response Status : 200
+Test : https://www.telerik.com/purchase.aspx
+Response Status : 200
+Test : https://www.telerik.com/support/demos
+Response Status : 200
+Test : https://www.telerik.com/documentation
+Response Status : 200
+Test : https://www.telerik.com/support/whats-new/release-history
+Response Status : 200
+Test : https://www.telerik.com/forums
+Response Status : 200
+Test : https://www.telerik.com/blogs
+Response Status : 200
+Test : https://www.telerik.com/webinars
+Response Status : 200
+Test : https://www.telerik.com/videos
+Response Status : 200
+Test : https://www.telerik.com/services
+Response Status : 200
+Test : https://www.progress.com/partners/partner-locator?Products=KendoUI+and+Telerik
+Response Status : 200
+Test : https://www.telerik.com/support/virtual-classroom
+Response Status : 200
+Test : https://www.progress.com/events
+Response Status : 200
+Test : https://www.telerik.com/faqs
+Response Status : 200
+Test : https://www.telerik.com/about/success-stories
+Response Status : 200
+Test : https://www.telerik.com/about/testimonials
+Response Status : 200
+Test : https://www.telerik.com/contact
+Response Status : 200
+Test : https://www.facebook.com/telerik
+Response Status : 400
+Test : https://x.com/telerik
+Response Status : 200
+Test : https://www.linkedin.com/company/telerik
+Response Status : 200
+Test : https://www.twitch.tv/codeitlive
+Response Status : 200
+Test : https://www.youtube.com/c/telerik
+Response Status : 200
+Test : https://github.com/telerik
+Response Status : 200
+Test : https://www.telerik.com/contact
+Response Status : 200
+Test : https://www.facebook.com/telerik
+Response Status : 400
+Test : https://x.com/telerik
+Response Status : 200
+Test : https://www.linkedin.com/company/telerik
+Response Status : 999
+Test : https://www.twitch.tv/codeitlive
+Response Status : 200
+Test : https://www.youtube.com/c/telerik
+Response Status : 200
+Test : https://github.com/telerik
+Response Status : 200
+Test : https://www.progress.com
+Response Status : 200
+Test : https://www.progress.com/company
+Response Status : 200
+Test : https://www.progress.com/products
+Response Status : 200
+Test : https://www.progress.com/company/awards
+Response Status : 200
+Test : https://investors.progress.com/press-releases
+Test : https://www.progress.com/company/press-coverage
+Test : https://www.progress.com/company/careers
+Test : https://www.progress.com/company/offices
+Test : https://www.progress.com/company
+Test : https://www.progress.com/products
+Test : https://www.progress.com/company/awards
+Test : https://investors.progress.com/press-releases
+Test : https://www.progress.com/company/press-coverage
+Test : https://www.progress.com/company/careers
+Test : https://www.progress.com/company/offices
+Test : https://www.progress.com/legal/trademarks
+Test : https://www.telerik.com/about/terms-of-use
+Test : https://www.telerik.com/feedback
+Test : https://www.progress.com/legal/privacy-center
+Test : https://www.progress.com/trust-center
+Test : https://forms.progress.com/ccpa-subscription
+Test : https://www.progress.com/sitefinity-cms
+Test : https://www.progress.com/legal/cookie-policy

@@ -1,0 +1,294 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: Search Page Tests >> Broken Link Checker
+- Location: C:\Users\Drew\Documents\VScode-workspace\playwright-typescript\test\ui\tests\searchPageTests.spec.ts:12:5
+
+# Error details
+
+```
+Error: Link  165k+ with href https://www.facebook.com/telerik is not valid
+
+expect(received).toBeTruthy()
+
+Received: false
+    at brokenLinkChecker (C:\Users\Drew\Documents\VScode-workspace\playwright-typescript\test\ui\utils\brokenLinkChecker.ts:55:104)
+    at SearchPage.checkForBrokenLinks (C:\Users\Drew\Documents\VScode-workspace\playwright-typescript\test\ui\pages\searchPage.ts:25:9)
+    at C:\Users\Drew\Documents\VScode-workspace\playwright-typescript\test\ui\tests\searchPageTests.spec.ts:14:9
+```
+
+# Page snapshot
+
+```yaml
+- navigation:
+  - figure:
+    - link "skip navigation"
+    - link "Go to Homepage":
+      - img
+  - list:
+    - listitem:
+      - button "Product Navigation": All Products
+  - list:
+    - listitem:
+      - link "Demos"
+    - listitem:
+      - link "Services"
+    - listitem:
+      - link "Blogs"
+    - listitem:
+      - link "Docs & Support"
+    - listitem:
+      - link "Pricing"
+  - list:
+    - listitem:
+      - link "Search":
+        - img
+    - listitem:
+      - link "Shopping cart":
+        - img
+    - listitem:
+      - link "Your Account":
+        - img
+    - listitem:
+      - link "Contact Us":
+        - img
+    - listitem:
+      - link "Get A Free Trial"
+- heading "Search" [level=2]
+- paragraph:
+  - text: Search our entire website. For more specific results, include your product's name in a single sentence. For example, use
+  - emphasis: "\"Types of Test Studio load tests\""
+  - text: instead of
+  - emphasis: "\"load testing\""
+  - text: .
+- searchbox "search"
+- button "Click to search":
+  - img "Search icon"
+  - text: Search
+- list:
+  - listitem:
+    - heading "Telerik DevCraft" [level=3]:
+      - link "Telerik DevCraft":
+        - text: Telerik
+        - strong: DevCraft
+    - paragraph:
+      - text: Telerik
+      - strong: DevCraft
+      - text: . The Ultimate Toolkit for Building Modern Apps With Sleek UI. Our .NET and JavaScript tooling enables you to build modern, high-performant
+    - link "https://www.telerik.com/devcraft"
+  - listitem:
+    - heading "Kendo UI" [level=3]:
+      - link "Kendo UI":
+        - strong: Kendo
+        - text: UI
+    - paragraph:
+      - text: Items 1 - 20 of 91
+      - strong: ...
+      - text: Quickly build eye-catching web apps using
+      - strong: Kendo
+      - text: UI's ultimate collection of JavaScript UI components with libraries for jQuery, Angular, React, ...
+    - link "https://www.telerik.com/kendo-ui"
+  - listitem:
+    - heading "Purchase Telerik Software Development Tools" [level=3]:
+      - link "Purchase Telerik Software Development Tools":
+        - strong: Purchase
+        - text: Telerik Software Development Tools
+    - paragraph:
+      - strong: Purchase
+      - text: Telerik software development tools for every type of project across major development platforms. Dynamic release cycle and best support service.
+    - link "https://www.telerik.com/purchase.aspx"
+- contentinfo:
+  - text: Complete .NET Toolbox
+  - link "Telerik DevCraft"
+  - text: Complete JavaScript Toolbox
+  - link "Kendo UI"
+  - text: Get Products
+  - list:
+    - listitem:
+      - link "Free Trials"
+    - listitem:
+      - link "Pricing"
+  - text: Resources
+  - list:
+    - listitem:
+      - link "Demos"
+    - listitem:
+      - link "Documentation"
+    - listitem:
+      - link "Release History"
+    - listitem:
+      - link "Forums"
+    - listitem:
+      - link "Blogs"
+    - listitem:
+      - link "Webinars"
+    - listitem:
+      - link "Videos"
+    - listitem:
+      - link "Professional Services"
+    - listitem:
+      - link "Partners"
+    - listitem:
+      - link "Virtual Classroom"
+    - listitem:
+      - link "Events"
+    - listitem:
+      - link "FAQs"
+  - text: Recognition
+  - list:
+    - listitem:
+      - link "Success Stories"
+    - listitem:
+      - link "Testimonials"
+  - text: Get in touch
+  - list:
+    - listitem:
+      - link "Contact Us"
+    - listitem:
+      - list:
+        - listitem:
+          - 'link "USA: +1 888 679 0442"'
+        - listitem:
+          - 'link "UK: +44 13 4483 8186"'
+        - listitem:
+          - 'link "India: +91 406 9019447"'
+        - listitem:
+          - 'link "Bulgaria: +359 2 8099850"'
+        - listitem:
+          - 'link "Australia: +61 3 7068 8610"'
+    - listitem:
+      - list:
+        - listitem:
+          - link "165k+":
+            - img
+            - text: 165k+
+        - listitem:
+          - link "50k+":
+            - img
+            - text: 50k+
+        - listitem:
+          - link "17k+":
+            - img
+            - text: 17k+
+        - listitem:
+          - link "4k+":
+            - img
+            - text: 4k+
+        - listitem:
+          - link "14k+":
+            - img
+            - text: 14k+
+        - listitem:
+          - link "GitHub":
+            - img
+  - link "Go to Progress.com":
+    - img
+  - paragraph: Telerik and Kendo UI are part of Progress product portfolio. Progress is the leading provider of application development and digital experience technologies.
+  - list:
+    - listitem:
+      - link "Company"
+    - listitem:
+      - link "Technology"
+    - listitem:
+      - link "Awards"
+    - listitem:
+      - link "Press Releases"
+    - listitem:
+      - link "Media Coverage"
+    - listitem:
+      - link "Careers"
+    - listitem:
+      - link "Offices"
+  - paragraph: Copyright © 2025 Progress Software Corporation and/or its subsidiaries or affiliates. All Rights Reserved.
+  - paragraph:
+    - text: Progress and certain product names used herein are trademarks or registered trademarks of Progress Software Corporation and/or one of its subsidiaries or affiliates in the U.S. and/or other countries. See
+    - link "Trademarks"
+    - text: for appropriate markings.
+  - list:
+    - listitem:
+      - link "Terms of Use"
+    - listitem:
+      - link "Site Feedback"
+    - listitem:
+      - link "Privacy Center"
+    - listitem:
+      - link "Trust Center"
+  - link "Do Not Sell or Share My Personal Information"
+  - paragraph:
+    - text: Powered by
+    - link "Progress Sitefinity"
+```
+
+# Test source
+
+```ts
+   1 | import { Page, expect} from "@playwright/test";
+   2 |
+   3 |
+   4 | export async function brokenLinkChecker(page: Page) {
+   5 |     const baseURL = "https://www.telerik.com";
+   6 |
+   7 |     const links = page.locator("a");
+   8 |
+   9 |     const allLinks = await Promise.all(await links.all()).then(links => {
+  10 |         return links;
+  11 |     });
+  12 |
+  13 |     const allLinksAndText = [];
+  14 |     for (let i = 0; i < allLinks.length; i++) {
+  15 |         let linkText = await allLinks[i].innerText()
+  16 |         let linkHref = await allLinks[i].getAttribute("href");
+  17 |         allLinksAndText.push({
+  18 |             innerText : linkText,
+  19 |             href : linkHref
+  20 |         });
+  21 |     };
+  22 |
+  23 |     const allValidHrefs = [];
+  24 |     for (let i=0; i < allLinksAndText.length; i++) {
+  25 |         let loopHref = allLinksAndText[i].href;
+  26 |         let loopInnerText = allLinksAndText[i].innerText;
+  27 |         if (loopInnerText.replaceAll(" ","").toUpperCase().includes("LOGOUT")) {
+  28 |             console.log(loopInnerText + " link was skipped because it's Logout functionality");
+  29 |             continue;
+  30 |         };
+  31 |         expect.soft(loopHref, `${loopInnerText} has a null href`).toBeTruthy();
+  32 |         if (!loopHref) continue;
+  33 |
+  34 |         if (loopHref?.includes("tel:")) {
+  35 |             console.log(loopInnerText + " link was skipped because it's a phone number");
+  36 |             continue;
+  37 |         }
+  38 |
+  39 |         if (loopHref.startsWith("mailto")) continue;
+  40 |
+  41 |         if (loopHref.charAt(0) === "/" || loopHref?.charAt(0) === "#") loopHref = baseURL + loopHref;
+  42 |         
+  43 |         //if (!loopHref?.includes(baseURL)) continue;
+  44 |
+  45 |         allValidHrefs.push({
+  46 |             innerText : loopInnerText,
+  47 |             href : loopHref
+  48 |         });
+  49 |     };
+  50 |
+  51 |     for (let valid of allValidHrefs) {
+  52 |         try {
+  53 |             console.log("Test : " + valid.href);
+  54 |             const response = await page.request.get(valid.href);
+> 55 |             expect.soft(response.ok(), `Link ${valid.innerText} with href ${valid.href} is not valid`).toBeTruthy();
+     |                                                                                                        ^ Error: Link  165k+ with href https://www.facebook.com/telerik is not valid
+  56 |             console.log("Response Status : " + response.status().toString());
+  57 |         } catch(err) {
+  58 |             expect.soft(null, `Link ${valid.innerText} with href ${valid.href} is not valid`).toBeTruthy();
+  59 |             expect.soft(null, "" + err).toBeTruthy();
+  60 |         }
+  61 |     };
+  62 |     
+  63 | };
+```

@@ -22,8 +22,8 @@ export class PricingPage {
     }
 
     async verifyPageTitle() {
-        let pricingPageTitle = await this.page.title();
-        expect(pricingPageTitle).toBe("Purchase Telerik Software Development Tools");
+        let pageTitle = await this.page.title();
+        expect(pageTitle).toBe("Purchase Telerik Software Development Tools");
     }
 
 

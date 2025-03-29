@@ -38,8 +38,8 @@ export class ContactUsPage {
     }
 
     async verifyPageTitle() {
-        let pricingPageTitle = await this.page.title();
-        expect(pricingPageTitle).toBe("Contact the Telerik Team | Progress Telerik");
+        let pageTitle = await this.page.title();
+        expect(pageTitle).toBe("Contact the Telerik Team | Progress Telerik");
     }
 
     async checkForBrokenLinks() {
