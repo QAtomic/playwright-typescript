@@ -1,5 +1,5 @@
 import { test } from '@playwright/test';
-import { FreeTrialsPage } from '../pages/freeTrialspage';
+import { FreeTrialsPage } from '../pages/freeTrialsPage';
 import { sleep } from '../../utils/sleep';
 
 
