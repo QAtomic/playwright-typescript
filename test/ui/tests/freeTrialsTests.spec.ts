@@ -1,6 +1,6 @@
 import { test } from '@playwright/test';
 import { sleep } from '../../utils/sleep';
-import { FreeTrialsPage } from '../pages/freeTrialspage';
+import { FreeTrialsPage } from "../pages/freeTrialsPage";
 
 
 
