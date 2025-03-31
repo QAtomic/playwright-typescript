@@ -1,6 +1,7 @@
 import { test } from '@playwright/test';
-import { FreeTrialsPage } from '../pages/freeTrialsPage';
 import { sleep } from '../../utils/sleep';
+import { FreeTrialsPage } from '../pages/freeTrialspage';
+
 
 
 test.describe("Free Trials Tests", () => {
