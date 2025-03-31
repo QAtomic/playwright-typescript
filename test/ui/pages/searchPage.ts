@@ -1,5 +1,4 @@
 import { Page, expect, Locator } from '@playwright/test';
-import { sleep } from "../../utils/sleep";
 import { closeCookiePopup } from '../utils/closeCookiePopup';
 import { brokenLinkChecker } from '../utils/brokenLinkChecker';
 
@@ -34,7 +33,7 @@ export class SearchPage {
         await this.inputSearch.fill(str);
         //I did not submit this search because it is blocked by Captcha. 
         
-        await sleep(1000);
+        await this.page.waitForTimeout(1000);
     }
 
     async verifyFirstLinkText(str: string) {

@@ -1,0 +1,665 @@
+Log out link was skipped because it's Logout functionality
++1-800-477-6473 link was skipped because it's a phone number
+USA: +1 888 679 0442 link was skipped because it's a phone number
+UK: +44 13 4483 8186 link was skipped because it's a phone number
+India: +91 406 9019447 link was skipped because it's a phone number
+Bulgaria: +359 2 8099850 link was skipped because it's a phone number
+Australia: +61 3 7068 8610 link was skipped because it's a phone number
+Test : https://www.telerik.com#skip-to-content
+Response Status : 200
+Test : https://www.telerik.com/
+Response Status : 200
+Test : https://www.telerik.com/devcraft
+Response Status : 200
+Test : https://www.telerik.com/kendo-ui
+Response Status : 200
+Test : https://www.telerik.com/kendo-jquery-ui
+Response Status : 200
+Test : https://www.telerik.com/kendo-angular-ui
+Response Status : 200
+Test : https://www.telerik.com/kendo-react-ui
+Response Status : 200
+Test : https://www.telerik.com/kendo-vue-ui
+Response Status : 200
+Test : https://www.telerik.com/blazor-ui
+Response Status : 200
+Test : https://www.telerik.com/aspnet-core-ui
+Response Status : 200
+Test : https://www.telerik.com/aspnet-mvc
+Response Status : 200
+Test : https://www.telerik.com/products/aspnet-ajax.aspx
+Response Status : 200
+Test : https://www.telerik.com/maui-ui
+Response Status : 200
+Test : https://www.telerik.com/document-processing-libraries
+Response Status : 200
+Test : https://www.telerik.com/maui-ui
+Response Status : 200
+Test : https://www.telerik.com/winui
+Response Status : 200
+Test : https://www.telerik.com/products/winforms.aspx
+Response Status : 200
+Test : https://www.telerik.com/products/wpf/overview.aspx
+Response Status : 200
+Test : https://www.telerik.com/products/reporting.aspx
+Response Status : 200
+Test : https://www.telerik.com/report-server
+Response Status : 200
+Test : https://www.telerik.com/teststudio
+Response Status : 200
+Test : https://www.telerik.com/teststudio-dev
+Response Status : 200
+Test : https://www.telerik.com/products/mocking.aspx
+Response Status : 200
+Test : https://www.progress.com/sitefinity-cms
+Response Status : 200
+Test : https://www.telerik.com/themebuilder
+Response Status : 200
+Test : https://www.telerik.com/design-system
+Response Status : 200
+Test : https://www.telerik.com/page-templates-and-ui-blocks
+Response Status : 200
+Test : https://www.telerik.com/fiddler
+Response Status : 200
+Test : https://www.telerik.com/fiddler/fiddler-everywhere
+Response Status : 200
+Test : https://www.telerik.com/fiddler/fiddler-classic
+Response Status : 200
+Test : https://www.telerik.com/fiddler/fiddler-everywhere-reporter
+Response Status : 200
+Test : https://www.telerik.com/fiddlercore
+Response Status : 200
+Test : https://converter.telerik.com
+Response Status : 200
+Test : https://www.telerik.com/teststudio/testing-framework
+Response Status : 200
+Test : https://www.telerik.com/all-products
+Response Status : 200
+Test : https://www.telerik.com/support/demos
+Response Status : 200
+Test : https://www.telerik.com/services
+Response Status : 200
+Test : https://www.telerik.com/blogs
+Response Status : 200
+Test : https://www.telerik.com/support
+Response Status : 200
+Test : https://www.telerik.com/purchase.aspx
+Response Status : 200
+Test : https://www.telerik.com/search
+Response Status : 200
+Test : https://store.progress.com/shopping-cart
+Response Status : 200
+Test : https://www.telerik.com/account/
+Response Status : 200
+Test : https://www.telerik.com/account/your-licenses
+Response Status : 200
+Test : https://www.telerik.com/account/downloads
+Response Status : 200
+Test : https://www.telerik.com/account/support-center
+Response Status : 200
+Test : https://www.telerik.com/forums/profile/mine
+Response Status : 200
+Test : https://www.telerik.com/account/payment-methods
+Response Status : 200
+Test : https://www.telerik.com/account/profile
+Response Status : 200
+Test : https://www.telerik.com/account/
+Response Status : 200
+Test : https://www.telerik.com/contact
+Response Status : 200
+Test : https://www.telerik.com/download
+Response Status : 200
+Test : https://www.telerik.com/search
+Response Status : 200
+Test : https://www.telerik.com/page-templates-and-ui-blocks#page-templates
+Response Status : 200
+Test : https://www.telerik.com/page-templates-and-ui-blocks#building-blocks
+Response Status : 200
+Test : https://www.telerik.com/themebuilder
+Response Status : 200
+Test : https://www.telerik.com/purchase/support-plans
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10021
+Response Status : 200
+Test : https://www.telerik.com/purchase/support-plans
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10016
+Response Status : 200
+Test : https://www.telerik.com/purchase/support-plans
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10018
+Response Status : 200
+Test : https://www.telerik.com/page-templates-and-ui-blocks#page-templates
+Response Status : 200
+Test : https://www.telerik.com/page-templates-and-ui-blocks#building-blocks
+Response Status : 200
+Test : https://www.telerik.com/themebuilder
+Response Status : 200
+Test : https://www.telerik.com/purchase/support-plans
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=801
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuIds=801,9995
+Response Status : 200
+Test : https://www.telerik.com/purchase/support-plans
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=6127
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuIds=6127,9995
+Response Status : 200
+Test : https://www.telerik.com/purchase/support-plans
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=6131
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuIds=6131,9995
+Response Status : 200
+Test : https://www.telerik.com/contact
+Response Status : 200
+Test : https://www.telerik.com#web
+Response Status : 200
+Test : https://www.telerik.com#web-dotnet
+Response Status : 200
+Test : https://www.telerik.com#desktop-components
+Response Status : 200
+Test : https://www.telerik.com#mobile-components
+Response Status : 200
+Test : https://www.telerik.com#reporting
+Response Status : 200
+Test : https://www.telerik.com#testing
+Response Status : 200
+Test : https://www.telerik.com#themebuilder
+Response Status : 200
+Test : https://www.telerik.com#ui-accelerator
+Response Status : 200
+Test : https://www.telerik.com#full-list
+Response Status : 200
+Test : https://www.telerik.com/kendo-react-ui/components/free
+Response Status : 200
+Test : https://www.telerik.com/kendo-react-ui/pricing
+Response Status : 200
+Test : https://www.telerik.com/kendo-react-ui
+Response Status : 200
+Test : https://www.telerik.com/page-templates-and-ui-blocks#page-templates
+Response Status : 200
+Test : https://www.telerik.com/page-templates-and-ui-blocks#building-blocks
+Response Status : 200
+Test : https://www.telerik.com/themebuilder
+Response Status : 200
+Test : https://www.telerik.com/page-templates-and-ui-blocks#page-templates
+Response Status : 200
+Test : https://www.telerik.com/page-templates-and-ui-blocks#building-blocks
+Response Status : 200
+Test : https://www.telerik.com/themebuilder
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10033
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10032
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10031
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=7406
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=7410
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=7414
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuIds=7406,9995
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuIds=7410,9995
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuIds=7414,9995
+Response Status : 200
+Test : https://www.telerik.com/kendo-react-ui/pricing
+Response Status : 200
+Test : https://www.telerik.com/kendo-react-ui
+Response Status : 200
+Test : https://www.telerik.com/page-templates-and-ui-blocks#page-templates
+Response Status : 200
+Test : https://www.telerik.com/page-templates-and-ui-blocks#building-blocks
+Response Status : 200
+Test : https://www.telerik.com/themebuilder
+Response Status : 200
+Test : https://www.telerik.com/page-templates-and-ui-blocks#page-templates
+Response Status : 200
+Test : https://www.telerik.com/page-templates-and-ui-blocks#building-blocks
+Response Status : 200
+Test : https://www.telerik.com/themebuilder
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10036
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10035
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10034
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=6220
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=5293
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=6224
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuIds=6220,9995
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuIds=5293,9995
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuIds=6224,9995
+Response Status : 200
+Test : https://www.telerik.com/purchase/kendo-ui
+Response Status : 200
+Test : https://www.telerik.com/kendo-ui
+Response Status : 200
+Test : https://www.telerik.com/purchase/kendo-ui
+Response Status : 200
+Test : https://www.telerik.com/kendo-angular-ui
+Response Status : 200
+Test : https://www.telerik.com/kendo-react-ui/pricing
+Response Status : 200
+Test : https://www.telerik.com/kendo-react-ui
+Response Status : 200
+Test : https://www.telerik.com/purchase/kendo-ui
+Response Status : 200
+Test : https://www.telerik.com/kendo-vue-ui
+Response Status : 200
+Test : https://www.telerik.com/purchase/kendo-ui
+Response Status : 200
+Test : https://www.telerik.com/kendo-jquery-ui
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=5293
+Response Status : 200
+Test : https://www.telerik.com/page-templates-and-ui-blocks#page-templates
+Response Status : 200
+Test : https://www.telerik.com/page-templates-and-ui-blocks#building-blocks
+Response Status : 200
+Test : https://www.telerik.com/themebuilder
+Response Status : 200
+Test : https://www.telerik.com/page-templates-and-ui-blocks#page-templates
+Response Status : 200
+Test : https://www.telerik.com/page-templates-and-ui-blocks#building-blocks
+Response Status : 200
+Test : https://www.telerik.com/themebuilder
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10038
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10037
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10020
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=7590
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=7594
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=7598
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuIds=7590,9995
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuIds=7594,9995
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuIds=7598,9995
+Response Status : 200
+Test : https://www.telerik.com/purchase/blazor-ui
+Response Status : 200
+Test : https://www.telerik.com/blazor-ui
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10008
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10006
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10004
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=9901
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=9900
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=9899
+Response Status : 200
+Test : https://www.telerik.com/purchase/aspnet-mvc
+Response Status : 200
+Test : https://www.telerik.com/aspnet-mvc
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10001
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10000
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=9999
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=9898
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=9897
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=9896
+Response Status : 200
+Test : https://www.telerik.com/purchase/aspnet-core-ui
+Response Status : 200
+Test : https://www.telerik.com/aspnet-core-ui
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10005
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10002
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=9998
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=6425
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=3
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=6426
+Response Status : 200
+Test : https://www.telerik.com/purchase/individual/aspnet-ajax.aspx
+Response Status : 200
+Test : https://www.telerik.com/products/aspnet-ajax.aspx
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10014
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10012
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10010
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=9644
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=9647
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=9646
+Response Status : 200
+Test : https://www.telerik.com/purchase/maui-ui
+Response Status : 200
+Test : https://www.telerik.com/maui-ui
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10019
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10017
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10013
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=6427
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=16
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=6428
+Response Status : 200
+Test : https://www.telerik.com/purchase/individual/wpf.aspx
+Response Status : 200
+Test : https://www.telerik.com/products/wpf/overview.aspx
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10011
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10009
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10007
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=6429
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=38
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=6430
+Response Status : 200
+Test : https://www.telerik.com/purchase/individual/winforms.aspx
+Response Status : 200
+Test : https://www.telerik.com/products/winforms.aspx
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10014
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10012
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10010
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=9644
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=9647
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=9646
+Response Status : 200
+Test : https://www.telerik.com/purchase/maui-ui
+Response Status : 200
+Test : https://www.telerik.com/maui-ui
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10030
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10029
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10028
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=6435
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=6442
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=6436
+Response Status : 200
+Test : https://www.telerik.com/purchase/individual/reporting.aspx
+Response Status : 200
+Test : https://www.telerik.com/products/reporting.aspx
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10027
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10026
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10025
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=7311
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=5100
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=7312
+Response Status : 200
+Test : https://www.telerik.com/purchase/report-server
+Response Status : 200
+Test : https://www.telerik.com/report-server
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10024
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10023
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=10022
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=6437
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=6443
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=6438
+Response Status : 200
+Test : https://www.telerik.com/purchase/individual-justmock.aspx
+Response Status : 200
+Test : https://www.telerik.com/products/mocking.aspx
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=4078
+Response Status : 200
+Test : https://www.telerik.com/purchase/teststudio
+Response Status : 200
+Test : https://www.telerik.com/teststudio
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=5145
+Response Status : 200
+Test : https://www.telerik.com/purchase/teststudio
+Response Status : 200
+Test : https://www.telerik.com/teststudio
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=9996
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=9997
+Response Status : 200
+Test : https://www.telerik.com/purchase/fiddler
+Response Status : 200
+Test : https://www.telerik.com/fiddler/fiddler-everywhere
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=9904
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=9906
+Response Status : 200
+Test : https://www.telerik.com/purchase/fiddler
+Response Status : 200
+Test : https://www.telerik.com/fiddler/fiddler-everywhere
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=9903
+Response Status : 200
+Test : https://www.telerik.com/purchase/fiddler
+Response Status : 200
+Test : https://www.telerik.com/fiddler/fiddler-everywhere
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=4876
+Response Status : 200
+Test : https://www.telerik.com/purchase/fiddlercore
+Response Status : 200
+Test : https://www.telerik.com/fiddlercore
+Response Status : 200
+Test : https://themebuilderapp.telerik.com/login
+Response Status : 200
+Test : https://www.telerik.com/themebuilder/pricing
+Response Status : 200
+Test : https://www.telerik.com/themebuilder
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=9879
+Response Status : 200
+Test : https://www.telerik.com/themebuilder/pricing
+Response Status : 200
+Test : https://www.telerik.com/themebuilder
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=9882
+Response Status : 200
+Test : https://www.telerik.com/themebuilder/pricing
+Response Status : 200
+Test : https://www.telerik.com/themebuilder
+Response Status : 200
+Test : https://www.telerik.com/contact?preselect=themebuilder
+Response Status : 200
+Test : https://www.telerik.com/themebuilder/pricing
+Response Status : 200
+Test : https://www.telerik.com/themebuilder
+Response Status : 200
+Test : https://store.progress.com/configure-purchase?skuId=9995
+Response Status : 200
+Test : https://www.telerik.com/purchase/license-agreements
+Response Status : 200
+Test : https://www.telerik.com/purchase/faq/licensing-purchasing
+Response Status : 200
+Test : https://www.telerik.com/purchase/license-renewals
+Response Status : 200
+Test : https://www.telerik.com/purchase/license-upgrades
+Response Status : 200
+Test : https://www.telerik.com/purchase/support-plans
+Response Status : 200
+Test : https://www.telerik.com/contact
+Response Status : 200
+Test : https://www.telerik.com/standardization
+Response Status : 200
+Test : https://www.telerik.com/contact
+Response Status : 200
+Test : https://www.telerik.com/purchase/discounts
+Response Status : 200
+Test : https://www.g2.com/products/progress-telerik/reviews?utm_source=rewards-badge
+Response Status : 403
+Test : https://www.g2.com/reports/mid-market-relationship-index-for-component-libraries-winter-2025?featured=progress-kendo-ui&secure%5Bgated_consumer%5D=81be845d-8260-42ac-adbf-439acb26b8b7&secure%5Btoken%5D=d8f7e352f42aa3807a7ee584e7719aa5dbcd33d8c9e25a97e1e61452d2a6f6b4&utm_campaign=gate-2035991
+Response Status : 403
+Test : https://www.telerik.com/purchase/faq/licensing-purchasing
+Response Status : 200
+Test : https://www.telerik.com/contact
+Response Status : 200
+Test : https://www.telerik.com/purchase/request-a-quote
+Response Status : 200
+Test : https://www.telerik.com/devcraft
+Response Status : 200
+Test : https://www.telerik.com/kendo-ui
+Response Status : 200
+Test : https://www.telerik.com/download
+Response Status : 200
+Test : https://www.telerik.com/purchase.aspx
+Response Status : 200
+Test : https://www.telerik.com/support/demos
+Response Status : 200
+Test : https://www.telerik.com/documentation
+Response Status : 200
+Test : https://www.telerik.com/support/whats-new/release-history
+Response Status : 200
+Test : https://www.telerik.com/forums
+Response Status : 200
+Test : https://www.telerik.com/blogs
+Response Status : 200
+Test : https://www.telerik.com/webinars
+Response Status : 200
+Test : https://www.telerik.com/videos
+Response Status : 200
+Test : https://www.telerik.com/services
+Response Status : 200
+Test : https://www.progress.com/partners/partner-locator?Products=KendoUI+and+Telerik
+Response Status : 200
+Test : https://www.telerik.com/support/virtual-classroom
+Response Status : 200
+Test : https://www.progress.com/events
+Response Status : 200
+Test : https://www.telerik.com/faqs
+Response Status : 200
+Test : https://www.telerik.com/about/success-stories
+Response Status : 200
+Test : https://www.telerik.com/about/testimonials
+Response Status : 200
+Test : https://www.telerik.com/contact
+Response Status : 200
+Test : https://www.facebook.com/telerik
+Response Status : 400
+Test : https://x.com/telerik
+Response Status : 200
+Test : https://www.linkedin.com/company/telerik
+Response Status : 200
+Test : https://www.twitch.tv/codeitlive
+Response Status : 200
+Test : https://www.youtube.com/c/telerik
+Response Status : 200
+Test : https://github.com/telerik
+Response Status : 200
+Test : https://www.telerik.com/contact
+Response Status : 200
+Test : https://www.facebook.com/telerik
+Response Status : 400
+Test : https://x.com/telerik
+Response Status : 200
+Test : https://www.linkedin.com/company/telerik
+Response Status : 200
+Test : https://www.twitch.tv/codeitlive
+Response Status : 200
+Test : https://www.youtube.com/c/telerik
+Response Status : 200
+Test : https://github.com/telerik
+Response Status : 200
+Test : https://www.progress.com
+Response Status : 200
+Test : https://www.progress.com/company
+Response Status : 200
+Test : https://www.progress.com/products
+Response Status : 200
+Test : https://www.progress.com/company/awards
+Response Status : 200
+Test : https://investors.progress.com/press-releases
+Response Status : 200
+Test : https://www.progress.com/company/press-coverage
+Response Status : 200
+Test : https://www.progress.com/company/careers
+Response Status : 200
+Test : https://www.progress.com/company/offices
+Response Status : 200
+Test : https://www.progress.com/company
+Response Status : 200
+Test : https://www.progress.com/products
+Response Status : 200
+Test : https://www.progress.com/company/awards
+Response Status : 200
+Test : https://investors.progress.com/press-releases
+Response Status : 200
+Test : https://www.progress.com/company/press-coverage
+Response Status : 200
+Test : https://www.progress.com/company/careers
+Response Status : 200
+Test : https://www.progress.com/company/offices
+Response Status : 200
+Test : https://www.progress.com/legal/trademarks
+Response Status : 200
+Test : https://www.telerik.com/about/terms-of-use
+Response Status : 200
+Test : https://www.telerik.com/feedback
+Response Status : 200
+Test : https://www.progress.com/legal/privacy-center
+Response Status : 200
+Test : https://www.progress.com/trust-center
+Response Status : 200
+Test : https://forms.progress.com/ccpa-subscription
+Response Status : 200
+Test : https://www.progress.com/sitefinity-cms
+Response Status : 200
+Test : https://www.progress.com/legal/cookie-policy
+Response Status : 200

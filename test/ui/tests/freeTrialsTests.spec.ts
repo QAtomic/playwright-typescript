@@ -1,5 +1,4 @@
 import { test } from '@playwright/test';
-import { sleep } from '../../utils/sleep';
 import { FreeTrialsPage } from "../pages/freeTrialsPage";
 
 
@@ -19,9 +18,9 @@ test.describe("Free Trials Tests", () => {
     });
 
 
-    test('Telerik DevCraft Try Now Workflow', async () => {
+    test('Telerik DevCraft Try Now Workflow', async ({page}) => {
         await freeTrialsPage.clickTryNowLink();
         await freeTrialsPage.enterEmailInCreateAccountForm();
-        sleep(2000);
+        await page.waitForTimeout(2000);
     });
 });
